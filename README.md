@@ -4,7 +4,7 @@
 
 ### Zero Pronoun Resolution
 
-
+### Sentimental Analysis
 
 
 
@@ -38,10 +38,12 @@
   - [x] zero pronoun resolution
   - [x] data scarcity
   - [x] transfer learning
++ Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm, Bjarke Felbo, et al., EMNLP 2017 [arxiv](https://arxiv.org/abs/1708.00524)
 
+  - [x] sentimental analysis
+  - [x] data scarcity
+  - [x] transfer learning
 + 
-
-
 
 ---
 
