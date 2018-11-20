@@ -14,6 +14,8 @@
 
 ### Transfer Learning (Domain)
 
+### Spoken Language Understanding
+
 ### Natural Language Inference
 
 
@@ -26,9 +28,8 @@
 
 ### 2018
 
-
-
-
++ Building an Ellipsis-aware Chinese Dependency Treebank for Web Text [arxiv](https://arxiv.org/abs/1801.06613) | [code](https://github.com/lancopku/Chinese-Dependency-Treebank-with-Ellipsis)
+  - [x] spoken language understanding 
 
 ---
 
@@ -38,7 +39,7 @@
   - [x] zero pronoun resolution
   - [x] data scarcity
   - [x] transfer learning
-+ Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm, Bjarke Felbo, et al., EMNLP 2017 [arxiv](https://arxiv.org/abs/1708.00524)
++ Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm, Bjarke Felbo, et al., EMNLP 2017 [arxiv](https://arxiv.org/abs/1708.00524) | [code](https://github.com/bfelbo/DeepMoji)
 
   - [x] sentimental analysis
   - [x] data scarcity

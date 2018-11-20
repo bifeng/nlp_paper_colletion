@@ -1,9 +1,3 @@
-#### code
-
-https://github.com/bfelbo/DeepMoji
-
-https://github.com/huggingface/torchMoji
-
 #### key points
 
 + Pseudo training data  or Weakly annotated data
