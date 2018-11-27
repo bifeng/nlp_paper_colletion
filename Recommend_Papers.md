@@ -36,7 +36,7 @@
 * Adwait Ratnaparkhi: A Maximum Entropy Model for Part-Of-Speech Tagging, EMNLP 1996.
 * Michael Collins: [Head-Driven Statistical Models for Natural Language Parsing](http://www.cs.columbia.edu/~mcollins/papers/thesis.ps), PhD Dissertation, University of Pennsylvania, 1999.
 * Michael Collins: [Discriminative Training Methods for Hidden Markov Models: Theory and Experiments with Perceptron Algorithms](http://www.cs.columbia.edu/~mcollins/papers/tagperc.pdf), EMNLP 2002. *(Received Best Paper Award)* 
-* Dan Klein and Christopher Manning: Accurate Unlexicalized Parsing, ACL 2003.
+* Dan Klein and Christopher Manning: Accurate Unlexicalized Parsing, ACL 2003. Best Paper Award.
 * Dan Klein and Christopher Manning: Corpus-Based Induction of Syntactic Structure: Models of Dependency and Constituency, ACL 2004.
 * Joakim Nivre and Mario Scholz: Deterministic Dependency Parsing of English Text, COLING 2004.
 * Ryan McDonald et al.: Non-Projective Dependency Parsing using Spanning-Tree Algorithms, EMNLP 2005.
