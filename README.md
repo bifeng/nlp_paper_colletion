@@ -14,8 +14,6 @@
 
 ### Transfer Learning (Domain)
 
-### Spoken Language Understanding
-
 ### Natural Language Inference
 
 ### Multi-Task Learning
@@ -32,8 +30,7 @@
 
 ### 2018
 
-+ Building an Ellipsis-aware Chinese Dependency Treebank for Web Text [arxiv](https://arxiv.org/abs/1801.06613) | [code](https://github.com/lancopku/Chinese-Dependency-Treebank-with-Ellipsis)
-  - [x] spoken language understanding 
++ 
 
 ---
 
