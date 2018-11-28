@@ -2,9 +2,15 @@ more refer:
 
 [Anaphora](https://en.wikipedia.org/wiki/Anaphora_%28linguistics%29#Anaphor_resolution)
 
+CS 4705: Introduction to Natural Language Processing, Fall 2009 - [Kathy McKeown](http://www.cs.columbia.edu/~kathy)
+
+http://www1.cs.columbia.edu/~kathy/NLP/index.htm
+
 
 
 refer:<br>[CS 4705 Pronouns and Reference Resolution](http://www.cs.columbia.edu/~kathy/NLP/ClassSlides/Slides09/Class19-Pronouns/myref.pdf)
+
+
 
 ### Types of Reference
 
