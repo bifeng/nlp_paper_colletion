@@ -38,6 +38,20 @@ ACL 2018 [Highlights](http://ruder.io/acl-2018-highlights/)<br>NAACL-HLT 2018 [H
 
 The progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.<br>https://github.com/sebastianruder/NLP-progress<br>https://github.com/Kyubyong/nlp_tasks
 
+## Competition
+
+CoNLL
+
+CoNLL 评测主要是学术界主导，所以内容多偏向自然语言处理的基础研究问题。
+
+http://universaldependencies.org/conll17/<br><http://universaldependencies.org/conll18/>
+
+CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies<br>[result](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2424)
+
+CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies<br> [result](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2885)
+
+
+
 ## Personally Interest
 
 1. What's the bottleneck of deep learning in NLP ? (deep parsing ?)
@@ -48,7 +62,9 @@ The progress in Natural Language Processing (NLP), including the datasets and th
 
    (Deep Learning is task oriented, and there is no need to explicit represent linguistic knowledge ?)
 
-4. What's the different between deep learning and statistical based method ? (shallow parsing ?)
+4. What's linguistics hypothesis of deep learning ? (generative linguistics(formal linguistics), functional linguistics and cognitive linguistics)
+
+5. What's the different between deep learning and statistical based method ? (shallow parsing ?)
 
 ## Paper
 
