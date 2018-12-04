@@ -32,8 +32,6 @@
 
   2. 句子表示学习
 
-ACL 2018 [Highlights](http://ruder.io/acl-2018-highlights/)<br>NAACL-HLT 2018 [Highlights](http://ruder.io/highlights-naacl-2018/)<br>EMNLP 2018 [Highlights](http://ruder.io/emnlp-2018-highlights/)
-
 ## Progress
 
 The progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.<br>https://github.com/sebastianruder/NLP-progress<br>https://github.com/Kyubyong/nlp_tasks
@@ -46,9 +44,9 @@ CoNLL 评测主要是学术界主导，所以内容多偏向自然语言处理�
 
 http://universaldependencies.org/conll17/<br><http://universaldependencies.org/conll18/>
 
-CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies<br>[result](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2424)
+CoNLL 2017 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies<br>[result](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2424) | [paper](http://www.petrovi.de/data/conll17.pdf)
 
-CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies<br> [result](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2885)
+CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies<br> [result](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2885) | [paper]()
 
 
 
@@ -68,6 +66,8 @@ CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependen
 
 ## Paper
 
+[Papers with Code](https://paperswithcode.com/)
+
 COLING - 欧洲 - 关注语言规律、模型分析（可解释性研究）
 
 [ACL](https://aclweb.org/aclwiki/Main_Page) - 北美
@@ -76,7 +76,25 @@ NAACL - 北美
 
 EMNLP - 
 
-[Papers with Code](https://paperswithcode.com/)
+---
+
+2018 - Highlights
+
++ [COLING2018见闻](http://ws.nju.edu.cn/blog/2018/09/coling2018%E8%A7%81%E9%97%BB/)
+
+  [tutorial](http://coling2018.org/wp-content/uploads/2018/08/coling18-tutorial.pdf)
+
+  Why are you telling me this? Relevance & informativity in language processing.  [slides](http://coling2018.org/wp-content/uploads/2018/08/rohde-coling.pdf)
+
+  Practical Parsing for Downstream Applications. [tutorial](http://coling2018.org/wp-content/uploads/2018/08/coling18-tutorial.pdf)
+
++ ACL 2018 [Highlights](http://ruder.io/acl-2018-highlights/)
+
++ NAACL-HLT 2018 [Highlights](http://ruder.io/highlights-naacl-2018/)
+
++ EMNLP 2018 [Highlights](http://ruder.io/emnlp-2018-highlights/)
+
+---
 
 ### 2018
 
