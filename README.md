@@ -66,6 +66,21 @@ CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependen
 
 5. What's the different between deep learning and statistical based method ? (shallow parsing ?)
 
+6. Deep learning pro end-to-end, Linguistics pro-representation, do we have to choose ? Better together?
+
+
+1. Do corpus-based lexicography methods scale up?
+2. Are they too manually intensive?
+3. If so, could we use machine learning methods
+   - to speed up manual methods?
+4. Just as statistical parsers learn syntactic rules: S -> NP VP
+   - Can we learn valency?
+   - Collocations (搭配) ?
+   - Typical predicate argument relations (谓词论元关系)?
+5. 
+
+refer: [Minsky, Chomsky & Deep Nets](https://stu.cs.tsinghua.edu.cn/wiki/images/4/45/2018-10-21_CCL2018_Ken.pdf)
+
 ## Paper
 
 COLING - 欧洲 - 关注语言规律、模型分析（可解释性研究）
