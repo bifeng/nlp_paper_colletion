@@ -79,6 +79,12 @@ CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependen
 
 refer: [Minsky, Chomsky & Deep Nets](https://stu.cs.tsinghua.edu.cn/wiki/images/4/45/2018-10-21_CCL2018_Ken.pdf)
 
+### Question
+
+Does sentence embedding learned from RNNs captrue the syntactic information?
+
+MSc project: Inferring Sentence Features from Sentence Embeddings<br>https://github.com/jonvet/thesis
+
 ## Paper
 
 [Papers with Code](https://paperswithcode.com/)
