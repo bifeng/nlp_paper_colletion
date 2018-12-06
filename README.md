@@ -119,7 +119,9 @@ EMNLP -
 
 ### 2018
 
-+ 
++ Recent Trends in Deep Learning Based Natural Language Processing, last revised 25 Nov 2018. [arxiv](https://arxiv.org/abs/1708.02709)
+
+  ???
 
 ---
 
