@@ -85,6 +85,8 @@ Does sentence embedding learned from RNNs captrue the syntactic information?
 
 MSc project: Inferring Sentence Features from Sentence Embeddings<br>https://github.com/jonvet/thesis
 
+[哈工大车万翔：自然语言处理中的深度学习模型是否依赖于树结构？-2015-10-15](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=209300177&idx=1&sn=4d24467ee27da15ae05effaa0ded9332&scene=2&srcid=1015LyJAMxAtArMzdyKyIRHh&from=timeline&isappinstalled=0#rd)
+
 ## Paper
 
 [Papers with Code](https://paperswithcode.com/)
