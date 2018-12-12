@@ -6,7 +6,7 @@
 
 ### Sentimental Analysis
 
-
+### Adversarial Learning
 
 ## Challenges
 
@@ -125,19 +125,31 @@ EMNLP -
 
   ???
 
+
 ---
 
 ### 2017
 
++ Adversarial Examples for Evaluating Reading Comprehension Systems, EMNLP 2017 - Outstanding Paper Award. [arxiv](https://arxiv.org/abs/1707.07328) | [code](https://github.com/robinjia/adversarial-squad) | [Robin Jia](http://stanford.edu/~robinjia/)
+
+  - [x] Reading Comprehension
+
+  - [x] Adversarial Learning
+
+    ???
+
 + Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution, Ting Liu, Yiming Cui, et al. , ACL2017 [arxiv](https://arxiv.org/abs/1606.01603) | [slides](http://ymcui.github.io/pdf/ACL2017_ZP_slides.pdf) | [Yiming Cui](http://ymcui.github.io)
+
   - [x] zero pronoun resolution
   - [x] data scarcity
   - [x] transfer learning
+
 + Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm, Bjarke Felbo, et al., EMNLP 2017 [arxiv](https://arxiv.org/abs/1708.00524) | [code](https://github.com/bfelbo/DeepMoji)
 
   - [x] sentimental analysis
   - [x] data scarcity
   - [x] transfer learning
+
 + 
 
 ---
