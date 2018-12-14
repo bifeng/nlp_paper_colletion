@@ -8,6 +8,8 @@
 
 ### Adversarial Learning
 
+### Relation Extraction
+
 ## Challenges
 
 ### Data Scarcity
@@ -81,6 +83,8 @@ refer: [Minsky, Chomsky & Deep Nets](https://stu.cs.tsinghua.edu.cn/wiki/images/
 
 ### Question
 
+The ACL 2018 paper "Sharp Nearby, Fuzzy Far Away: How Neural Language Models Use Context"<br>https://github.com/urvashik/lm-context-analysis
+
 Does sentence embedding learned from RNNs captrue the syntactic information?
 
 MSc project: Inferring Sentence Features from Sentence Embeddings<br>https://github.com/jonvet/thesis
@@ -125,6 +129,18 @@ EMNLP -
 
   ???
 
++ Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning EMNLP 2018 [arxiv](https://arxiv.org/abs/1808.06738)
+
+  - [x] Relation Extraction
+  - [x] Transfer Learning
+
+  ???
+
++ Graph Convolution over Pruned Dependency Trees Improves Relation Extraction EMNLP 2018 [arxiv](https://arxiv.org/abs/1809.10185) | [code](https://github.com/qipeng/gcn-over-pruned-trees)
+
+  - [x] Relation Extraction
+
+  ???
 
 ---
 
@@ -137,6 +153,16 @@ EMNLP -
   - [x] Adversarial Learning
 
     ???
+
++ Attention-over-Attention Neural Networks for Reading Comprehension ACL 2017 [arxiv](https://arxiv.org/abs/1607.04423)
+
+  - [x] Reading Comprehension
+
+    https://stanfordnlp.github.io/coqa/
+
+    https://rajpurkar.github.io/SQuAD-explorer/
+
+  ???
 
 + Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution, Ting Liu, Yiming Cui, et al. , ACL2017 [arxiv](https://arxiv.org/abs/1606.01603) | [slides](http://ymcui.github.io/pdf/ACL2017_ZP_slides.pdf) | [Yiming Cui](http://ymcui.github.io)
 
