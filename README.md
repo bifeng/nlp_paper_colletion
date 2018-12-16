@@ -2,6 +2,12 @@
 
 ### Reading Comprehension
 
+### Sentence Summarization
+
+#### sentence compression(句子压缩)
+
+(Application: 商品标题压缩，资讯标题改写，PUSH消息改写...)
+
 ### Zero Pronoun Resolution
 
 ### Sentimental Analysis
@@ -21,6 +27,14 @@
 ### Multi-Task Learning
 
 ==Notes==: The NLP progress largely contribute by amounts of data, which benefits in two forms. <br>First, limited of labeled data for supervised learning, but mainly in written (standard) language (not spoken language), can not transfer to other scenes.<br>Second, amounts of unlabeled data for word embedding used as pre-training models, such as word2vec, fasttext, elmo, bert and so on, transfer the general knowledge to other scenes. <br>But, even for that, the progress in vertical field still difficult to move forward.  
+
+## Methods
+
+### Graph based
+
+### Transition based
+
+### Representation Learning
 
 ## Trends
 
@@ -48,7 +62,15 @@ http://universaldependencies.org/conll17/<br><http://universaldependencies.org/c
 
 CoNLL 2017 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies<br>[result](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2424) | [paper](http://www.petrovi.de/data/conll17.pdf)
 
-CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies<br> [result](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2885) | [paper]()
+---
+
+CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies<br> [result](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2885) | [paper](http://universaldependencies.org/conll18/proceedings/pdf/K18-2001.pdf)
+
+[HIT-SCIR (Harbin)  - Towards Better UD Parsing: Deep Contextualized Word Embeddings, Ensemble, and Treebank Concatenation](http://aclweb.org/anthology/K18-2005)
+
+[Uppsala (Uppsala) - Universal Word Segmentation: Implementation and Interpretation](https://transacl.org/ojs/index.php/tacl/article/viewFile/1446/315) [code](https://github.com/yanshao9798/segmenter)
+
+---
 
 
 
@@ -185,4 +207,26 @@ EMNLP -
 + Teaching Machines to Read and Comprehend, Karl Moritz Hermann, et al. , NIPS 2015 [nips](http://papers.nips.cc/paper/5945-teaching-machines-to-read-and-comprehend)
   - [x] reading comprehension
   - [x] data scarcity
-+ 
++ A Neural Attention Model for Abstractive Sentence Summarization, Rush Facebook [code](https://github.com/facebookarchive/NAMAS) 
+  - [x] sentence summarization
+
+
+
+### 2008
+
+- Global Inference for Sentence Compression: An Integer Linear Programming Approach [code](https://github.com/cnap/sentence-compression)
+
+  - [x] sentence compression
+
+  ???
+
+
+
+### 2000
+
+- Sentence Reduction for Automatic Text Summarization [paper](https://www.aclweb.org/anthology/A/A00/A00-1043.pdf)
+
+  - [x] sentence compression
+
+  ???
+
