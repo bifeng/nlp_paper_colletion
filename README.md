@@ -12,6 +12,12 @@
 
 ### Sentimental Analysis
 
+情感推理、偏见/观点差异检测
+
+[VADER Sentiment Analysis](https://github.com/cjhutto/vaderSentiment). VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains.
+
+[Bias Statement Detector (BSD)](https://github.com/cjhutto/bsd) computationally detects and quantifies the degree of bias in sentence-level text of news stories.
+
 ### Adversarial Learning
 
 ### Relation Extraction
@@ -127,6 +133,20 @@ EMNLP -
 
 ---
 
+
+
+## Literature Review
+
++ Methods for Sentence Compression Emily Pitler 2010-11-5 [paper](https://repository.upenn.edu/cgi/viewcontent.cgi?referer=https://cn.bing.com/&httpsredir=1&article=1975&context=cis_reports)
+
+  - [x] sentence compression
+
+  ??
+
+---
+
+
+
 2018 - Highlights
 
 + [COLING2018见闻](http://ws.nju.edu.cn/blog/2018/09/coling2018%E8%A7%81%E9%97%BB/)
@@ -209,6 +229,24 @@ EMNLP -
   - [x] data scarcity
 + A Neural Attention Model for Abstractive Sentence Summarization, Rush Facebook [code](https://github.com/facebookarchive/NAMAS) 
   - [x] sentence summarization
+
+
+
+---
+
+### 2012
+
++ Sentence Compression with Semantic Role Constraints, ACL 2012 [paper](http://aclweb.org/anthology//P/P12/P12-2068.pdf)
+
+  - [x] sentence compression
+
+  ???
+
+
+
+
+
+---
 
 
 
