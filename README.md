@@ -22,7 +22,7 @@
 
 ### Transfer Learning (Domain)
 
-### Natural Language Inference
+### Natural Language Inference (Reasoning)
 
 ### Multi-Task Learning
 
