@@ -24,6 +24,18 @@
 
 ## Challenges
 
+### Context (Prior) and World Knowledge 
+
+#### Grammar
+
+WordNet
+
+#### Language Model
+
+Word Embedding
+
+#### Knowledge Graph
+
 ### Data Scarcity
 
 ### Transfer Learning (Domain)
@@ -183,6 +195,27 @@ EMNLP -
   - [x] Relation Extraction
 
   ???
+
++ Neural natural language inference models enhanced with external knowledge, ACL 2018
+
+  - [x] natural language inference
+  - [x] knowledge 
+
+  ???
+
++ Improving language understanding with unsupervised learning, OpenAI 2018
+
+  - [x] language model
+
+  ???
+
++ BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, Google 2018
+
+  - [x] language model
+
+  ???
+
+
 
 ---
 
