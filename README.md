@@ -24,9 +24,11 @@
 
 ## Challenges
 
-### Context (Prior) and World Knowledge 
+### Context-aware(Prior) and World Knowledge 
 
 #### Grammar
+
+##### Linguistically/Semantically
 
 WordNet
 
@@ -131,6 +133,32 @@ MSc project: Inferring Sentence Features from Sentence Embeddings<br>https://git
 
 [哈工大车万翔：自然语言处理中的深度学习模型是否依赖于树结构？-2015-10-15](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=209300177&idx=1&sn=4d24467ee27da15ae05effaa0ded9332&scene=2&srcid=1015LyJAMxAtArMzdyKyIRHh&from=timeline&isappinstalled=0#rd)
 
+### Lexical and Neural Networks Combined
+
++ Linguistically Regularized LSTM for Sentiment Classification, ACL 2017 [paper](http://www.aclweb.org/anthology/P17-1154) | [code](http://coai.cs.tsinghua.edu.cn/publications/)
+
++ Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems, EMNLP 2015 [arxiv](https://arxiv.org/abs/1508.01745)
+  + [x] semantically
+  + [x] natural language generation
+
+  ???
+
+
+
+## Literature Review
+
+- Recent Trends in Deep Learning Based Natural Language Processing, last revised 25 Nov 2018. [arxiv](https://arxiv.org/abs/1708.02709)
+
+  ???
+
+- Methods for Sentence Compression Emily Pitler 2010-11-5 [paper](https://repository.upenn.edu/cgi/viewcontent.cgi?referer=https://cn.bing.com/&httpsredir=1&article=1975&context=cis_reports)
+
+  - [x] sentence compression
+
+  ???
+
+- 
+
 ## Paper
 
 [Papers with Code](https://paperswithcode.com/)
@@ -142,18 +170,6 @@ COLING - 欧洲 - 关注语言规律、模型分析（可解释性研究）
 NAACL - 北美
 
 EMNLP - 
-
----
-
-
-
-## Literature Review
-
-+ Methods for Sentence Compression Emily Pitler 2010-11-5 [paper](https://repository.upenn.edu/cgi/viewcontent.cgi?referer=https://cn.bing.com/&httpsredir=1&article=1975&context=cis_reports)
-
-  - [x] sentence compression
-
-  ??
 
 ---
 
@@ -179,7 +195,9 @@ EMNLP -
 
 ### 2018
 
-+ Recent Trends in Deep Learning Based Natural Language Processing, last revised 25 Nov 2018. [arxiv](https://arxiv.org/abs/1708.02709)
++ Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations. NAACL-HLT, 2018. [arxiv](https://arxiv.org/pdf/1805.06201.pdf) | [code](https://github.com/pfnet-research/contextual_augmentation)
+
+  - [x] Context-aware
 
   ???
 
