@@ -135,13 +135,24 @@ MSc project: Inferring Sentence Features from Sentence Embeddings<br>https://git
 
 ### Lexical and Neural Networks Combined
 
-+ Linguistically Regularized LSTM for Sentiment Classification, ACL 2017 [paper](http://www.aclweb.org/anthology/P17-1154) | [code](http://coai.cs.tsinghua.edu.cn/publications/)
++ Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems, EMNLP 2015 [arxiv](https://arxiv.org/abs/1508.01745) | [code](https://github.com/hit-computer/SC-LSTM)
 
-+ Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems, EMNLP 2015 [arxiv](https://arxiv.org/abs/1508.01745)
-  + [x] semantically
-  + [x] natural language generation
+  - [x] semantically
+  - [x] natural language generation
 
   ???
+
++ Linguistically Regularized LSTM for Sentiment Classification, ACL 2017 [paper](http://www.aclweb.org/anthology/P17-1154) | [code](http://coai.cs.tsinghua.edu.cn/publications/) | [Review](https://github.com/pochih/SA-papers/blob/master/reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)
+
+  ???
+
++ Linguistically-Informed Self-Attention for Semantic Role Labeling,Google, EMNLP 2018 - Best long paper 1/2. [arxiv](https://arxiv.org/abs/1804.08199v1) | [code](https://github.com/strubell/LISA)
+
+  摘要：当前最先进的语义角色标记（SRL）使用深度神经网络而没有明确的语言特征。但是，之前的工作表明，语法树可以显着改善SRL解码，这表明通过显式语法建模可以提高准确性。在这项工作中，我们提出了基于语言学的self-attention（LISA）：一种神经网络模型，它将multi-head self-attention与多任务学习相结合，包括依赖解析，词性标注，谓词检测和语义角色标记。与先前需要大量预处理来准备语言特征的模型不同，LISA可以仅使用原始的token，对序列进行一次编码，来同时执行多个预测任务。语法信息被用来训练一个attention head来关注每个token语法上的父节点。如果已经有高质量的语法分析，则可以在测试时进行有益的注入，而无需重新训练我们的SRL模型。在CoNLL-2005 SRL数据集上，LISA在谓词预测、word embedding任务上比当前最好的算法在F1值上高出了2.5（新闻专线数据）和3.5以上（其他领域数据），减少了约10%的错误。在ConLL-2012英文角色标记任务上，我们的方法也获得了2.5 F1值得提升。LISA同时也比当前最好的基于上下文的词表示学习方法（ELMo）高出了1.0的F1（新闻专线数据）和多于2.0的F1（其他领域数据）。
+
++ Gaussian Mixture Latent Vector Grammars, ACL 2018 [arxiv](https://arxiv.org/abs/1805.04688) | ([Supplementary material](http://sist.shanghaitech.edu.cn/faculty/tukw/acl18-sup.pdf))([Slides](http://sist.shanghaitech.edu.cn/faculty/tukw/acl18-slides.pdf))([Code](https://github.com/zhaoyanpeng/lveg))
+
+  该论文将传统的上下文无关文法与深度学习中的符号向量化思想相结合，提出了一种全新的“隐向量文法”.
 
 
 
@@ -157,7 +168,9 @@ MSc project: Inferring Sentence Features from Sentence Embeddings<br>https://git
 
   ???
 
-- 
+- Analysis Methods in Neural Language Processing: A Survey, 2019 TACL. [arxiv](https://arxiv.org/abs/1812.08951) | [code](https://github.com/boknilev/nlp-analysis-methods)
+
+  - [x] Lexical and Neural Networks Combined
 
 ## Paper
 

@@ -1,5 +1,3 @@
-https://boknilev.github.io/nlp-analysis-methods/
-https://github.com/boknilev/nlp-analysis-methods
 ### key points
 
 + review analysis methods in neural language processing, categorize them according to
