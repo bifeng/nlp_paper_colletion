@@ -40,9 +40,19 @@ Word Embedding
 
 ### Data Scarcity
 
-### Transfer Learning (Domain)
+### Representation Learning
+
+#### Transfer Learning
+
+#### Domain Adaption
 
 ### Natural Language Inference (Reasoning)
+
+### Natural Language Generation
+
+Machine Translation
+
+Fluency and Coherency
 
 ### Multi-Task Learning
 
@@ -54,7 +64,9 @@ Word Embedding
 
 ### Transition based
 
-### Representation Learning
+### Deep Reinforcement Learning
+
+Deep Reinforcement Learning for NLP ACL 2018 [ppt](http://www.cs.ucsb.edu/~william/DRL4NLP.html) 
 
 ## Trends
 
@@ -128,6 +140,8 @@ refer: [Minsky, Chomsky & Deep Nets](https://stu.cs.tsinghua.edu.cn/wiki/images/
 词向量的效果取决于训练任务（语料）：在泛语料中训练的词向量，可能无法区分词语的反义关系（否定和肯定、积极与消极等）、上下位关系等。但在垂直领域或特定任务中可以使词向量表达更准确，如通过情感分类任务训练的词向量，可以区分“讨厌”和“喜欢”。
 
 Uncovering Divergent Linguistic Information in Word Embeddings with Lessons for Intrinsic and Extrinsic Evaluation, CoNLL 2018, Best Paper Award, [arxiv](https://arxiv.org/abs/1809.02094) | [code](https://github.com/artetxem/uncovec) <br>摘要：随着词嵌入最近取得成功，有人认为根本不存在词的理想表征，因为不同的模型倾向于捕捉不同且往往互不兼容的方面，如语义/句法和相似性/相关性。本论文展示了每个词嵌入模型捕获的信息多于直接显现的信息。线性转换无需任何外部资源就能调整模型的相似度阶，因此能够调整模型以在这些方面获得更好的结果，这为词嵌入编码不同的语言信息提供了新的视角。此外，我们还探索了内、外部评估的关系，我们在下游任务中的变换效果在无监督系统中的效果优于监督系统。
+
+Analogical Reasoning on Chinese Morphological and Semantic Relations, ACL 2018. [paper](http://aclweb.org/anthology/P18-2023) | [code](https://github.com/Embedding/Chinese-Word-Vectors)
 
 The ACL 2018 paper "Sharp Nearby, Fuzzy Far Away: How Neural Language Models Use Context", [code](https://github.com/urvashik/lm-context-analysis)
 
