@@ -1,13 +1,11 @@
 #### Syntax-Aware
 
-Source Syntax
-
+Source Syntax<br>
 Target Syntax
 
 #### Larger-Granularity
 
-soft phrase
-
+soft phrase<br>
 hard phrase
 
 #### Document-level
