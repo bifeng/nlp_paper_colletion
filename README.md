@@ -191,13 +191,14 @@ MSc project: Inferring Sentence Features from Sentence Embeddings, [code](https:
 
   - [x] Adversarial Learning
 
-  ???
+- Neural Reading Comprehension and Beyond, Danqi Chen, 2018 [code](https://github.com/danqi/thesis)
+
+  - [x] Neural Reading Comprehension 
 
 - Methods for Sentence Compression Emily Pitler 2010-11-5 [paper](https://repository.upenn.edu/cgi/viewcontent.cgi?referer=https://cn.bing.com/&httpsredir=1&article=1975&context=cis_reports)
 
   - [x] sentence compression
 
-  ???
 
 ## Paper
 
