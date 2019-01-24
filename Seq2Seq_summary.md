@@ -19,3 +19,10 @@ Grammar-based Decoding:
 Xiao, Dymetman, and Gardent. 2016. Sequence-based Structured Prediction for Semantic Parsing. In ACL.
 Yin and Neubig. 2017. A Syntactic Neural Model for General Purpose Code Generation. In ACL. <br>Krishnamurthy, Dasigi, and Gardner. 2017. Neural Semantic Parsing with Type Constraints for Semi-Structured
 Tables. In EMNLP.
+
+
+
+#### keyphrase
+
++ Rui Meng, Sanqiang Zhao, Shuguang Han, Daqing He, Peter Brusilovsky and Yu Chi. Deep Keyphrase Generation. 55th Annual Meeting of Association for Computational Linguistics, 2017. [PDF](http://memray.me/uploads/acl17-keyphrase-generation.pdf) [arXiv](https://arxiv.org/abs/1704.06879) [code](https://github.com/memray/seq2seq-keyphrase)
++ 
