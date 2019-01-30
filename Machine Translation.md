@@ -2,7 +2,7 @@
 
 ### methods
 
-#### SMT
+#### SMT(1993)
 
 IBM model1
 
@@ -12,7 +12,7 @@ phrase based machine translation
 
 log linear model
 
-#### NMT
+#### NMT(2014)
 
 ##### Syntax-Aware
 
@@ -34,23 +34,38 @@ hard phrase
 
 ###### pro-dropped
 
+
+
+#### Unsupervised MT
+
+
+
+### Literature review
+
+
+
 ### paper
 
-#### SMT-1993
 
-+ brown cluster
 
-  semi-supervised learning for natural language, percy pliang 硕士论文
 
-  The Brown et al. Word Clustering Algorithm, Michael Collins 讲义
 
-  Name Tagging with Word Clusters and Discriminative Training，NAACL，2004.
+- Adequacy-Oriented Neural Machine Translation, 腾讯 AI Lab 高级研究员涂兆鹏, 2018.01.04, [ppt and video](链接: https://pan.baidu.com/s/1ht6z18S 密码: 3x7b)
 
-+ 
 
-#### NMT-2014
 
-+ Adequacy-Oriented Neural Machine Translation, 腾讯 AI Lab 高级研究员涂兆鹏, 2018.01.04, [ppt and video](链接: https://pan.baidu.com/s/1ht6z18S 密码: 3x7b)
+
++ Unsupervised Neural Machine Translation, ICLR 2018 [arxiv](https://arxiv.org/abs/1710.11041)
+
+  :star::star::star::star::star:
+
++ Unsupervised Machine Translation Using Monolingual Corpora Only, 2018 [arxiv](https://arxiv.org/abs/1711.00043v1)
+
+  :star::star::star::star::star:
+
++ Phrase-Based & Neural Unsupervised Machine Translation, EMNLP 2018 [arxiv](https://arxiv.org/abs/1804.07755)
+
++ Word Translation Without Parallel Data, ICLR 2018 [arxiv](https://arxiv.org/abs/1710.04087)
 
 
 
