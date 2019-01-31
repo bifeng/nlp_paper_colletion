@@ -1,4 +1,4 @@
-## Topics
+Topics
 
 ### Machine Translation
 
@@ -139,15 +139,13 @@ refer: [Minsky, Chomsky & Deep Nets](https://stu.cs.tsinghua.edu.cn/wiki/images/
 
 ### Question
 
-From Word to Sense Embeddings: A Survey on Vector Representations of Meaning, JAIR 2018 [arxiv](https://arxiv.org/abs/1805.04032) 
+From Word to Sense Embeddings: A Survey on Vector Representations of Meaning, Jose Camacho-Collados, Mohammad Taher Pilehvar, JAIR 2018 [arxiv](https://arxiv.org/abs/1805.04032) 
 
 词向量的效果取决于训练任务（语料）：在泛语料中训练的词向量，可能无法区分词语的反义关系（否定和肯定、积极与消极等）、上下位关系等。但在垂直领域或特定任务中可以使词向量表达更准确，如通过情感分类任务训练的词向量，可以区分“讨厌”和“喜欢”。
 
-Uncovering Divergent Linguistic Information in Word Embeddings with Lessons for Intrinsic and Extrinsic Evaluation, CoNLL 2018, Best Paper Award, [arxiv](https://arxiv.org/abs/1809.02094) | [code](https://github.com/artetxem/uncovec) <br>摘要：随着词嵌入最近取得成功，有人认为根本不存在词的理想表征，因为不同的模型倾向于捕捉不同且往往互不兼容的方面，如语义/句法和相似性/相关性。本论文展示了每个词嵌入模型捕获的信息多于直接显现的信息。线性转换无需任何外部资源就能调整模型的相似度阶，因此能够调整模型以在这些方面获得更好的结果，这为词嵌入编码不同的语言信息提供了新的视角。此外，我们还探索了内、外部评估的关系，我们在下游任务中的变换效果在无监督系统中的效果优于监督系统。
+Uncovering Divergent Linguistic Information in Word Embeddings with Lessons for Intrinsic and Extrinsic Evaluation, Mikel Artetxe, Gorka Labaka, Iñigo Lopez-Gazpio, Eneko Agirre, CoNLL 2018, Best Paper Award, [arxiv](https://arxiv.org/abs/1809.02094) | [code](https://github.com/artetxem/uncovec) <br>摘要：随着词嵌入最近取得成功，有人认为根本不存在词的理想表征，因为不同的模型倾向于捕捉不同且往往互不兼容的方面，如语义/句法和相似性/相关性。本论文展示了每个词嵌入模型捕获的信息多于直接显现的信息。线性转换无需任何外部资源就能调整模型的相似度阶，因此能够调整模型以在这些方面获得更好的结果，这为词嵌入编码不同的语言信息提供了新的视角。此外，我们还探索了内、外部评估的关系，我们在下游任务中的变换效果在无监督系统中的效果优于监督系统。
 
-Analogical Reasoning on Chinese Morphological and Semantic Relations, ACL 2018. [paper](http://aclweb.org/anthology/P18-2023) | [code](https://github.com/Embedding/Chinese-Word-Vectors)
-
-The ACL 2018 paper "Sharp Nearby, Fuzzy Far Away: How Neural Language Models Use Context", [code](https://github.com/urvashik/lm-context-analysis)
+Sharp Nearby, Fuzzy Far Away: How Neural Language Models Use Context, Urvashi Khandelwal, He He, Peng Qi, Dan Jurafsky, ACL 2018, [code](https://github.com/urvashik/lm-context-analysis)
 
 Does sentence embedding learned from RNNs captrue the syntactic information?
 
@@ -157,39 +155,30 @@ MSc project: Inferring Sentence Features from Sentence Embeddings, [code](https:
 
 ### Lexical and Neural Networks Combined
 
-+ Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems, EMNLP 2015 [arxiv](https://arxiv.org/abs/1508.01745) | [code](https://github.com/hit-computer/SC-LSTM)
++ Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems, Tsung-Hsien Wen, Milica Gasic, Nikola Mrksic, Pei-Hao Su, David Vandyke, Steve Young, EMNLP 2015 [arxiv](https://arxiv.org/abs/1508.01745) | [code](https://github.com/hit-computer/SC-LSTM)
 
   - [x] semantically
   - [x] natural language generation
 
-  ???
++ Linguistically Regularized LSTM for Sentiment Classification, Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, ACL 2017 [paper](http://www.aclweb.org/anthology/P17-1154) | [code](http://coai.cs.tsinghua.edu.cn/publications/) | [Review](https://github.com/pochih/SA-papers/blob/master/reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md) 
 
-+ Linguistically Regularized LSTM for Sentiment Classification, ACL 2017 [paper](http://www.aclweb.org/anthology/P17-1154) | [code](http://coai.cs.tsinghua.edu.cn/publications/) | [Review](https://github.com/pochih/SA-papers/blob/master/reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)
-
-  ???
-
-+ Linguistically-Informed Self-Attention for Semantic Role Labeling,Google, EMNLP 2018 - Best long paper 1/2. [arxiv](https://arxiv.org/abs/1804.08199v1) | [code](https://github.com/strubell/LISA)
++ Linguistically-Informed Self-Attention for Semantic Role Labeling, Emma Strubell, Patrick Verga, Daniel Andor, David Weiss, Andrew McCallum, Google, EMNLP 2018 - Best long paper 1/2. [arxiv](https://arxiv.org/abs/1804.08199v1) | [code](https://github.com/strubell/LISA)
 
   摘要：当前最先进的语义角色标记（SRL）使用深度神经网络而没有明确的语言特征。但是，之前的工作表明，语法树可以显着改善SRL解码，这表明通过显式语法建模可以提高准确性。在这项工作中，我们提出了基于语言学的self-attention（LISA）：一种神经网络模型，它将multi-head self-attention与多任务学习相结合，包括依赖解析，词性标注，谓词检测和语义角色标记。与先前需要大量预处理来准备语言特征的模型不同，LISA可以仅使用原始的token，对序列进行一次编码，来同时执行多个预测任务。语法信息被用来训练一个attention head来关注每个token语法上的父节点。如果已经有高质量的语法分析，则可以在测试时进行有益的注入，而无需重新训练我们的SRL模型。在CoNLL-2005 SRL数据集上，LISA在谓词预测、word embedding任务上比当前最好的算法在F1值上高出了2.5（新闻专线数据）和3.5以上（其他领域数据），减少了约10%的错误。在ConLL-2012英文角色标记任务上，我们的方法也获得了2.5 F1值得提升。LISA同时也比当前最好的基于上下文的词表示学习方法（ELMo）高出了1.0的F1（新闻专线数据）和多于2.0的F1（其他领域数据）。
 
-+ Gaussian Mixture Latent Vector Grammars, ACL 2018 [arxiv](https://arxiv.org/abs/1805.04688) | ([Supplementary material](http://sist.shanghaitech.edu.cn/faculty/tukw/acl18-sup.pdf))([Slides](http://sist.shanghaitech.edu.cn/faculty/tukw/acl18-slides.pdf))([Code](https://github.com/zhaoyanpeng/lveg))
-
-  该论文将传统的上下文无关文法与深度学习中的符号向量化思想相结合，提出了一种全新的“隐向量文法”.
 
 
 
 ## Literature Review
 
-- Recent Trends in Deep Learning Based Natural Language Processing, last revised 25 Nov 2018. [arxiv](https://arxiv.org/abs/1708.02709)
+- Recent Trends in Deep Learning Based Natural Language Processing, Tom Young, Devamanyu Hazarika, Soujanya Poria, Erik Cambria, last revised 25 Nov 2018. [arxiv](https://arxiv.org/abs/1708.02709) 
 
-  ???
-
-- Analysis Methods in Neural Language Processing: A Survey, 2019 TACL. [arxiv](https://arxiv.org/abs/1812.08951) | [code](https://github.com/boknilev/nlp-analysis-methods)
+- Analysis Methods in Neural Language Processing: A Survey, Yonatan Belinkov, James Glass, 2019 TACL. [arxiv](https://arxiv.org/abs/1812.08951) | [code](https://github.com/boknilev/nlp-analysis-methods) 
 
   - [x] Lexical and Neural Networks Combined
   - [x] Adversarial Learning
 
-- Adversarial Examples: Attacks and Defenses for Deep Learning, 2018 [arxiv](https://arxiv.org/abs/1712.07107v1)
+- Adversarial Examples: Attacks and Defenses for Deep Learning, Xiaoyong Yuan, Pan He, Qile Zhu, Rajendra Rana Bhat, Xiaolin Li, 2018 [arxiv](https://arxiv.org/abs/1712.07107v1)
 
   - [x] Adversarial Learning
 
@@ -197,14 +186,13 @@ MSc project: Inferring Sentence Features from Sentence Embeddings, [code](https:
 
   - [x] Neural Reading Comprehension 
 
-- Methods for Sentence Compression Emily Pitler 2010-11-5 [paper](https://repository.upenn.edu/cgi/viewcontent.cgi?referer=https://cn.bing.com/&httpsredir=1&article=1975&context=cis_reports)
-
-  - [x] sentence compression
 
 
 ## Paper
 
-[Papers with Code](https://paperswithcode.com/)
+[Papers with Code](https://paperswithcode.com/) 
+
+[丕子 paperlist](https://github.com/lipiji/App-DL)
 
 COLING - 欧洲 - 关注语言规律、模型分析（可解释性研究）
 
@@ -236,129 +224,95 @@ EMNLP -
 
 ---
 
-### 2018
+### chinese
 
-+ Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations. NAACL-HLT, 2018. [arxiv](https://arxiv.org/pdf/1805.06201.pdf) | [code](https://github.com/pfnet-research/contextual_augmentation)
+- Shallow Semantic Parsing of Chinese, HLT-NAACL, 2004, Sun, Honglin，Jurafsky, Daniel [paper](http://www.aclweb.org/anthology/N04-1032) 
+- Chinese Word Segmentation: Another Decade Review (2007-2017), [arxiv](http://export.arxiv.org/abs/1901.06079) 
+- Analogical Reasoning on Chinese Morphological and Semantic Relations, ACL 2018. [paper](http://aclweb.org/anthology/P18-2023) | [code](https://github.com/Embedding/Chinese-Word-Vectors) 
+- 
 
-  - [x] Context-aware
+### Data Augmentation
 
-  ???
++ Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations. Sosuke Kobayashi, NAACL-HLT, 2018. [arxiv](https://arxiv.org/pdf/1805.06201.pdf) | [code](https://github.com/pfnet-research/contextual_augmentation)
 
-+ Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning EMNLP 2018 [arxiv](https://arxiv.org/abs/1808.06738)
 
-  - [x] Relation Extraction
-  - [x] Transfer Learning
+### Pre-training word embedding
 
-  ???
-
-+ Graph Convolution over Pruned Dependency Trees Improves Relation Extraction EMNLP 2018 [arxiv](https://arxiv.org/abs/1809.10185) | [code](https://github.com/qipeng/gcn-over-pruned-trees)
-
-  - [x] Relation Extraction
-
-  ???
-
-+ Neural natural language inference models enhanced with external knowledge, ACL 2018
-
-  - [x] natural language inference
-  - [x] knowledge 
-
-  ???
-
-+ Improving language understanding with unsupervised learning, OpenAI 2018
-
+- Improving language understanding with unsupervised learning, OpenAI 2018
   - [x] language model
 
-  ???
-
-+ BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, Google 2018
-
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova, Google 2018
   - [x] language model
+- 
 
-  ???
+### pronoun resolution
+
++ Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution, Ting Liu, Yiming Cui, et al. , ACL2017 [arxiv](https://arxiv.org/abs/1606.01603) | [slides](http://ymcui.github.io/pdf/ACL2017_ZP_slides.pdf) | [Yiming Cui](http://ymcui.github.io) 
+
+  - [x] data scarcity
+  - [x] transfer learning 
+
+
+### Relation Extraction
+
+- Graph Convolution over Pruned Dependency Trees Improves Relation Extraction, Yuhao Zhang, Peng Qi, Christopher D. Manning, EMNLP 2018 [arxiv](https://arxiv.org/abs/1809.10185) | [code](https://github.com/qipeng/gcn-over-pruned-trees) 
 
 
 
----
+### sentence compression
 
-### 2017
+- Language as a Latent Variable: Discrete Generative Models for Sentence Compression, Yishu Miao, Phil Blunsom, EMNLP 2016 [arxiv](https://arxiv.org/abs/1609.07317) 
 
-+ Adversarial Examples for Evaluating Reading Comprehension Systems, EMNLP 2017 - Outstanding Paper Award. [arxiv](https://arxiv.org/abs/1707.07328) | [code](https://github.com/robinjia/adversarial-squad) | [Robin Jia](http://stanford.edu/~robinjia/)
+  <details>
+      
+  </details>
 
-  - [x] Reading Comprehension
+- Sentence Compression as Tree Transduction, Trevor Anthony Cohn, Mirella Lapata, 2009 [arxiv](https://arxiv.org/abs/1401.5693) 
+
+  <details>
+      
+  </details>
+
+- Global Inference for Sentence Compression: An Integer Linear Programming Approach James Clarke，Mirella Lapata 2008 [code](https://github.com/cnap/sentence-compression) 
+
+  <details>
+
+- Sentence Reduction for Automatic Text Summarization, Hongyan Jing 2000 [paper](https://www.aclweb.org/anthology/A/A00/A00-1043.pdf)
+
+  <details>
+      
+  </details>
+
+### sentence summarization
+
+- A Neural Attention Model for Abstractive Sentence Summarization, Alexander M. Rush, Sumit Chopra, Jason Weston, Facebook, EMNLP 2015 [code](https://github.com/facebookarchive/NAMAS) 
+
+### sentimental analysis
+
++ Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm, Bjarke Felbo, et al., EMNLP 2017 [arxiv](https://arxiv.org/abs/1708.00524) | [code](https://github.com/bfelbo/DeepMoji) 
+
+  - [x] data scarcity
+  - [x] transfer learning
+
+
+### natural language inference
+
+#### text match/paraphrase identification/text entailment
+
+- Enhanced LSTM for Natural Language Inference, [Qian Chen](http://home.ustc.edu.cn/~cq1231/index.html), Xiaodan Zhu, Zhenhua Ling, Si Wei, Hui Jiang, Diana Inkpen. *ACL (2017)* [arxiv](https://arxiv.org/abs/1609.06038) | [code](https://github.com/lukecq1231/nli) 
+
+### reading comprehension
+
++ Adversarial Examples for Evaluating Reading Comprehension Systems, Robin Jia, Percy Liang, EMNLP 2017 - Outstanding Paper Award. [arxiv](https://arxiv.org/abs/1707.07328) | [code](https://github.com/robinjia/adversarial-squad) | [Robin Jia](http://stanford.edu/~robinjia/) 
 
   - [x] Adversarial Learning
 
-    ???
++ Attention-over-Attention Neural Networks for Reading Comprehension, Yiming Cui, Zhipeng Chen, Si Wei, Shijin Wang, Ting Liu, Guoping Hu, ACL 2017 [arxiv](https://arxiv.org/abs/1607.04423) 
 
-+ Attention-over-Attention Neural Networks for Reading Comprehension ACL 2017 [arxiv](https://arxiv.org/abs/1607.04423)
+  https://stanfordnlp.github.io/coqa/
 
-  - [x] Reading Comprehension
+  https://rajpurkar.github.io/SQuAD-explorer/
 
-    https://stanfordnlp.github.io/coqa/
++ Teaching Machines to Read and Comprehend, Karl Moritz Hermann, Tomáš Kočiský, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, Phil Blunsom, NIPS 2015 [nips](http://papers.nips.cc/paper/5945-teaching-machines-to-read-and-comprehend) 
 
-    https://rajpurkar.github.io/SQuAD-explorer/
-
-  ???
-
-+ Generating and Exploiting Large-scale Pseudo Training Data for Zero Pronoun Resolution, Ting Liu, Yiming Cui, et al. , ACL2017 [arxiv](https://arxiv.org/abs/1606.01603) | [slides](http://ymcui.github.io/pdf/ACL2017_ZP_slides.pdf) | [Yiming Cui](http://ymcui.github.io)
-
-  - [x] zero pronoun resolution
   - [x] data scarcity
-  - [x] transfer learning
-
-+ Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm, Bjarke Felbo, et al., EMNLP 2017 [arxiv](https://arxiv.org/abs/1708.00524) | [code](https://github.com/bfelbo/DeepMoji)
-
-  - [x] sentimental analysis
-  - [x] data scarcity
-  - [x] transfer learning
-
-+ 
-
----
-
-### 2015
-
-+ Teaching Machines to Read and Comprehend, Karl Moritz Hermann, et al. , NIPS 2015 [nips](http://papers.nips.cc/paper/5945-teaching-machines-to-read-and-comprehend)
-  - [x] reading comprehension
-  - [x] data scarcity
-+ A Neural Attention Model for Abstractive Sentence Summarization, Rush Facebook [code](https://github.com/facebookarchive/NAMAS) 
-  - [x] sentence summarization
-
-
-
----
-
-### 2012
-
-+ Sentence Compression with Semantic Role Constraints, ACL 2012 [paper](http://aclweb.org/anthology//P/P12/P12-2068.pdf)
-
-  - [x] sentence compression
-
-  ???
-
-
-
-
-
----
-
-
-
-### 2008
-
-- Global Inference for Sentence Compression: An Integer Linear Programming Approach [code](https://github.com/cnap/sentence-compression)
-
-  - [x] sentence compression
-
-  ???
-
-
-
-### 2000
-
-- Sentence Reduction for Automatic Text Summarization [paper](https://www.aclweb.org/anthology/A/A00/A00-1043.pdf)
-
-  - [x] sentence compression
-
-  ???
-
