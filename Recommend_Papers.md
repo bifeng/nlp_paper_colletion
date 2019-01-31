@@ -115,13 +115,9 @@
 ## Neural Models
 
 * Richard Socher, et al.: Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection, NIPS 2011.
-
 * Ronan Collobert et al.: Natural Language Processing (almost) from Scratch, J. of Machine Learning Research, 2011.
-
 * Richard Socher, et al.: Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank, EMNLP 2013.
-
 * Xiang Zhang, Junbo Zhao, and Yann LeCun: Character-level Convolutional Networks for Text Classification, NIPS 2015.
-
 * Yoon Kim: Convolutional Neural Networks for Sentence Classification, 2014.
-
 * Christopher Olah: Understanding LSTM Networks, 2015.
+* ...
