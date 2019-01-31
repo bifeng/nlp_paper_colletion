@@ -1,8 +1,4 @@
-Topics
-
-### Machine Translation
-
-### Reading Comprehension
+## Topics
 
 ### Sentence Summarization
 
@@ -182,17 +178,25 @@ MSc project: Inferring Sentence Features from Sentence Embeddings, [code](https:
 
   - [x] Adversarial Learning
 
-- Neural Reading Comprehension and Beyond, Danqi Chen, 2018 [code](https://github.com/danqi/thesis)
+## Paper notes
 
-  - [x] Neural Reading Comprehension 
+[定期论文阅读](https://github.com/dantezhao/paper-notes) 
+
+[问题讨论](https://github.com/dantezhao/data-group) 
+
+[nlp-reading-group](https://github.com/clulab/nlp-reading-group) 
+
+[Papers with Code](https://paperswithcode.com/) 
+
+[丕子 paperlist](https://github.com/lipiji/App-DL) 
+
+[papernote](https://github.com/xwzhong/papernote) 
+
+[NLP-Papers](https://github.com/llhthinker/NLP-Papers) 
 
 
 
 ## Paper
-
-[Papers with Code](https://paperswithcode.com/) 
-
-[丕子 paperlist](https://github.com/lipiji/App-DL)
 
 COLING - 欧洲 - 关注语言规律、模型分析（可解释性研究）
 
@@ -203,8 +207,6 @@ NAACL - 北美
 EMNLP - 
 
 ---
-
-
 
 2018 - Highlights
 
@@ -264,13 +266,13 @@ EMNLP -
 - Language as a Latent Variable: Discrete Generative Models for Sentence Compression, Yishu Miao, Phil Blunsom, EMNLP 2016 [arxiv](https://arxiv.org/abs/1609.07317) 
 
   <details>
-      
+  
   </details>
 
 - Sentence Compression as Tree Transduction, Trevor Anthony Cohn, Mirella Lapata, 2009 [arxiv](https://arxiv.org/abs/1401.5693) 
 
   <details>
-      
+  
   </details>
 
 - Global Inference for Sentence Compression: An Integer Linear Programming Approach James Clarke，Mirella Lapata 2008 [code](https://github.com/cnap/sentence-compression) 
@@ -280,7 +282,7 @@ EMNLP -
 - Sentence Reduction for Automatic Text Summarization, Hongyan Jing 2000 [paper](https://www.aclweb.org/anthology/A/A00/A00-1043.pdf)
 
   <details>
-      
+  
   </details>
 
 ### sentence summarization
@@ -301,18 +303,5 @@ EMNLP -
 
 - Enhanced LSTM for Natural Language Inference, [Qian Chen](http://home.ustc.edu.cn/~cq1231/index.html), Xiaodan Zhu, Zhenhua Ling, Si Wei, Hui Jiang, Diana Inkpen. *ACL (2017)* [arxiv](https://arxiv.org/abs/1609.06038) | [code](https://github.com/lukecq1231/nli) 
 
-### reading comprehension
 
-+ Adversarial Examples for Evaluating Reading Comprehension Systems, Robin Jia, Percy Liang, EMNLP 2017 - Outstanding Paper Award. [arxiv](https://arxiv.org/abs/1707.07328) | [code](https://github.com/robinjia/adversarial-squad) | [Robin Jia](http://stanford.edu/~robinjia/) 
 
-  - [x] Adversarial Learning
-
-+ Attention-over-Attention Neural Networks for Reading Comprehension, Yiming Cui, Zhipeng Chen, Si Wei, Shijin Wang, Ting Liu, Guoping Hu, ACL 2017 [arxiv](https://arxiv.org/abs/1607.04423) 
-
-  https://stanfordnlp.github.io/coqa/
-
-  https://rajpurkar.github.io/SQuAD-explorer/
-
-+ Teaching Machines to Read and Comprehend, Karl Moritz Hermann, Tomáš Kočiský, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, Phil Blunsom, NIPS 2015 [nips](http://papers.nips.cc/paper/5945-teaching-machines-to-read-and-comprehend) 
-
-  - [x] data scarcity
