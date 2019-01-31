@@ -233,12 +233,13 @@ EMNLP -
 - Analogical Reasoning on Chinese Morphological and Semantic Relations, ACL 2018. [paper](http://aclweb.org/anthology/P18-2023) | [code](https://github.com/Embedding/Chinese-Word-Vectors) 
 - 
 
-### Data Augmentation
+### data augmentation
 
-+ Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations. Sosuke Kobayashi, NAACL-HLT, 2018. [arxiv](https://arxiv.org/pdf/1805.06201.pdf) | [code](https://github.com/pfnet-research/contextual_augmentation)
++ Conditional BERT Contextual Augmentation, Xing Wu, Shangwen Lv, Liangjun Zang, Jizhong Han, Songlin Hu, 201812, [arxiv](https://arxiv.org/abs/1812.06705) 
++ Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations. Sosuke Kobayashi, NAACL-HLT, 2018. [arxiv](https://arxiv.org/pdf/1805.06201.pdf) | [code](https://github.com/pfnet-research/contextual_augmentation) 
 
 
-### Pre-training word embedding
+### pre-training word embedding
 
 - Improving language understanding with unsupervised learning, OpenAI 2018
   - [x] language model
@@ -255,7 +256,7 @@ EMNLP -
   - [x] transfer learning 
 
 
-### Relation Extraction
+### relation extraction
 
 - Graph Convolution over Pruned Dependency Trees Improves Relation Extraction, Yuhao Zhang, Peng Qi, Christopher D. Manning, EMNLP 2018 [arxiv](https://arxiv.org/abs/1809.10185) | [code](https://github.com/qipeng/gcn-over-pruned-trees) 
 
@@ -295,7 +296,11 @@ EMNLP -
 
   - [x] data scarcity
   - [x] transfer learning
++ VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media, CJ Hutto & [Eric Gilbert's](http://eegilbert.org/) [social media](http://comp.social.gatech.edu/) (ICWSM-14). Ann Arbor, MI, June 2014. <br>supplement: [data set](http://comp.social.gatech.edu/papers/hutto_ICWSM_2014.tar.gz) [code (github)](https://github.com/cjhutto/vaderSentiment) [python package](https://pypi.python.org/pypi/vaderSentiment) 
 
+### adversarial learning
+
++ TextBugger: Generating Adversarial Text Against Real-world Applications, Jinfeng Li, Shouling Ji, Tianyu Du, Bo Li, Ting Wang, NDSS 2019 [arxiv](https://arxiv.org/abs/1812.05271) 
 
 ### natural language inference
 
@@ -303,5 +308,15 @@ EMNLP -
 
 - Enhanced LSTM for Natural Language Inference, [Qian Chen](http://home.ustc.edu.cn/~cq1231/index.html), Xiaodan Zhu, Zhenhua Ling, Si Wei, Hui Jiang, Diana Inkpen. *ACL (2017)* [arxiv](https://arxiv.org/abs/1609.06038) | [code](https://github.com/lukecq1231/nli) 
 
++ A Decomposable Attention Model for Natural Language Inference, Ankur P. Parikh, Oscar Täckström, Dipanjan Das, Jakob Uszkoreit, EMNLP 2016 [arxiv](https://arxiv.org/abs/1606.01933) 
++ Learning Natural Language Inference with LSTM, Shuohang Wang, Jing Jiang, 2016, [arxiv](https://arxiv.org/abs/1512.08849) | [code](https://github.com/shuohangwang/SeqMatchSeq)  
++ 
 
 
+
+### combating fake news
+
+- Combating Fake News: A Survey on Identification and Mitigation Techniques, Karishma Sharma, Feng Qian, He Jiang, Natali Ruchansky, Ming Zhang, Yan Liu, ACM 2019, [arxiv](https://arxiv.org/abs/1901.06437) 
+- DeClarE: Debunking Fake News and False Claims using Evidence-Aware Deep Learning, Kashyap Popat, Subhabrata Mukherjee, Andrew Yates, Gerhard Weikum, EMNLP 2018 [arxiv](https://arxiv.org/abs/1809.06416) 
+- Hutto, C.J. (2015). Computationally Detecting and Quantifying the Degree of Bias in Sentence-Level Text of News Stories. Second International Conference on Human and Social Analytics (HUSO-15). Barcelona, Spain 2015. [code](https://github.com/cjhutto/bsd) 
+- 

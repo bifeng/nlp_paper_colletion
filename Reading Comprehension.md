@@ -19,6 +19,8 @@
 
   https://rajpurkar.github.io/SQuAD-explorer/
 
+- Machine Comprehension Using Match-LSTM and Answer Pointer, Shuohang Wang, Jing Jiang, 2016, [arxiv](https://arxiv.org/abs/1608.07905) | [code](https://github.com/shuohangwang/SeqMatchSeq)  
+
 - Teaching Machines to Read and Comprehend, Karl Moritz Hermann, Tomáš Kočiský, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, Phil Blunsom, NIPS 2015 [nips](http://papers.nips.cc/paper/5945-teaching-machines-to-read-and-comprehend) 
 
   - [x] data scarcity
