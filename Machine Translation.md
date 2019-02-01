@@ -71,6 +71,11 @@ hard phrase
 
 
 
+### Conference
+
++ 全国机器翻译研讨会 (CWMT)
+
+
 
 
 ### Question

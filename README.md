@@ -1,3 +1,7 @@
+**论文入选要求：<br>1. 好的方法 - 开创性或突破性方法<br>2. 好的应用 - 提供解决问题的全新视角<br>**
+
+[google scholar](https://scholar.google.com/schhp?hl=zh-CN) 
+
 ## Topics
 
 ### Sentence Summarization
@@ -180,19 +184,25 @@ MSc project: Inferring Sentence Features from Sentence Embeddings, [code](https:
 
 ## Paper notes
 
-[定期论文阅读](https://github.com/dantezhao/paper-notes) 
-
-[问题讨论](https://github.com/dantezhao/data-group) 
-
-[nlp-reading-group](https://github.com/clulab/nlp-reading-group) 
-
-[Papers with Code](https://paperswithcode.com/) 
+[NLP Tasks](https://github.com/Kyubyong/nlp_tasks) 
 
 [丕子 paperlist](https://github.com/lipiji/App-DL) 
 
 [papernote](https://github.com/xwzhong/papernote) 
 
 [NLP-Papers](https://github.com/llhthinker/NLP-Papers) 
+
+
+
+[定期论文阅读](https://github.com/dantezhao/paper-notes) 
+
+[问题讨论](https://github.com/dantezhao/data-group) 
+
+[nlp-reading-group](https://github.com/clulab/nlp-reading-group) 
+
+
+
+[Papers with Code](https://paperswithcode.com/) 
 
 
 
@@ -247,6 +257,10 @@ EMNLP -
 - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova, Google 2018
   - [x] language model
 - 
+
+### domain adaption
+
+[awsome-domain-adaptation](https://github.com/zhaoxin94/awsome-domain-adaptation)
 
 ### pronoun resolution
 
@@ -310,6 +324,7 @@ EMNLP -
 
 + A Decomposable Attention Model for Natural Language Inference, Ankur P. Parikh, Oscar Täckström, Dipanjan Das, Jakob Uszkoreit, EMNLP 2016 [arxiv](https://arxiv.org/abs/1606.01933) 
 + Learning Natural Language Inference with LSTM, Shuohang Wang, Jing Jiang, 2016, [arxiv](https://arxiv.org/abs/1512.08849) | [code](https://github.com/shuohangwang/SeqMatchSeq)  
++ Convolutional neural network architectures for matching natural language sentences, B Hu, Z Lu, H Li, Q Chen - Advances in neural information processing systems, 2014 [paper](http://papers.nips.cc/paper/5550-convolutional-neural-network-architectures-for-matching-natural-language-sentences) 
 + 
 
 
