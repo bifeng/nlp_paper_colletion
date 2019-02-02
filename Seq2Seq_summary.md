@@ -24,6 +24,7 @@ commonsense Inference
 
 ### Literature review
 
+- Controllable Text Generation: Types, Knowledge, and Logic. 2018, December, JD AI, 黄民烈 [slides](http://coai.cs.tsinghua.edu.cn/hml/media/files/controllable-text-generation.pdf) 
 - [干货 | 文本改写和风格迁移的一些思路](https://mp.weixin.qq.com/s/AxmpnP5RJa7y9ju3RaEgdw)
 - [干货 | 限定和指导 Seq2Seq 模型的生成结果（一）](https://mp.weixin.qq.com/s/6q9txFjgqs1YXn348ylXhQ)
 - [干货 | 限定和指导 Seq2Seq 模型的生成结果（二）](https://mp.weixin.qq.com/s/jvozDRtKb4kaGSJvoP5nkw)
