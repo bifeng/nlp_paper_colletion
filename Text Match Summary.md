@@ -1,3 +1,28 @@
+NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/english/semantic_textual_similarity.md
+
+Paraphrase Identification
+
+Textual Entailment Recognize
+
+
+
+### datasets
+
+https://nlp.stanford.edu/projects/snli/
+
+
+
+
+
+### paper
+
++ Bilateral Multi-Perspective Matching for Natural Language Sentences, Zhiguo Wang, Wael Hamza, Radu Florian, IJCAI 2017 [arxiv](https://arxiv.org/abs/1702.03814) 
++ 
+
+
+
+
+
 ### Methods
 
 #### Unsupervised

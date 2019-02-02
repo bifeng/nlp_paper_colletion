@@ -22,6 +22,11 @@ log linear model
 
 ##### Syntax-Aware
 
++ Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation, Matt Post, David Vilar, NAACL 2018 [arxiv](https://arxiv.org/abs/1804.06609) 
++ 
+
+
+
 Source Syntax
 
 Target Syntax
