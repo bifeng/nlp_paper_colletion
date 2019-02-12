@@ -9,3 +9,13 @@
 
 
 
+## Machine Translation & Transliteration, Sequence-to-Sequence Models
+
++ Ashish Vaswani, et al.: Attention Is All You Need, 2017. 
+
+
+## Neural Models
+
+- Matthew E. Peters, et al.: Deep contextualized word representations, 2018. [arxiv](https://arxiv.org/abs/1802.05365?context=cs) 
+- Jacob Devlin, et al.: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, 2018. [arxiv](https://arxiv.org/abs/1810.04805?context=cs) 
+- 
