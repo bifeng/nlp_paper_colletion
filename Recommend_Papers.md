@@ -2,10 +2,15 @@
 
 
 
-## Segmentation, Tagging, Parsing
+## Segmentation, Tagging, Parsing, SRL
 
 * Michael Collins: [Head-Driven Statistical Models for Natural Language Parsing](http://www.cs.columbia.edu/~mcollins/papers/thesis.ps), PhD Dissertation, University of Pennsylvania, 1999.
 * Michael Collins: [Discriminative Training Methods for Hidden Markov Models: Theory and Experiments with Perceptron Algorithms](http://www.cs.columbia.edu/~mcollins/papers/tagperc.pdf), EMNLP 2002. *(Received Best Paper Award)* 
+
+
+
+* Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations, Eliyahu Kiperwasser, Yoav Goldberg, TACL 2016 [arxiv](https://arxiv.org/abs/1603.04351) 
+* Deep Semantic Role Labeling: What Works and What’s Next, He Luheng, Lee Kenton, Lewis Mike, [Zettlemoyer Luke](https://scholar.google.com/citations?user=UjpbO6IAAAAJ&hl=zh-CN&oi=sra), ACL 2017 [paper](https://aclanthology.info/papers/P17-1044/p17-1044) 
 
 
 
