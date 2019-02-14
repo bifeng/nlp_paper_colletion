@@ -31,7 +31,6 @@ The output space is tokens, but they are constrained to be relevant at each time
 ###### paper
 
 Dong and Lapata. 2016. Language to Logical Form with Neural Attention. In ACL.
-Dong and Lapata. 2018. Coarse-to-Fine Decoding for Neural Semantic Parsing. In ACL.
 Goldman, Latcinnik, Naveh, Globerson and Berant. 2018. Weakly-supervised Semantic Parsing with Abstract Examples. In ACL.
 
 ##### Grammar-based Decoding

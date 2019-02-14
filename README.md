@@ -279,26 +279,13 @@ EMNLP -
 ### sentence compression
 
 - Language as a Latent Variable: Discrete Generative Models for Sentence Compression, Yishu Miao, Phil Blunsom, EMNLP 2016 [arxiv](https://arxiv.org/abs/1609.07317) 
-
-  <details>
-  
-  </details>
-
 - Sentence Compression as Tree Transduction, Trevor Anthony Cohn, Mirella Lapata, 2009 [arxiv](https://arxiv.org/abs/1401.5693) 
-
-  <details>
-  
-  </details>
 
 - Global Inference for Sentence Compression: An Integer Linear Programming Approach James Clarke，Mirella Lapata 2008 [code](https://github.com/cnap/sentence-compression) 
 
-  <details>
-
-- Sentence Reduction for Automatic Text Summarization, Hongyan Jing 2000 [paper](https://www.aclweb.org/anthology/A/A00/A00-1043.pdf)
-
-  <details>
-  
-  </details>
+- Sentence Reduction for Automatic Text Summarization, Hongyan Jing 2000 [paper](https://www.aclweb.org/anthology/A/A00/A00-1043.pdf) 
+- 
+- A Multi-task Learning Approach for Improving Product Title Compression with User Search Log Data, Jingang Wang, Junfeng Tian, Long Qiu, Sheng Li, Jun Lang, Luo Si, Man Lan, AAAI 2018 [arxiv](https://arxiv.org/abs/1801.01725) 
 
 ### sentence summarization
 
