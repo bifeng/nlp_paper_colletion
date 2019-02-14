@@ -1,6 +1,6 @@
 [Awesome](https://github.com/icoxfog417/awesome-text-summarization)
 
-
+https://en.wikipedia.org/wiki/Automatic_summarization
 
 ### paper
 
