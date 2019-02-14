@@ -12,19 +12,19 @@ Transformer
 
 + encoder-decoder architecture
 
-  + a stack of encoders
+![transformer](https://github.com/bifeng/nlp_paper_notes/raw/master/image/transformer.png)
 
-    The encoders are all identical in structure (yet they do not share weights), each one is broken down into two sub-layers: self-attention and feed-forward neural network.
++ a stack of encoders
 
+  The encoders are all identical in structure (yet they do not share weights), each one is broken down into two sub-layers: self-attention and feed-forward neural network.
 
+  **Property**:
 
-    **Property**:
+  the word in each **position** flows through its own path in the encoder. There are dependencies between these paths in the self-attention layer (self attention allows current word to look at other **positions** in the input sequence for clues that can help lead to a better encoding for this word). The feed-forward layer does not have those dependencies, however, and thus the various paths can be executed in parallel while flowing through the feed-forward layer.
 
-    the word in each **position** flows through its own path in the encoder. There are dependencies between these paths in the self-attention layer (self attention allows current word to look at other **positions** in the input sequence for clues that can help lead to a better encoding for this word). The feed-forward layer does not have those dependencies, however, and thus the various paths can be executed in parallel while flowing through the feed-forward layer.
++ a stack of decoders
 
-  + a stack of decoders
-
-    The decoders include: self-attention, encoder-decoder attention and feed forward neural network.
+  The decoders include: self-attention, encoder-decoder attention and feed forward neural network.
 
 
 #### input representation

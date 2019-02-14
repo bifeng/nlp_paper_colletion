@@ -1,5 +1,3 @@
-NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/english/summarization.md
-
 
 
 ### paper
@@ -8,6 +6,5 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 + Global Encoding for Abstractive Summarization, Junyang Lin, Xu Sun, Shuming Ma, Qi Su, ACL 2018 [arxiv](https://arxiv.org/abs/1805.03989) 
 + Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting, Yen-Chun Chen, Mohit Bansal, ACL 2018 [arxiv](https://arxiv.org/abs/1805.11080?context=cs.LG) 
 + Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization, Shashi Narayan, Shay B. Cohen, Mirella Lapata, EMNLP 2018 [arxiv](https://arxiv.org/abs/1808.08745) 
-+ Get To The Point: Summarization with Pointer-Generator Networks, Abigail See, Peter J. Liu, Christopher D. Manning, ACL 2017 [arxiv](https://arxiv.org/abs/1704.04368v1) 
 + 
 

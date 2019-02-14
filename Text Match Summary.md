@@ -16,6 +16,7 @@ https://nlp.stanford.edu/projects/snli/
 
 ### paper
 
++ Enhanced LSTM for Natural Language Inference, Qian Chen, Xiaodan Zhu, Zhenhua Ling, Si Wei, Hui Jiang, Diana Inkpen, ACL 2017 [arxiv](https://arxiv.org/abs/1609.06038) 
 + Bilateral Multi-Perspective Matching for Natural Language Sentences, Zhiguo Wang, Wael Hamza, Radu Florian, IJCAI 2017 [arxiv](https://arxiv.org/abs/1702.03814) 
 + 
 

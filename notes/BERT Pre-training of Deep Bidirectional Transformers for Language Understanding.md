@@ -24,6 +24,8 @@
 
 + a new pre-training objective: the “masked language model” (MLM). The masked language model randomly masks some of the tokens from the input, and the objective is to predict the original vocabulary id of the masked word based only on its context.
 
+  This is a very simple trick that's used in **de-noising auto-encoders**, where we mask some percent of words from the input and have to reconstruct those words from context. We call this a "masked LM" but it is often called <u>a Cloze task</u>.
+
   + mismatch problem
 
     a mismatch between pre-training and finetuning, since the [MASK] token is never seen during fine-tuning.
@@ -128,6 +130,21 @@ The feature-based procedure is using the fixed features which are extracted from
 
   single sentence tagging tasks: concatenate the token representations from the top <u>four</u> hidden layers of the pretrained Transformer.
 
+### datasets
+
+To generate each training input sequence, we sample <u>two spans of text</u> from the corpus, which we refer to as “sentences” even though they are typically much longer than single sentences (but can be shorter also).
+
+They are sampled such that the combined length is $\le$ 512 tokens.
+
+### application 
+
+According the training task of bert: Masked-LM、Next-Sequence-Prediction, so its more suitable for the similar task in application:
+
+1. two long sentence relation inference tasks.
+2. question answering (Cloze task)
+3. ...
+
+
 
 ### code
 
@@ -141,16 +158,30 @@ https://github.com/huggingface/pytorch-pretrained-BERT
 
 + Why the strategy for mismatch problem is useful?
 
+  
+
 + How many number of parameters in transformer?
+
+  
 
 
 + How many sample is enough for transfer learning?
 
-+ What's WordPiece tokenization?
+  
+
++ Did bert can achieve state of art in dependency parsing, semantic role labeling etc. area? why?
+
+  
+
++ What's WordPiece tokenization ?
 
 + 
 
+### excise
 
++ bert for ranking
++ bert for text generation
++ 
 
 ### reference
 
@@ -160,6 +191,8 @@ The Illustrated BERT, Elmo, and Co.
 http://jalammar.github.io/illustrated-bert/
 
 https://medium.com/dissecting-bert/dissecting-bert-part-1-d3c3d495cdb3
+
+https://www.reddit.com/r/MachineLearning/comments/9nfqxz/r_bert_pretraining_of_deep_bidirectional/ author of the paper
 
 
 

@@ -19,5 +19,14 @@ ACL EMNLP 2017 | 故事的最后你还是说了……RocStories 数据集上的�
 ### toolkit
 
 + [textgenrnn](https://github.com/minimaxir/textgenrnn) 
+
 + [Texar](https://github.com/asyml/texar) 
+
++ [Texygen](https://github.com/geek-ai/Texygen) 
+
+  
+
++ [fairseq](https://github.com/pytorch/fairseq) - pytorch
+
++ 
 
