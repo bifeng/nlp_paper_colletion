@@ -14,8 +14,10 @@
 ```mermaid
 graph LR
 a[document] --> b[intermediate representation] 
-b --> c[sentence score and rank]
+b --> c[sentence score]
 c --> e[senetence selection]
+e --> f[sentence ordering]
+f --> g[sentence realization]
 ```
 
 
@@ -41,7 +43,8 @@ indicator representation:<br>Indicator representation approaches aim to model th
 
 ```mermaid
 graph TD
-a[sentence score and rank]
+a[sentence score]
+
 ```
 
 For topic representation approaches, the score is commonly related to how well a sentence expresses some of the most important topics in the document or to what extent it combines information about different topics.
@@ -55,6 +58,20 @@ a --global--> a3[submodular function]
 ```
 
 
+
+```mermaid
+graph TD
+a[sentence ordering]
+```
+
+For single document, sentence ordering by its order in the original document.
+
+For multi-document, ...
+
+```mermaid
+graph TD
+a[sentence realization]
+```
 
 
 
