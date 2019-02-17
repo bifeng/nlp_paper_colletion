@@ -1,3 +1,33 @@
+### Category of Summarization 
+
+```mermaid
+graph LR
+a[Text Summarization]
+a1[Single -Document]
+a2[Multi-Document]
+b[Text Summarization]
+b1[Generic]
+b2[Domain-specific]
+b3[Query-based]
+
+subgraph based on purpose
+b --> b1
+b --> b2
+b --> b3
+end
+
+subgraph based on input type
+a --> a1
+a --> a2
+end
+
+
+```
+
+
+
+
+
 ### Architecture
 
 <div align="center">
