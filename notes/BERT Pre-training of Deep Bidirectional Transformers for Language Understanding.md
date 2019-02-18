@@ -146,43 +146,6 @@ According the training task of bert: Masked-LM、Next-Sequence-Prediction, so it
 
 
 
-### code
-
-https://github.com/google-research/bert
-
-https://github.com/huggingface/pytorch-pretrained-BERT
-
-
-
-### question
-
-+ Why the strategy for mismatch problem is useful?
-
-  
-
-+ How many number of parameters in transformer?
-
-  
-
-
-+ How many sample is enough for transfer learning?
-
-  
-
-+ Did bert can achieve state of art in dependency parsing, semantic role labeling etc. area? why?
-
-  
-
-+ What's WordPiece tokenization ?
-
-+ 
-
-### excise
-
-+ bert for ranking
-+ bert for text generation
-+ 
-
 ### reference
 
 BERT visualization tool
