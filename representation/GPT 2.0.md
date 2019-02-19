@@ -4,7 +4,7 @@ refer:<br>[效果惊人的GPT 2.0模型：它告诉了我们什么](https://zhua
 
 ### Innovation
 
-+ lots of broad area and high quality datasets
++ large, broad domain and high quality datasets
 + unsupervised
 
 

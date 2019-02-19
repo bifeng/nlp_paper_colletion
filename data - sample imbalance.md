@@ -16,7 +16,9 @@ refer:<br>[样本生而不等——聊聊那些对训练数据加权的方法](h
 
 学习需要循序渐进，应该先学习简单的样本，逐渐加大难度，最终如果仍然后Loss很大的样本，那么认为这些样本可能是Outlier，强行fit这些样本反而可能会使泛化性能下降。这一类中对应的是Curriculum Learning或者Self-Paced Learning类型的工作。
 
-
+- Bengio, Yoshua, et al. "Curriculum learning". In ICML, 2009.
+- Kumar M. Pawan, Packer Benjamin, and Koller Daphne "Self-paced learning for latent variable models". In NIPS, 2010.
+- ...
 
 ### reweight by training and validation loss
 
@@ -28,7 +30,7 @@ refer:<br>[样本生而不等——聊聊那些对训练数据加权的方法](h
 
    使用了一个统计学中经典工具Influence Function。基本思路是考虑如果我们增加eps某一个样本的weight，会对model的参数有怎样的影响。
 
-   Koh, Pang Wei, and Percy Liang. "Understanding black-box predictions via influence functions." *ICML* (2017). Best Paper [arxiv](https://arxiv.org/abs/1703.04730) 
+   Koh, Pang Wei, and Percy Liang. "Understanding black-box predictions via influence functions." *ICML* (2017). Best Paper [arxiv](https://arxiv.org/abs/1703.04730) | [code](https://github.com/kohpangwei/influence-release) 
 
 2. meta-learning
 

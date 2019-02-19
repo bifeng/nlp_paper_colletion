@@ -18,9 +18,12 @@ Wang, Tianyang, Jun Huan, and Bo Li. "Data dropout: Optimizing training data for
 
 实际是看哪个数据对网络复杂度的影响大，导致网络复杂度剧变的数据一般是噪声。
 
-Koh, Pang Wei, and Percy Liang. "Understanding black-box predictions via influence functions." *ICML* (2017) Best Paper. [arxiv](https://arxiv.org/abs/1703.04730) 
+Koh, Pang Wei, and Percy Liang. "Understanding black-box predictions via influence functions." *ICML* (2017) Best Paper. [arxiv](https://arxiv.org/abs/1703.04730) | [code](https://github.com/kohpangwei/influence-release) 
 
+### Summary
 
++ 是否有必要对脏数据进行处理？依情况而定，对于大数据量而言，模型的鲁棒性强，无需处理，而对于小数据量，则需要处理。（随机误差与系统误差）
++ 
 
 
 
