@@ -260,7 +260,7 @@ EMNLP -
 
 ### domain adaption
 
-[awsome-domain-adaptation](https://github.com/zhaoxin94/awsome-domain-adaptation)
+https://github.com/sebastianruder/NLP-progress/blob/master/english/domain_adaptation.md
 
 ### pronoun resolution
 
