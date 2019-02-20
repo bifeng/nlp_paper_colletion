@@ -11,8 +11,9 @@ language model pre-training - learning universal language representations
 ### Architect
 
 <div align="center">
-<img src="https://github.com/bifeng/nlp_paper_notes/raw/master/image/MT_DNN_architect.png" width="600" height="150" alt="MT_DNN_architect"></img>
+<img src="https://github.com/bifeng/nlp_paper_notes/raw/master/image/MT_DNN_architect.png" width="800" height="600" alt="MT_DNN_architect"></img>
 </div>
+
 
 
 

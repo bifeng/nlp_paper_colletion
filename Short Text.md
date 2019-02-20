@@ -8,6 +8,12 @@ http://wangzhongyuan.com/tutorial/ACL2016/Understanding-Short-Texts/
 
 
 
+### scholars
+
++ 
++ [王仲远](http://wangzhongyuan.com/en/)
++ 
+
 ### Literature Review
 
 + [Xiaohui Yan](http://xiaohuiyan.github.io/). *Topic Modeling over Short Texts (In Chinese)*. Ph.D thesis. CAS, 2014. [thesis](http://xiaohuiyan.github.io/paper/yxh-thesis-public.pdf) 
