@@ -20,8 +20,6 @@
 
 [Bias Statement Detector (BSD)](https://github.com/cjhutto/bsd) computationally detects and quantifies the degree of bias in sentence-level text of news stories.
 
-### Adversarial Learning
-
 ### Relation Extraction
 
 ## Challenges
@@ -172,9 +170,8 @@ MSc project: Inferring Sentence Features from Sentence Embeddings, [code](https:
   - [x] Lexical and Neural Networks Combined
   - [x] Adversarial Learning
 
-- Adversarial Examples: Attacks and Defenses for Deep Learning, Xiaoyong Yuan, Pan He, Qile Zhu, Rajendra Rana Bhat, Xiaolin Li, 2018 [arxiv](https://arxiv.org/abs/1712.07107v1)
+  
 
-  - [x] Adversarial Learning
 
 ## Paper notes
 
@@ -288,10 +285,6 @@ EMNLP -
   - [x] data scarcity
   - [x] transfer learning
 + VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media, CJ Hutto & [Eric Gilbert's](http://eegilbert.org/) [social media](http://comp.social.gatech.edu/) (ICWSM-14). Ann Arbor, MI, June 2014. <br>supplement: [data set](http://comp.social.gatech.edu/papers/hutto_ICWSM_2014.tar.gz) [code (github)](https://github.com/cjhutto/vaderSentiment) [python package](https://pypi.python.org/pypi/vaderSentiment) 
-
-### adversarial learning
-
-+ TextBugger: Generating Adversarial Text Against Real-world Applications, Jinfeng Li, Shouling Ji, Tianyu Du, Bo Li, Ting Wang, NDSS 2019 [arxiv](https://arxiv.org/abs/1812.05271) 
 
 ### natural language inference
 

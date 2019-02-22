@@ -1,12 +1,14 @@
+refer:<br>An Overview of Multi-Task Learning in Deep Neural Networks, Sebastian Ruder, 2017 [arxiv](https://arxiv.org/abs/1706.05098) | [site](http://ruder.io/multi-task/) 
+
+
+
 https://github.com/sebastianruder/NLP-progress/blob/master/english/multi-task_learning.md
 
 
 
 ### Literature review
 
-+ An Overview of Multi-Task Learning in Deep Neural Networks, Sebastian Ruder, 2017 [arxiv](https://arxiv.org/abs/1706.05098) 
-
-  http://ruder.io/multi-task/
++ 
 
 + 
 
@@ -45,9 +47,8 @@ we can motivate multi-task learning from a machine learning point of view: We ca
 
   MTL acts as a regularizer by introducing an inductive bias. As such, it reduces the risk of overfitting as well as the Rademacher complexity of the model, i.e. its ability to fit random noise.
 
-+ domain adaptation
+  
 
-  MTL will help the model to generalize to new tasks in the future as a hypothesis space that performs well for a sufficiently large number of training tasks will also perform well for learning novel tasks as long as they are from the same environment. (Using two stage training strategy to do domain adaptation like in the MT-DNN model)
 
 
 
@@ -59,11 +60,63 @@ we can motivate multi-task learning from a machine learning point of view: We ca
 
 
 
-### Auxiliary tasks
+
+
+### Application Scenario/Auxiliary tasks
+
+relationship of tasks:
+
+- sequence
+
+  we only care about one main task.
+
+  [Caruana, 1998] uses tasks that predict different characteristics of the road as auxiliary tasks for predicting the steering direction in a self-driving car;
+
+  [Liu et al., 2015] jointly learn query classification and web search;
+
+  
+
+  we predicting the features as an auxiliary task (hints).
+
+  [Yu and Jiang, 2016] who predict whether an input sentence contains a positive or negative sentiment word as auxiliary tasks for sentiment analysis.
+
+  [Cheng et al., 2015] who predict whether a name is present in a sentence as auxiliary task for name error detection.
+
+  
+
+  we can use the present to predict the future, or using the future to predict the present.
+
+  In some situations, some features only become available after the predictions are supposed to be made. But it can be used as an auxiliary task to impart additional knowledge to the model during training.
+
+  
+
+  
+
+- parallel
+
+  similarity of task
+
+  we are interested in obtaining predictions for multiple tasks at once.
+
+  
+
+  Using less quantized auxiliary tasks, as they might be learned more easily due to their objective being smoother.
+
+- hierarchy
+
+  
+
+  
+
+- representation learning for domain adaptation
+
+  MTL will help the model to generalize to new tasks in the future as a hypothesis space that performs well for a sufficiently large number of training tasks will also perform well for learning novel tasks as long as they are from the same environment. (Using two stage training strategy to do domain adaptation like in the MT-DNN model)
 
 
 
-### What auxiliary tasks are helpful?
+#### What  scenario/auxiliary tasks are helpful?
+
+our understanding of tasks – their similarity, relationship, hierarchy, and benefit for MTL – is still limited
 
 
 

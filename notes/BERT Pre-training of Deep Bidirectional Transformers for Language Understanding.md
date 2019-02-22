@@ -22,7 +22,9 @@
 
 + unidirectional $\rightarrow$ bidirectional
 
-+ a new pre-training objective: the “masked language model” (MLM). The masked language model randomly masks some of the tokens from the input, and the objective is to predict the original vocabulary id of the masked word based only on its context.
++ Task 1: language model
+
+  a new pre-training objective: the “masked language model” (MLM). The masked language model randomly masks some of the tokens from the input, and the objective is to predict the original vocabulary id of the masked word based only on its context.
 
   This is a very simple trick that's used in **de-noising auto-encoders**, where we mask some percent of words from the input and have to reconstruct those words from context. We call this a "masked LM" but it is often called <u>a Cloze task</u>.
 
@@ -36,7 +38,9 @@
 
     only 15% of tokens are predicted in each batch, which suggests that more pre-training steps maybe required for the model to converge.
 
-+ a “next sentence prediction” task that jointly pre-trains text-pair representations.
++ Task 2: next sentence prediction
+
+  a “next sentence prediction” task that jointly pre-trains text-pair representations.
 
 
 ### architecture
