@@ -6,6 +6,8 @@ https://github.com/Jiakui/awesome-bert
 
 https://github.com/nyu-dl/dl4marco-bert
 
+#### multi-task
+
 
 
 #### relate papers
@@ -18,6 +20,14 @@ https://github.com/nyu-dl/dl4marco-bert
 https://github.com/google-research/bert
 
 https://github.com/huggingface/pytorch-pretrained-BERT
+
+### datasets
+
+[multilingual](https://github.com/google-research/bert/blob/master/multilingual.md) Chinese
+
+The entire Wikipedia dump for each language (excluding user and talk pages) was taken as the training data for each language.
+
+we performed <u>exponentially smoothed weighting</u> of the data during pre-training data creation (and WordPiece vocab creation). So, high-resource languages like English will be under-sampled, and low-resource languages like Icelandic will be over-sampled.
 
 
 
