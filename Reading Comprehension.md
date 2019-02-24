@@ -2,6 +2,26 @@
 
 
 
+### Challenge
+
++ when to give no answer?
+
+  SQuAD2.0 tests the ability of a system to not only answer reading comprehension questions, but also abstain when presented with a question that cannot be answered based on the provided paragraph.
+
+  
+
++ 
+
+
+
+### Dataset
+
++ SQuAD
+
+  https://rajpurkar.github.io/SQuAD-explorer/
+
+  Know What You Don't Know: Unanswerable Questions for SQuAD [arxiv](https://arxiv.org/abs/1806.03822) 
+
 ### Literature Review
 
 - Neural Reading Comprehension and Beyond, Danqi Chen, 2018 [code](https://github.com/danqi/thesis)

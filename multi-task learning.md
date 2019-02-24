@@ -2,6 +2,8 @@ refer:<br>An Overview of Multi-Task Learning in Deep Neural Networks, Sebastian 
 
 
 
+https://en.wikipedia.org/wiki/Multi-task_learning
+
 https://github.com/sebastianruder/NLP-progress/blob/master/english/multi-task_learning.md
 
 
@@ -17,6 +19,10 @@ https://github.com/sebastianruder/NLP-progress/blob/master/english/multi-task_le
 + (MT-DNN) Multi-Task Deep Neural Networks for Natural Language Understanding, Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao, 2019 [arxiv](https://arxiv.org/abs/1901.11504) 
 + A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning, Ronan Collobert, Jason Weston, 2008 ICML
 + 
+
+loss function
+
++ Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics, Alex Kendall, Yarin Gal, Roberto Cipolla, CVPR 2018 [arxiv](https://arxiv.org/abs/1705.07115) | [code](https://github.com/yaringal/multi-task-learning-example) 
 
 ### tools
 
