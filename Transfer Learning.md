@@ -1,3 +1,9 @@
+[Transfer Learning - Machine Learning's Next Frontier](http://ruder.io/transfer-learning/index.html) 
+
+https://en.wikipedia.org/wiki/Domain_adaptation
+
+
+
 refer:
 [迁移学习简明手册](https://github.com/jindongwang/transferlearning-tutorial) 
 
@@ -5,9 +11,16 @@ refer:
 
 ### Awesome
 
-+ [awsome-domain-adaptation](https://github.com/zhaoxin94/awsome-domain-adaptation)
++ [awesome-transfer-learning](https://github.com/artix41/awesome-transfer-learning)
+
++ [awsome-domain-adaptation](https://github.com/zhaoxin94/awsome-domain-adaptation) 
 
   
+
+### scholars
+
++ Qiang Yang [site](http://www.cse.ust.hk/~qyang/) 
++ 
 
 ### Literature Review
 
@@ -44,11 +57,6 @@ refer:
 
 
 
-迁移学习的定义需要进行如下的考虑：
-(1) 特征空间的异同，即$\cal{X_s}$和$\cal{X_t }$是否相等。
-(2) 类别空间的异同：即$\cal{Y_s }$和$\cal{Y_t }$是否相等。
-(3) 条件概率分布的异同：即$\cal{Q}_s(y_s|x_s) $和$\cal{Q}_t(y_t|x_t) $是否相等。
-
 #### 前提条件
 
 数据 - 分布
@@ -56,6 +64,19 @@ refer:
 任务
 
 模型
+
+
+
+#### 应用场景
+
+Given source and target domains $\cal{D}_s$ and $\cal{D}_t$ where $\cal{D} = \{\cal{X}, P(x)\}$ and source and target tasks $\cal{T}_s$ and $\cal{T}_t$ where $\cal{T} = \{\cal{Y}, P(y|x) \}$ source and target conditions can vary in four ways, which we will illustrate in the following again using our document classification example:
+
+| scenarios                                                    | example                                                      | methods                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------- |
+| $\cal{X_s} \neq \cal{X_t}$  -  feature space                 | e.g. the documents are written in two different languages.   | cross-lingual adaptation, ...           |
+| $P(x_s) \neq P(x_t)$  -  marginal probability distribution   | e.g. the documents discuss different topics.                 | domain adaptation, ...                  |
+| $\cal{Y_s } \neq \cal{Y_t }$  -  label space                 | e.g. documents need to be assigned different labels in the target task. In practice, this scenario usually occurs with scenario 4, as it is extremely rare for two different tasks to have different label spaces, but exactly the same conditional probability distributions. | domain-invariant representation, ...    |
+| $P(y_s|x_s) \neq P(y_t|x_t)$  -  conditional probability distribution | e.g. source and target documents are unbalanced with regard to their classes. | over-sampling, under-sampling, or SMOTE |
 
 
 
@@ -80,8 +101,6 @@ refer:
 产生负迁移的原因主要有：
 • 数据问题：源域和目标域压根不相似，谈何迁移？
 • 方法问题：源域和目标域是相似的，但是，迁移学习方法不够好，没找到可迁移的成分。
-
-
 
 
 
@@ -159,7 +178,7 @@ refer:
 
 领域自适应研究问题解决的就是协方差漂移现象（即数据的边缘概率分布发生变化）。
 
-领域自适应(Domain Adaptation): 给定一个有标记的源域$\cal{D}_s = \{x_i,y_i\}_{i=1}^{n}$和一个无标记的目标域$\cal{D}_t = \{x_j,y_j\}_{j=n+1}^{n+m}$，假定它们的特征空间相同，即$\cal{X}_s = \cal{X}_t$，并且它们的类别空间也相同，即$\cal{Y}_s = \cal{Y}_t$ 以及条件概率分布也相同，即$\cal{Q}_s(y_s|x_s)  = \cal{Q}_t(y_t|x_t) $。但是这两个域的边缘分布不同，即$P(x_s) \neq P(x_t)$。迁移学习的目标就是，利用有标记的数据$\cal{D}_s $去学习一个分类器$f : x_t \rightarrow y_t $来预测目标域$\cal{D}_t $的标签$y_t \in \cal{Y}_t$.
+领域自适应(Domain Adaptation): 给定一个有标记的源域$\cal{D}_s = \{x_i,y_i\}_{i=1}^{n}​$和一个无标记的目标域$\cal{D}_t = \{x_j,y_j\}_{j=n+1}^{n+m}​$，假定它们的特征空间相同，即$\cal{X}_s = \cal{X}_t​$，并且它们的类别空间也相同，即$\cal{Y}_s = \cal{Y}_t​$ 以及条件概率分布也相同，即$\cal{Q}_s(y_s|x_s)  = \cal{Q}_t(y_t|x_t) ​$。但是这两个域的边缘分布不同，即$P(x_s) \neq P(x_t)​$。迁移学习的目标就是，利用有标记的数据$\cal{D}_s ​$去学习一个分类器$f : x_t \rightarrow y_t ​$来预测目标域$\cal{D}_t ​$的标签$y_t \in \cal{Y}_t​$.
 
 #### 数据分布自适应法
 

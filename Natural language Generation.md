@@ -8,7 +8,7 @@ https://en.wikipedia.org/wiki/Natural-language_generation
 
 ### data2text
 
-- Challenges in Data-to-Document Generation, Sam Wiseman, Stuart M. Shieber, Alexander M. Rush, EMNLP 2017 [arxiv](https://arxiv.org/abs/1707.08052) | [slide](http://nlp.seas.harvard.edu/slides/nmt17.pdf) | [code](http://lstm.seas.harvard.edu/docgen/) :star:
+- Challenges in Data-to-Document Generation, Sam Wiseman, Stuart M. Shieber, **Alexander M. Rush**, EMNLP 2017 [arxiv](https://arxiv.org/abs/1707.08052) | [slide](http://nlp.seas.harvard.edu/slides/nmt17.pdf) | [code](http://lstm.seas.harvard.edu/docgen/) :star:
 
 - Feng Nie, **Jinpeng Wang**, Jin-Ge Yao, Chin-Yew Lin and Rong Pan. 
   Operation Guided Neural Networks for High Fidelity Data-To-Text Generation. 
