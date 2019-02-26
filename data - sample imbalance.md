@@ -1,8 +1,8 @@
-refer:<br>[样本生而不等——聊聊那些对训练数据加权的方法](https://zhuanlan.zhihu.com/p/53545036)
+refer:<br>[样本生而不等——聊聊那些对训练数据加权的方法](https://zhuanlan.zhihu.com/p/53545036)<br>[如何解决数据不平衡问题？](https://mp.weixin.qq.com/s/orf_UaDFCKIaYjslbItcfQ) - 目标检测中的不平衡问题的进展
 
+# methods
 
-
-## methods
+## reweight
 
 ### reweight by training loss
 
@@ -40,10 +40,29 @@ refer:<br>[样本生而不等——聊聊那些对训练数据加权的方法](h
 
    Ren, Mengye, et al. "Learning to reweight examples for robust deep learning." *ICML*(2018).
 
+## loss function design
 
+1.**GHM_Detection**
+论文：https://arvix.org/pdf/1811.05181.pdf
+github：https://github.com/libuyu/GHM_Detection
 
+本文是香港中文大学发表于 AAAI 2019 的工作，**文章从梯度的角度解决样本中常见的正负样本不均衡的问题。**从梯度的角度给计算 loss 的样本加权，相比与 OHEM 的硬截断，这种思路和 Focal Loss 一样属于软截断。
 
-### other
+**文章设计的思路不仅可以用于分类 loss 改进，对回归 loss 也很容易进行嵌入。****不需要考虑 Focal Loss 的超参设计问题，同时文章提出的方法效果比 Focal Loss 更好。**创新点相当于 FL 的下一步方案，给出了解决 class-imbalance 的另一种思路，开了一条路，估计下一步会有很多这方面的 paper 出现。
+
+2.**Focal Loss for Dense Object Detection**
+
+论文：
+
+Focal Loss：https://arxiv.org/abs/1708.02002
+
+RetinaNet：https://github.com/unsky/RetinaNet
+
+github：https://github.com/unsky/focal-loss
+
+本文通过重塑标准交叉熵损失来解决这一类不平衡问题。他们的想法是降低简单的负面样本所占的权重，所以他们提出的焦点损失（Focal Loss）方法将训练集中在一系列难点上，并且防止了大量的简单负面例子在训练过程中阻碍探测器学习。如上图，参数 γ 的值选择得越大，模型就会对已经得到了很好的分类的样本忽略得越多，越专注于难的样本的学习。这样的机制就让他们的检测器在密集对象检测这样的真实正面样本比例很低的情况下取得了很高的准确率。对于应对样本不平衡问题的关键方法“焦距损失”，作者们在论文中还提出了两种不同的表现形式，都起到了很好的效果.
+
+## other
 
 Fan, Yang, et al. "Learning What Data to Learn." *arXiv preprint arXiv:1702.08635* (2017).
 
