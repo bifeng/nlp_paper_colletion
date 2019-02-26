@@ -38,3 +38,7 @@
 
     
 
+### question
+
++ loss function?
++ 
