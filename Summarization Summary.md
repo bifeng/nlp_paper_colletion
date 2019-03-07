@@ -115,6 +115,8 @@ a[sentence realization]
 
 #### submodular function (次模函数)
 
+https://en.wikipedia.org/wiki/Submodular_set_function
+
 Submodular functions naturally model notions of coverage, information, representation and diversity. Moreover, several important combinatorial optimization problems occur as special instances of submodular optimization. For example: <br>The set cover problem is a special case of submodular optimization, since the set cover function is submodular. <br>The facility location problem is a special case of submodular functions. The Facility Location function also naturally models coverage and diversity. <br>The determinantal point process model diversity. <br>The Maximum-Marginal-Relevance procedure can also be seen as an instance of submodular optimization. <br>All these important models encouraging coverage, diversity and information are all submodular. 
 
 设计次模函数，然后利用贪心算法进行内容选取。
