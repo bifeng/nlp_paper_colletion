@@ -48,3 +48,9 @@ Krishnamurthy, Dasigi, and Gardner. 2017. Neural Semantic Parsing with Type Cons
 
 + Coarse-to-Fine Decoding for Neural Semantic Parsing, Li Dong, Mirella Lapata, ACL 2018 [arxiv](https://arxiv.org/abs/1805.04793v1) | [code](https://github.com/donglixp/coarse2fine) 
 
+
+
+## Tools
+
++ [Neural Symbolic Machines](https://github.com/crazydonkey200/neural-symbolic-machines) 
++ 
