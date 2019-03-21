@@ -51,7 +51,15 @@ https://github.com/HIT-SCIR/ELMoForManyLangs/issues/45
 
 https://github.com/HIT-SCIR/ELMoForManyLangs/issues/30
 
++ continue training with pretrained models
 
+  https://github.com/HIT-SCIR/ELMoForManyLangs/issues/60
+
+  i am afraid it is impossible to use softmax. you can try some softmax-free method like the one in <https://arxiv.org/abs/1902.11269>
+
+  
+
++ 
 
 ### application
 

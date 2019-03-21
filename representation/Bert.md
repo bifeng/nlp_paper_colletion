@@ -2,6 +2,16 @@
 
 https://github.com/Jiakui/awesome-bert
 
+
+
++ Yoav Goldberg. Assessing BERT’s syntactic abilities, 2019. arXiv:1901.05287.
+
++ To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks, Matthew Peters, Sebastian Ruder, Noah A. Smith, 2019 [arxiv](https://arxiv.org/abs/1903.05987) 
+
+  
+
+  
+
 #### rank
 
 https://github.com/nyu-dl/dl4marco-bert
