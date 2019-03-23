@@ -131,6 +131,8 @@ refer: [Minsky, Chomsky & Deep Nets](https://stu.cs.tsinghua.edu.cn/wiki/images/
 
 ### Question
 
+**Linguistic Knowledge and Transferability of Contextual Representations**. [Nelson F. Liu](https://homes.cs.washington.edu/~nfliu/), [Matt Gardner](https://allenai.org/team/mattg/), [Yonatan Belinkov](http://people.csail.mit.edu/belinkov/), Matthew E. Peters, and [Noah A. Smith](http://www.cs.cmu.edu/~nasmith). In *Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics* (**NAACL 2019**), June 2019.
+
 From Word to Sense Embeddings: A Survey on Vector Representations of Meaning, Jose Camacho-Collados, Mohammad Taher Pilehvar, JAIR 2018 [arxiv](https://arxiv.org/abs/1805.04032) 
 
 词向量的效果取决于训练任务（语料）：在泛语料中训练的词向量，可能无法区分词语的反义关系（否定和肯定、积极与消极等）、上下位关系等。但在垂直领域或特定任务中可以使词向量表达更准确，如通过情感分类任务训练的词向量，可以区分“讨厌”和“喜欢”。

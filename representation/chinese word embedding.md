@@ -42,7 +42,7 @@ Use [udpipe](http://ufal.mff.cuni.cz/udpipe) for **tokenization**!
 
 + Different output vectors for same sentences
 
-It seems the unstable output is resulted from the stateful LSTM in ELMo. But empirically, it does not hurt the performance.
+It seems the unstable output is resulted from the stateful LSTM in ELMo. But empirically, it does not hurt the performance (**result can't replicate ! How to deal with it?**).
 
 I guess its something related to LSTM internal states as stated in AllenNLP note (Notes on statefulness and non-determinism) :
 <https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md>
@@ -61,11 +61,7 @@ https://github.com/HIT-SCIR/ELMoForManyLangs/issues/30
 
 + 
 
-### application
 
-#### query expansion with Synonym
-
-[知乎中的近义词](https://zhuanlan.zhihu.com/p/23360840) [二](https://zhuanlan.zhihu.com/grapeot) [三]() [四](https://zhuanlan.zhihu.com/p/23891151)
 
 
 

@@ -41,28 +41,6 @@ we performed <u>exponentially smoothed weighting</u> of the data during pre-trai
 
 
 
-### question
-
-- Why the strategy for mismatch problem is useful?
-
-  
-
-- How many number of parameters in transformer?
-
-  
-
-- How many sample is enough for transfer learning?
-
-  
-
-- Did bert can achieve state of art in dependency parsing, semantic role labeling etc. area? why?
-
-  
-
-- What's WordPiece tokenization ?
-
-- 
-
 ### excise
 
 - bert for ranking
