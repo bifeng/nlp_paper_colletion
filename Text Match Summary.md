@@ -4,6 +4,10 @@ Paraphrase Identification
 
 Textual Entailment Recognize
 
+https://aclweb.org/aclwiki/Textual_Entailment_Portal
+
+
+
 
 
 ### datasets

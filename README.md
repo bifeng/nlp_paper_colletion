@@ -78,6 +78,8 @@ Deep Reinforcement Learning for NLP ACL 2018 [ppt](http://www.cs.ucsb.edu/~willi
 
 The progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.<br>https://github.com/sebastianruder/NLP-progress<br>https://github.com/Kyubyong/nlp_tasks
 
+https://aclweb.org/aclwiki/State_of_the_art
+
 ## Competition
 
 CoNLL
@@ -241,7 +243,12 @@ EMNLP -
 ### data augmentation
 
 + Conditional BERT Contextual Augmentation, Xing Wu, Shangwen Lv, Liangjun Zang, Jizhong Han, Songlin Hu, 201812, [arxiv](https://arxiv.org/abs/1812.06705) 
+
 + Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations. Sosuke Kobayashi, NAACL-HLT, 2018. [arxiv](https://arxiv.org/pdf/1805.06201.pdf) | [code](https://github.com/pfnet-research/contextual_augmentation) 
+
+  Contextual augmentation is a domain-independent data augmentation for text classification tasks. Texts in supervised dataset are augmented by replacing words with other words which are predicted by a label-conditioned bi-directional language model.
+
++ Data Noising as Smoothing in Neural Network Language Models, Ziang Xie, Sida I. Wang, Jiwei Li, Daniel Lévy, Aiming Nie, Dan Jurafsky, Andrew Y. Ng, ICLR 2017 [arxiv](https://arxiv.org/abs/1703.02573) 
 
 
 ### pre-training word embedding

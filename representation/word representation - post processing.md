@@ -14,21 +14,13 @@ Retrofitting Word Vectors to Semantic Lexicons, Manaal Faruqui, Jesse Dodge, Suj
 
   
 
-+ A Simple but Tough-to-Beat Baseline for Sentence Embeddings, Sanjeev Arora, Yingyu Liang, Tengyu Ma, ICLR 2017 [paper](https://openreview.net/forum?id=SyK00v5xx) | [code](https://github.com/PrincetonML/SIF) | [code](https://github.com/woctezuma/steam-descriptions/blob/d590742f6ffb73c116a77e38c6fd8594a3921897/SIF_embedding.py) 
++ A Simple but Tough-to-Beat Baseline for Sentence Embeddings, Sanjeev Arora, Yingyu Liang, Tengyu Ma, ICLR 2017 [paper](https://openreview.net/forum?id=SyK00v5xx) | [code](https://github.com/PrincetonML/SIF) | [code](https://github.com/woctezuma/steam-descriptions/blob/d590742f6ffb73c116a77e38c6fd8594a3921897/SIF_embedding.py) :star:
 
-  Smooth Inverse Frequency weighting (remove common component of embedding by PCA/SVD)
-
-+ All-but-the-Top: Simple and Effective Postprocessing for Word Representations, Jiaqi Mu, Suma Bhat, Pramod Viswanath, ICLR 2018 [arxiv](https://arxiv.org/abs/1702.01417) 
-
-  eliminate the common mean vector and a few top dominating directions from the word vectors
-
-  (the variances explained by the leading principal components (PCs) “encode the frequency of the word to a significant degree”. Since word frequencies are arguably unrelated to lexical semantics, they recommend removing such leading PCs from word vectors using a PCA reconstruction)
++ All-but-the-Top: Simple and Effective Postprocessing for Word Representations, Jiaqi Mu, Suma Bhat, Pramod Viswanath, ICLR 2018 [arxiv](https://arxiv.org/abs/1702.01417) | [code](https://github.com/woctezuma/steam-descriptions/blob/44e6490802a4ad6129dcd3c4283446d8e171a147/sif_embedding_perso.py) | [code](https://github.com/jonadsimon/entendrepreneur-web/blob/50dc9faf26384bbcc8dc84d8eaf0bf84cb2deb55/scripts/precompute_word_vector_nearest_neighbors.py) :star:
 
 + Concatenated Power Mean Word Embeddings as Universal Cross-Lingual Sentence Representations, Andreas Rücklé, Steffen Eger, Maxime Peyrard, Iryna Gurevych, 2018 [arxiv](https://arxiv.org/abs/1803.01400) | [code](https://github.com/UKPLab/arxiv2018-xling-sentence-embeddings) 
 
   Power mean weighting
-
-  
 
 + Unsupervised Post-processing of Word Vectors via Conceptor Negation, Tianlin Liu, Lyle Ungar, João Sedoc, AAAI-2019 [arxiv](https://arxiv.org/abs/1811.11001) 
 
