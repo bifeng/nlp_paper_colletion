@@ -29,7 +29,11 @@ Retrofitting Word Vectors to Semantic Lexicons, Manaal Faruqui, Jesse Dodge, Suj
   (Instead of discarding a fixed number of PCs, we softly filter word vectors using matrix conceptors (Jaeger
   2014; 2017), which characterize the linear space of those word vector features having high variances)
 
+  
 
++ On the Dimensionality of Word Embedding, Zi Yin, Yuanyuan Shen, NeurIPS 2018 [arxiv](https://arxiv.org/abs/1812.04224) 
+
+ 
 
 #### summary
 

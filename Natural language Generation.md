@@ -4,13 +4,13 @@ https://en.wikipedia.org/wiki/Natural-language_generation
 
 
 
+### NLG
 
-
-### text2text
+#### text2text
 
 + Generating Sentences by Editing Prototypes, Kelvin Guu, Tatsunori B. Hashimoto, Yonatan Oren, Percy Liang, TACL 2018, [arxiv](https://arxiv.org/abs/1709.08878) 
 
-### data2text
+#### data2text
 
 - Challenges in Data-to-Document Generation, Sam Wiseman, Stuart M. Shieber, **Alexander M. Rush**, EMNLP 2017 [arxiv](https://arxiv.org/abs/1707.08052) | [slide](http://nlp.seas.harvard.edu/slides/nmt17.pdf) | [code](http://lstm.seas.harvard.edu/docgen/) :star:
 

@@ -1,3 +1,5 @@
+
+
 #### PMI-based
 
 Sanjeev Arora, Yuanzhi Li, Yingyu Liang, Tengyu Ma, and Andrej Risteski. A latent variable model
@@ -23,4 +25,14 @@ CCA-based spectral factorization approaches
 
 Karl Stratos, Michael Collins, and Daniel Hsu. Model-based word embeddings from decompositions
 of count matrices. In Proceedings of ACL, pp. 1282–1291, 2015.
+
+#### paper
+
++ Sanjeev Arora. Word embeddings: Explaining their properties, 2016. URL http://www.offconvex.org/2016/02/14/word-embeddings-2/. [Online; accessed 16-May-2018].
+
++ 
+
+  
+
+
 

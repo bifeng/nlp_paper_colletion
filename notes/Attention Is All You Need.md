@@ -132,11 +132,26 @@ The “Encoder-Decoder Attention” layer works just like multi-headed self-atte
 
 #### regularization
 
-Residual Dropout - We apply dropout to the output of each sub-layer, before it is added to the sub-layer input and normalized. In addition, we apply dropout to the sums of the embeddings and the positional encodings in both the encoder and decoder stacks.
+##### Residual Dropout
 
-Label Smoothing - During training, we employed label smoothing of value $\epsilon_{ls} = 0.1$. [36]
+We apply dropout to the output of each sub-layer, before it is added to the sub-layer input and normalized. In addition, we apply dropout to the sums of the embeddings and the positional encodings in both the encoder and decoder stacks.
 
+#### Label Smoothing
 
+During training, we employed label smoothing of value $\epsilon_{ls} = 0.1$. [36]
+
+motivation: regularize the classifier layer by estimating the marginalized effect of label-dropout during training.
+$$
+l = - \sum^K_{k=1} log(p(k)) q(k)
+$$
+If the logit corresponding to the ground-truth label is much great than all other logits. This, however, can cause two problems. First, it may result in over-fitting: if the model learns to assign full probability to the ground-truth label for each training example, it is not guaranteed to generalize. Second, it encourages the differences between the largest logit and all others to become large, and this, combined with the bounded gradient $\frac{∂ℓ}{∂z_k}$ ($z_k​$ are the logits or unnormalized log-probabilities), reduces the ability of the model to adapt. Intuitively, this happens because the model becomes too confident about its predictions.
+
+We propose a mechanism for encouraging the model to be less confident. While this may not be desired if the goal
+is to maximize the log-likelihood of training labels, it does regularize the model and makes it more adaptable. We replace the label distribution $q(k|x)=\sigma_{k,y}$ with
+$$
+q(k|x) = (1-\epsilon) \sigma_{k,y} + \epsilon u(k)
+$$
+$u(k)$ is a distribution over labels, which is independent of the training example $x$. In practice, we used the uniform distribution $u(k)=1/K$, $K$ is the number of classes.
 
 ### results
 
@@ -162,7 +177,7 @@ For the base models, we used a single model obtained by averaging the last 5 che
 
 ### paper
 
-+ [36] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna. Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015.
++ [36] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna. Rethinking the inception architecture for computer vision. CoRR, 2015. [arxiv](https://arxiv.org/abs/1512.00567) :star::star::star::star::star:
 + 
 
 ### reference
