@@ -35,5 +35,12 @@
 ## Neural Models
 
 - Matthew E. Peters, et al.: Deep contextualized word representations, 2018. [arxiv](https://arxiv.org/abs/1802.05365?context=cs) 
-- Jacob Devlin, et al.: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, 2018. [arxiv](https://arxiv.org/abs/1810.04805?context=cs) :star: ​
+- Jacob Devlin, et al.: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, 2018. [arxiv](https://arxiv.org/abs/1810.04805?context=cs) 
 - 
+
+## Architecture
+
+- Natural Language Processing (almost) from Scratch, Ronan Collobert, Jason Weston, Leon Bottou, Michael Karlen, Koray Kavukcuoglu, Pavel Kuksa, JMLR 2011, [arxiv](https://arxiv.org/abs/1103.0398) :star::star::star::star::star: 
+
++ Sequence to Sequence Learning with Neural Networks, Ilya Sutskever, Oriol Vinyals, Quoc V. Le, NIPS 2014 [arxiv](https://arxiv.org/abs/1409.3215) |  [seq2seq](https://google.github.io/seq2seq/)  :star::star::star::star::star:  
+

@@ -170,14 +170,10 @@ MSc project: Inferring Sentence Features from Sentence Embeddings, [code](https:
 ## Literature Review
 
 - Recent Trends in Deep Learning Based Natural Language Processing, Tom Young, Devamanyu Hazarika, Soujanya Poria, Erik Cambria, last revised 25 Nov 2018. [arxiv](https://arxiv.org/abs/1708.02709) 
-
 - Analysis Methods in Neural Language Processing: A Survey, Yonatan Belinkov, James Glass, 2019 TACL. [arxiv](https://arxiv.org/abs/1812.08951) | [code](https://github.com/boknilev/nlp-analysis-methods) 
 
   - [x] Lexical and Neural Networks Combined
   - [x] Adversarial Learning
-
-  
-
 
 ## Paper notes
 
@@ -275,6 +271,7 @@ EMNLP -
 ### relation extraction
 
 - Graph Convolution over Pruned Dependency Trees Improves Relation Extraction, Yuhao Zhang, Peng Qi, Christopher D. Manning, EMNLP 2018 [arxiv](https://arxiv.org/abs/1809.10185) | [code](https://github.com/qipeng/gcn-over-pruned-trees) 
+- RelEx—Relation extraction using dependency parse trees, Katrin Fundel  Robert Küffner  Ralf Zimmer, Bioinformatics 2007.
 
 
 

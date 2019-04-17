@@ -10,8 +10,7 @@ https://github.com/sebastianruder/NLP-progress/blob/master/english/multi-task_le
 
 ### Literature review
 
-+ 
-
++ R. Caruana. Multitask Learning. Machine Learning, 28(1):41-75, 1997.
 + 
 
 ### paper
