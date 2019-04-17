@@ -74,7 +74,7 @@ The empirical risk minimizer is no longer reliable (not good nor stable), this i
 </div>
 
 <div align="center">
-<img src="https://github.com/bifeng/nlp_paper_notes/raw/master/image/few_shot_learning_methods_taxonomy.png" width="800" height="300" alt="few_shot_learning_methods_taxonomy"></img>
+<img src="https://github.com/bifeng/nlp_paper_notes/raw/master/image/few_shot_learning_methods_taxonomy.png" width="800" height="500" alt="few_shot_learning_methods_taxonomy"></img>
 </div>
 
 #### Data
