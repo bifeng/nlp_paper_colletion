@@ -1,3 +1,15 @@
+#### question
+
++ why need use `a set of sentences` for single sentence embedding ?
+
+  
+
++ Which dimension reduce (PCA) to 1000 sentences with 300 dimension sentence embedding ?
+
+  Form a matrix X with 1000 * 300, so the PCA is reduce the second dimension !
+
+
+
 #### summary
 
 + Smooth Inverse Frequency weighting (remove common component of embedding by PCA/SVD)
@@ -29,7 +41,7 @@ The model is a simple modification for the RandomWalk on Discourses model for ge
 </div>
 The weight of a word $w$ is $\frac{a}{a + p(w)}$ with a being a parameter and $p(w)$ the (estimated) word frequency; we call this smooth inverse frequency (SIF). $p(w)$ is the unigram probability (**in the entire corpus**) of word.
 
-
+Attention:  <br>1) The figure Algorithm 1, `X whose columns are` is correct to `x whose rows are`.<br>2) The figure Algorithm 1, `its first singular vector` is the first component of PCA.
 
 
 

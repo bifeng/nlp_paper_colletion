@@ -2,13 +2,17 @@ more:
 
 https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html
 
-[ICLR 2017 | Highlight 1: Meta- and Few-shot Learning](https://mp.weixin.qq.com/s/PQDOC9e8DBai4bx4PEoIqA)
+[ICLR 2017 | Highlight 1: Meta- and Few-shot Learning](https://mp.weixin.qq.com/s/PQDOC9e8DBai4bx4PEoIqA) 
+
+
+
+Few-shot Learning - State of the Art, Dr. Joseph Shtok Research Staff Member at Computer Vision and Augmented Reality Team IBM Research AI, Haifa Lab, IMVC 2019
 
 Few-shot Learning: A Survey, Yaqing Wang, Quanming Yao, 2019, [arxiv](https://arxiv.org/abs/1904.05046v1) 
 
 refer: 
 
-小样本学习（Few-shot Learning）综述, 耿瑞莹、李永彬、黎槟华, 阿里巴巴智能服务事业部小蜜北京团队
+小样本学习（Few-shot Learning）综述, 耿瑞莹、李永彬、黎槟华, 阿里巴巴智能服务事业部小蜜北京团队 [site](https://mp.weixin.qq.com/s?__biz=MzI0NTE4NjA0OQ==&mid=2658360388&idx=2&sn=cf49a5d9810687eab3f6f7f8341dd6eb) 
 
 
 
@@ -25,6 +29,34 @@ Definition 2.2. Few-Shot Learning (FSL) is a type of machine learning problems (
 ### Motivation
 
 For learn **invariant/general representation** from few dataset, we should bring in any extra supervised information or exploit prior knowledge from other tasks or domain ... 
+
+
+
+### Application
+
++ computer vision applications
+
+  character recognition (benchmarks dataset-Ominiglot), image classification (benchmarks dataset-miniImageNet)
+
+  more computer vision applications can be explored, such as image retrieval [117], object tracking [13], gesture recognition [86], image captioning and visual question answering [26] and video event detection [135].
+
+  For example, how to transfer information from the coarse image classification task of animals to the fine-grained image classification task of dogs. The discrepancy cannot be well handled so far.
+
++ natural language processing
+
+  examples include few-shot translation [52] and. language modeling [125].
+
++ recommendation
+
+  cold-start item recommendation has been considered in [124].
+
++ medical applications
+
+  few-shot drug discovery is attempted in drug discovery [3].
+
++ robotics and game playing
+
+  robotics and game playing by reinforcement learning [111] from limited experience in new environment starts to draw attention [28, 32, 77]. Existing application includes one-shot imitation [28], multi-armed bandits [28], visual navigation [28], continuous control in locomotion [32]. Recently, [2, 82] further considers these applications in dynamic environment.
 
 
 
@@ -81,6 +113,16 @@ The empirical risk minimizer is no longer reliable (not good nor stable), this i
 
 Use prior knowledge to augment data so as to provide an accurate empirical risk minimizer of smaller variance and to meet the sample complexity S needed by common model and algorithms.
 
+Motivation: Synthesize/Augment more data from the novel classes to facilitate the regular learning
+
+GANs
+
+Low-Shot Learning from Imaginary Data, Wang et.al., 2018
+
+$\triangle - encoder$ Schwartz et.al., NeurIPS 2018
+
+Semantic Feature Augmentation in Few-shot Learning, Chen et.al., 2018
+
 #### Model
 
 Design H based on prior knowledge in experience E to **constrain** the complexity of H and reduce its sample complexity S. (减小函数的假设空间)
@@ -89,11 +131,19 @@ Design H based on prior knowledge in experience E to **constrain** the complexit
 
 Motivation: *use (recurrent) network with external or internal memory*
 
+Networks in networks/ Networks generating networks
+
 Memory Augmented Model, Meta Network, ...
 
 ##### Metric
 
-Motivation: *learn an efficient distance metric* 
+**Metric learning**
+
+Motivation: *Learn a `semantic` embedding space using a distance loss function* 
+
+**Training:** achieve good distributions for offline categories
+
+**Inference:** Nearest Neighbor in the embedding space
 
 Siamese Network, Match Network, Prototype Network, Relation Network, Induction Network
 
@@ -115,6 +165,46 @@ Induction 模块用于从支撑集的样本语义中归纳出类别特征.
 
 Relation 模块用于度量 query 和类别之间的语义关系，进而完成分类。
 
+###### Match Network
+
+attention function:
+
+The authors choose a straightforward softmax over cosine similarities in the embedding space as their attention function *a(x, x_i).* 
+
+embedding functions:
+
+The possibility for the support set and query set embedding functions, *f* and *g*, to be different is left open in order to grant more flexibility to the model. 
+
+They propose that the embedding functions *f(x^)* and *g(x_i)* should take on the more general form *f(x^, S)* and *g(x_i, S)* where *S* is the support set. The reasoning behind this is that if two of the support set items are very close, e.g. we are performing fine-grained classification between dog breeds, we should change the way the samples are embedded to increase the distinguishability of these samples (How to do it?).
+
+
+
+###### Prototypical Networks
+
+The key assumption is made is that there exists an embedding in which samples from each class cluster around a single **prototypical representation** which is simply the mean of the individual samples. 
+
+Another contribution of this paper is a persuasive theoretical argument to use <u>euclidean distance</u> over cosine distance in metric learning that also justifies <u>the use of class means</u> as prototypical representations. The key is to recognise that squared euclidean distance (but not cosine distance) is a member of a particular class of distance functions known as **Bregman divergences**. ... 
+
+
+
+
+
+###### Question
+
++ why Matching Networks is better than siamese networks?
+
+  siamese networks is not optimal as the initial embedding function is trained to maximise performance on a different task! However, Matching Networks combine both embedding and classification to form an end-to-end **differentiable nearest neighbours****classifier.** ???
+
++ How to increase the distinguishability of the support set ?
+
++ 
+
+
+
+
+
+
+
 #### Algorithm
 
 Take advantage of prior knowledge to search for the θ which parameterizes the best h ∈ H. The prior knowledge alters the search by providing good initial point to begin the search, or directly providing the search steps. It skipped the optimization for empirical risk and directly targets at $h^∗$. (提供一个好的搜索起始点或搜索路径)
@@ -125,7 +215,31 @@ Take advantage of prior knowledge to search for the θ which parameterizes the b
 
 Motivation: *optimize the model parameters explicitly for fast learning* (普通的梯度下降方法难以在 few-shot 场景下拟合)
 
-Optimization as a model
+
+
+###### Optimization as a model
+
+
+
+###### Model-Agnostic Meta-Learning
+
+
+
+
+
+
+
+###### Meta-SGD
+
+
+
+
+
+###### Latent Embedding Optimization
+
+
+
+
 
 
 

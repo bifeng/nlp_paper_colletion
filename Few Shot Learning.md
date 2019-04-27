@@ -1,23 +1,39 @@
+more:
 
+http://www.scholarpedia.org/article/Metalearning
 
 
 
 ### conference
 
++ ICLR
 + http://metalearning.ml/2018/
-+ ICLR 2017 
 + AutoML 2017 @ ICML
 + meta-learning symposium @ NIPS 2018
 
 
 
+### Scholars
+
++ [Chelsea Finn](http://people.eecs.berkeley.edu/~cbfinn/)
+
+  MAML
+
++ Hugo Larochelle
+
+  
+
 ### Literature review
+
++ Learning to Learn with Gradients, Chelsea Finn, [PhD Thesis](http://people.eecs.berkeley.edu/~cbfinn/_files/dissertation.pdf) 
+
+  MAML
 
 + Few-shot Learning: A Survey, Yaqing Wang, Quanming Yao, 2019, [arxiv](https://arxiv.org/abs/1904.05046v1) 
 
   Computer Vision Application
 
-+ Few-shot Learning - State of the Art, Dr. Joseph ShtokResearch Staff Member at Computer Vision and Augmented Reality Team IBM Research AI, Haifa Lab, IMVC 2019
++ Few-shot Learning - State of the Art, Dr. Joseph Shtok Research Staff Member at Computer Vision and Augmented Reality Team IBM Research AI, Haifa Lab, IMVC 2019
 
   http://www.research.ibm.com/haifa/dept/imt/ist_dm.shtml
 
@@ -35,7 +51,19 @@
 
 + THOUGHTS ON PROGRESS MADE AND CHALLENGES AHEAD IN FEW-SHOT LEARNING, 2018 [slide](http://metalearning.ml/2018/slides/meta_learning_2018_Larochelle.pdf) 
 
+### paperlist
+
++ https://github.com/floodsung/Meta-Learning-Papers
++ 
+
 ### paper
+
++ Comparison Analysis
++ A Closer Look at Few-shot Classification, Chen, Wei-Yu and Liu, Yen-Cheng and Kira, Zsolt and Wang, Yu-Chiang and  Huang, Jia-Bin, ICLR 2019 [paper](https://openreview.net/pdf?id=HkxLXnAcFQ) | [code](https://github.com/wyharveychen/CloserLookFewShot) 
+
+
+
++ Memory
 
 + Memory Augmented Model
 
@@ -46,6 +74,8 @@
   Munkhdalai, Tsendsuren, and Hong Yu. "Meta networks." Proceedings of the 34th International Conference on Machine Learning-Volume 70. JMLR. org, 2017.
 
 
+
++ Metric
 
 + Siamese Network
 
@@ -67,7 +97,7 @@
 
 + Induction Network
 
-  Geng R, Li B, Li Y, et al. Few-Shot Text Classification with Induction Network[J]. arXiv preprint arXiv:1902.10482, 2019. It's important?
+  Geng R, Li B, Li Y, et al. Few-Shot Text Classification with Induction Network[J]. arXiv preprint arXiv:1902.10482, 2019. It's important? [arxiv](https://arxiv.org/pdf/1902.10482v1.pdf) 
 
 + Multiple Metrics
 
@@ -77,21 +107,32 @@
 
 - Optimization
 
-  Optimization as a model for few-shot learning. Ravi, Sachin, and **Hugo Larochelle** (Research Scientist at Google Brain). Twitter,  ICLR 2017 oral. :star::star::star: 
+- Optimization as a model for few-shot learning. Ravi, Sachin, and **Hugo Larochelle** (Research Scientist at Google Brain). Twitter,  ICLR 2017 oral. :star::star::star: 
 
   > 同时学习优化规则和初始化权重，以往的工作往往是只能学习二者之一
 
-  Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks, Chelsea Finn, Pieter Abbeel, Sergey Levine, ICML 2017 [arxiv](https://arxiv.org/abs/1703.03400)  :star::star::star: 
 
-  > 
++ MAML: Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks, **Chelsea Finn**, Pieter Abbeel, Sergey Levine, ICML 2017 [arxiv](https://arxiv.org/abs/1703.03400)  :star::star::star: 
+
+  Chelsea Finn and Sergey Levine. [Meta-learning and universality: Deep representations and gradient descent can approximate any learning algorithm.](https://arxiv.org/abs/1710.11622) arXiv preprint arXiv:1710.11622, 2017.
 
 
 
+### FSL in NLP
 
++ Meta-Learning for Low-Resource Neural Machine Translation, Jiatao Gu, Yong Wang, Yun Chen, Kyunghyun Cho, Victor O.K. Li, EMNLP 2018
+
++ Meta-Learning a Dynamical Language Model, Thomas Wolf, Julien Chaumond, Clement Delangue, ICLR 2018
 
 ### state of art
 
 https://thunlp.github.io/fewrel.html
+
+
+
+Few-Shot Relation Classification: https://www.paperswithcode.com/task/few-shot-relation-classification
+
+Few-Shot Image Classification: https://www.paperswithcode.com/task/few-shot-image-classification
 
 
 
