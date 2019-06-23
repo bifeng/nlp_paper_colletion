@@ -1,7 +1,3 @@
-NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/english/semantic_textual_similarity.md
-
-Paraphrase Identification
-
 Textual Entailment Recognize
 
 https://aclweb.org/aclwiki/Textual_Entailment_Portal
@@ -16,12 +12,26 @@ https://nlp.stanford.edu/projects/snli/
 
 
 
+### STOA
+
+https://github.com/sebastianruder/NLP-progress/blob/master/english/semantic_textual_similarity.md
+
+https://aclweb.org/aclwiki/Paraphrase_Identification_(State_of_the_art)
+
+https://paperswithcode.com/task/paraphrase-identification/latest
+
+https://paperswithcode.com/task/text-matching
+
 
 
 ### paper
 
 + Enhanced LSTM for Natural Language Inference, Qian Chen, Xiaodan Zhu, Zhenhua Ling, Si Wei, Hui Jiang, Diana Inkpen, ACL 2017 [arxiv](https://arxiv.org/abs/1609.06038) 
 + Bilateral Multi-Perspective Matching for Natural Language Sentences, Zhiguo Wang, Wael Hamza, Radu Florian, IJCAI 2017 [arxiv](https://arxiv.org/abs/1702.03814) 
+
+
+
++ Ji, Y. and Eisenstein, J. (2013) [Discriminative Improvements to Distributional Sentence Similarity](http://www.aclweb.org/anthology/D/D13/D13-1090.pdf), *Proceedings of Empirical Methods in Natural Language Processing (EMNLP 2013)*, Seattle, Washington, USA, pp. 891--896
 + 
 
 

@@ -16,6 +16,76 @@ refer:
 
 
 
+### Question
+
++ The few shot is deal with the balanced dataset, using 5-way or 10-way setting, support set and query set are from the test dataset (But in reality, we don't know the label of support set, so the support set must construct from train data), how to use it in real world application with large numbers of relation types (such as 50-way) ?
+
+  https://github.com/thunlp/FewRel/issues/9
+  
++ what they learned ? why it works ?
+
+### Summary
+
+1. For prototypical networks, it produce multiple prototype for each classes.
+
+   a prototypical class is calculate by the average encoder of batch size * K.
+
+2. For train/eval/test, the min number of instance in each classes is K + Q.
+
+1) The train data is totally unrelated the eval or test data (Those labels are never seen in train data). The support set and query set is sampled from each dataset.
+
+2) 
+
+Training Step:
+The normal training steps in few shot learning is to select N classes for each batch and K instances for each class in the support set.
+(For proto network, it's beneficial to use more classes. so, it maybe more than N classes.)
+
+The classes in the query set come from the N classes in the support set, and the instances is shuffled.
+
+So, the model should learn how to determine the classes of each instances in the query set, this is multi-class classification problem.
+
+(For proto network, it's decide by the distance between the prototypical class of support set and the query set.)
+
+Testing Step:
+The normal testing steps in few shot learning is to select N classes for each batch and K instances for each class in the support set.
+And the N classes is not used in training step.
+
+3. Current few shot learning is major for balance classes.
+
+
+
+### Task/Problem Statement
+
+**Task**: N-way k-shot learning task. i.e. we're given k (e.g. 1 or 5) labeled examples for N classes that we have not previously trained on and asked to classify new instances into the N classes.
+
+（无需重新训练模型，对于少量标注样本的新类别，可以完成新类别的分类）
+
+**Problem Statement**: Using a large annotated offline dataset, perform given task for novel categories, represented by just a few samples each.
+
+![few shot problem statement](https://github.com/bifeng/daily_book_notes/raw/master/resource/problem_statement.png)
+
+
+
+**Few-shot classification** is a task in which a classifier must be adapted to accommodate new classes not seen in training, given only a few examples of each of these classes. A naive approach, such as re-training the model on the new data, would severely overfit. 
+
+
+
+For train, both the supporting set and the query set should come from the train dataset. The same for the validation and test phase. Note that the train, val and test datasets DO NOT share relations types.
+
+### Challenge
+
+- 
+
+
+
+
+
+### Motivation
+
+For learn **invariant/general representation** from few dataset, we should bring in any extra supervised information or exploit prior knowledge from other tasks or domain ... 
+
+
+
 
 
 ### Definition
@@ -26,9 +96,27 @@ Definition 2.2. Few-Shot Learning (FSL) is a type of machine learning problems (
 
 
 
-### Motivation
+Task Formulation (few-shot relation classification)
 
-For learn **invariant/general representation** from few dataset, we should bring in any extra supervised information or exploit prior knowledge from other tasks or domain ... 
+We intend to obtain a function $F: (\cal{R},\cal{S},x) \rightarrow y$. 
+
+$\cal{R}=\{r_1,\dots,r_m\}$ defines the relations that the instances are classified into.<br>$\cal{S} = \{(x^1_1,r_1),(x^2_1,r_1),\dots,(x^{n_1}_1,r_1),\dots,(x^1_m,r_m),(x^2_m,r_m),\dots,(x^{n_m}_m,r_m)\}$ is a support set including $n_i$ instances for each relation $r_i \in \cal{R}$.
+
+For relation classification, a data instance $x^j_i$ is a sentence accompanied with a pair of entities. 
+
+<u>The query data $x$ is an unlabeled instance to classify, and $y \in \cal{R}$ is the prediction of $x$ given by $F$.</u>
+
+For $N$ way $K$ shot learning, $N=m=|\cal{R}|$, $K=n_1=\dots=n_m$. 
+
+
+
+### Architecture
+
+形式化来说，few-shot 的训练集中包含了很多的类别，每个类别中有多个样本。在训练阶段，会在训练集中**随机抽取** C 个类别，每个类别 K 个样本（总共 CK 个数据），构建一个 meta-task，作为模型的支撑集（support set）输入；再从这 C 个类中剩余的数据中抽取一批（batch）样本作为模型的预测对象（batch set）。即要求模型从 C*K 个数据中学会如何区分这 C 个类别，这样的任务被称为 C-way K-shot 问题。
+
+训练过程中，每次训练（episode）都会采样得到不同 meta-task，所以总体来看，训练包含了不同的类别组合，这种机制使得模型学会不同 meta-task 中的共性部分，比如如何提取重要特征及比较样本相似等，忘掉 meta-task 中 task 相关部分。通过这种学习机制学到的模型，在面对新的未见过的 meta-task 时，也能较好地进行分类。
+
+（本质上，就是控制训练学习的方式，即训练过程每个epoch的分布）
 
 
 
@@ -45,6 +133,8 @@ For learn **invariant/general representation** from few dataset, we should bring
 + natural language processing
 
   examples include few-shot translation [52] and. language modeling [125].
+
+  intent classification.
 
 + recommendation
 
@@ -185,6 +275,10 @@ The key assumption is made is that there exists an embedding in which samples fr
 
 Another contribution of this paper is a persuasive theoretical argument to use <u>euclidean distance</u> over cosine distance in metric learning that also justifies <u>the use of class means</u> as prototypical representations. The key is to recognise that squared euclidean distance (but not cosine distance) is a member of a particular class of distance functions known as **Bregman divergences**. ... 
 
+###### Relation Networks
+
+之前的距离度量方式是强约束，relation networks认为距离的度量也可以学习，从而将距离度量方式转变为软约束。
+
 
 
 
@@ -243,11 +337,6 @@ Motivation: *optimize the model parameters explicitly for fast learning* (普通
 
 
 
-### Challenge
-
-+ How to construct the training set with support set ?
-+ 
-
 
 
 
@@ -256,7 +345,7 @@ Motivation: *optimize the model parameters explicitly for fast learning* (普通
 
 ### Question
 
-- How to select a good support set (支撑集) ?
+- Why always use 5-way 1-shot or 5-way 5-shot in few shot learning ?
 
 - How to training model with less parameter for few shot data ?
 

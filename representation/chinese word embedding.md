@@ -20,7 +20,7 @@ We used the [*Stanford word segmenter*](https://nlp.stanford.edu/software/segmen
 
 [*Common Crawl*](http://commoncrawl.org/) and [*Wikipedia*](https://www.wikipedia.org/) - Chinese: [bin](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.zh.300.bin.gz), [text](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.zh.300.vec.gz) 
 
-[*Wikipedia*](https://www.wikipedia.org/) - Chinese: [*bin+text*](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.zh.zip), [*text*](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.zh.vec) 
+
 
 #### ELMO
 
@@ -33,7 +33,7 @@ Use [udpipe](http://ufal.mff.cuni.cz/udpipe) for **tokenization**!
 | ELMO                     |                                                              |      |
 | ------------------------ | ------------------------------------------------------------ | ---- |
 | traditional Chinese ELMo | Wikipedia                                                    |      |
-| simplified-Chinese ELMo  | xinhua proportion of [Chinese gigawords-v5](https://catalog.ldc.upenn.edu/ldc2011t13) |      |
+| simplified-Chinese ELMo  | xinhua proportion of [Chinese gigawords-v5](https://catalog.ldc.upenn.edu/ldc2011t13) [baidu-pan](https://pan.baidu.com/s/1RNKnj6hgL-2orQ7f38CauA) |      |
 |                          |                                                              |      |
 
 

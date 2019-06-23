@@ -11,7 +11,7 @@ https://github.com/sebastianruder/NLP-progress/blob/master/english/multi-task_le
 ### Literature review
 
 + R. Caruana. Multitask Learning. Machine Learning, 28(1):41-75, 1997.
-+ 
++ An Overview of Multi-Task Learning in Deep Neural Networks, Sebastian Ruder, [arxiv](https://arxiv.org/abs/1706.05098) :star::star::star:
 
 ### paper
 

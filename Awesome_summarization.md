@@ -20,7 +20,7 @@ https://en.wikipedia.org/wiki/Automatic_summarization
 
 ### literature review
 
-+ Text Summarization Techniques: A Brief Survey, Mehdi Allahyari, Seyedamin Pouriyeh, Mehdi Assefi, Saeid Safaei, Elizabeth D. Trippe, Juan B. Gutierrez, Krys Kochut, 2017 [arxiv](https://arxiv.org/abs/1707.02268) 
++ Text Summarization Techniques: A Brief Survey, Mehdi Allahyari, Seyedamin Pouriyeh, Mehdi Assefi, Saeid Safaei, Elizabeth D. Trippe, Juan B. Gutierrez, Krys Kochut, 2017 [arxiv](https://arxiv.org/abs/1707.02268) :star::star:
 + A survey of text summarization techniques, *Ani Nenkova, Kathleen R. McKeown*. In Mining Text Data (pp. 43-76). Springer US, 2012 [paper](https://pdfs.semanticscholar.org/8d7f/6dc8b0b9101580cc96f1f303d1eba3d590af.pdf) focus on extractive summarization methods :star::star::star::star::star:
 + A Survey of Text Summarization Extractive Techniques,  *Vishal Gupta, Gurpreet Singh Lehal*, 2010 [paper](http://www.learnpunjabi.org/pdf/survey-paper.pdf) 
 

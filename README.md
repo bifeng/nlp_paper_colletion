@@ -20,8 +20,6 @@
 
 [Bias Statement Detector (BSD)](https://github.com/cjhutto/bsd) computationally detects and quantifies the degree of bias in sentence-level text of news stories.
 
-### Relation Extraction
-
 ## Challenges
 
 ### Context-aware(Prior) and World Knowledge 
@@ -238,7 +236,29 @@ EMNLP -
 - Analogical Reasoning on Chinese Morphological and Semantic Relations, ACL 2018. [paper](http://aclweb.org/anthology/P18-2023) | [code](https://github.com/Embedding/Chinese-Word-Vectors) 
 - 
 
+### data programming
+
++ [Snorkel](https://github.com/HazyResearch/snorkel)
+
++ Data Programming: Creating Large Training Sets, Quickly. Alexander Ratner, Christopher De Sa, Sen Wu, Daniel Selsam, Christopher Ré, 2016 NIPS, [arxiv](https://arxiv.org/abs/1605.07723) 
+
+  We therefore propose a paradigm for the programmatic creation of training sets called data programming in which users express weak supervision strategies or domain heuristics as labeling functions, which are programs that label subsets of the data, but that are noisy and may conflict.
+
++ 
+
 ### data augmentation
+
++ EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks, Jason W. Wei, Kai Zou, ICLR 2019, [arxiv](https://arxiv.org/abs/1901.11196) | [code](https://github.com/jasonwei20/eda_nlp) 
+
+  <details>
+      EDA is the following operations: <br>
+  1. Synonym Replacement (SR): Randomly choose n words from the sentence that are not
+     stop words. Replace each of these words with one of its synonyms chosen at random.<br>
+  2. Random Insertion (RI): Find a random synonym of a random word in the sentence that is
+     not a stop word. Insert that synonym into a random position in the sentence. Do this n times.<br>
+  3. Random Swap (RS): Randomly choose two words in the sentence and swap their positions.
+     Do this n times.<br>
+  4. Random Deletion (RD): Randomly remove each word in the sentence with probability p.
 
 + Conditional BERT Contextual Augmentation, Xing Wu, Shangwen Lv, Liangjun Zang, Jizhong Han, Songlin Hu, 201812, [arxiv](https://arxiv.org/abs/1812.06705) 
 
@@ -270,16 +290,11 @@ EMNLP -
 + Unsupervised Named-Entity Extraction from the Web: An Experimental Study, 2005 [paper](https://web.eecs.umich.edu/~michjc/papers/knowitall-aij.pdf) 
 + 
 
-### relation extraction
-
-- Graph Convolution over Pruned Dependency Trees Improves Relation Extraction, Yuhao Zhang, Peng Qi, Christopher D. Manning, EMNLP 2018 [arxiv](https://arxiv.org/abs/1809.10185) | [code](https://github.com/qipeng/gcn-over-pruned-trees) 
-- RelEx—Relation extraction using dependency parse trees, Katrin Fundel  Robert Küffner  Ralf Zimmer, Bioinformatics 2007.
-
 
 
 ### entity classification
 
-+ Unsupervised Models for Named Entity Classification, 1999 [paper](http://www.aclweb.org/anthology/W99-0613) 
++ Unsupervised Models for Named Entity Classification, Michael Collins and Yoram Singer, 1999 [paper](http://www.aclweb.org/anthology/W99-0613) :star::star::star::star:
 
 
 
@@ -304,6 +319,15 @@ EMNLP -
 
   - [x] data scarcity
   - [x] transfer learning
+
++ Chen, T.; Xu, R.; He, Y.; Wang, X. Improving sentiment analysis via sentence type classification using BiLSTM-CRF and CNN. Expert Syst. Appl. 2017 :star::star:
+
+  BiLSTM-CRF ?
+
++ Attention-based LSTM for Aspect-level Sentiment Classification, Yequan Wang and Minlie Huang and Li Zhao* and Xiaoyan Zhu, EMNLP 2016, [paper](https://aclweb.org/anthology/D16-1058) :star::star::star: 
+
+  Aspect-level ? 关注特定词语？可以用于entity linking中候选实体排序 ?
+
 + VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media, CJ Hutto & [Eric Gilbert's](http://eegilbert.org/) [social media](http://comp.social.gatech.edu/) (ICWSM-14). Ann Arbor, MI, June 2014. <br>supplement: [data set](http://comp.social.gatech.edu/papers/hutto_ICWSM_2014.tar.gz) [code (github)](https://github.com/cjhutto/vaderSentiment) [python package](https://pypi.python.org/pypi/vaderSentiment) 
 
 ### natural language inference
@@ -323,6 +347,7 @@ EMNLP -
 
 https://github.com/sebastianruder/NLP-progress/blob/master/english/stance_detection.md
 
+- Defending Against Neural Fake News, Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, Yejin Choi, [arxiv](<https://arxiv.org/abs/1905.12616>) | [code](<https://github.com/rowanz/grover>) 
 - Combating Fake News: A Survey on Identification and Mitigation Techniques, Karishma Sharma, Feng Qian, He Jiang, Natali Ruchansky, Ming Zhang, Yan Liu, ACM 2019, [arxiv](https://arxiv.org/abs/1901.06437) 
 - False News On Social Media: A Data-Driven Survey, Francesco Pierri, Stefano Ceri, 2019, [arxiv](https://arxiv.org/abs/1902.07539) 
 - DeClarE: Debunking Fake News and False Claims using Evidence-Aware Deep Learning, Kashyap Popat, Subhabrata Mukherjee, Andrew Yates, Gerhard Weikum, EMNLP 2018 [arxiv](https://arxiv.org/abs/1809.06416) 

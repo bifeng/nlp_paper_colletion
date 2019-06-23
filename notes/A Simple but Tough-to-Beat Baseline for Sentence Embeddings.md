@@ -2,7 +2,7 @@
 
 + why need use `a set of sentences` for single sentence embedding ?
 
-  
+  In the PCA step, it need use `a set of sentences` to remove the dominating vector, so it's dataset-specific.
 
 + Which dimension reduce (PCA) to 1000 sentences with 300 dimension sentence embedding ?
 
@@ -20,7 +20,7 @@
 
 #### motivation
 
-We motivated by **the empirical observation** that most word embedding methods, since they seek to capture word co-occurrence probabilities using vector inner product, end up giving large vectors to frequent words, as well as giving unnecessarily large inner products to word pairs, simply to fit the empirical observation that words sometimes occur out of context in documents. These anomalies cause the average of word vectors to have huge components along semantically meaningless directions.
+We motivated by **the empirical observation** that most word embedding methods, since they seek to capture word co-occurrence probabilities using vector inner product, end up giving large vectors to frequent words, as well as giving unnecessarily large inner products to word pairs, simply to fit the empirical observation that words sometimes occur out of context in documents. These anomalies cause the average of word vectors to have huge components along semantically meaningless directions. (简而言之，背景词（中心词）预测中心词（背景词）依赖的是词语的共现概率，所以词频越高，学习到对应的词向量越大)
 
 
 
