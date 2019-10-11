@@ -24,6 +24,9 @@
 
 - Data Noising as Smoothing in Neural Network Language Models, Ziang Xie, Sida I. Wang, Jiwei Li, Daniel Lévy, Aiming Nie, Dan Jurafsky, Andrew Y. Ng, ICLR 2017 [arxiv](https://arxiv.org/abs/1703.02573) 
 
+- Learning to Compose Domain-Specific Transformations for Data Augmentation
+  Alexander J. Ratner, Henry R. Ehrenberg, Zeshan Hussain, Jared Dunnmon, Christopher Ré NIPS 2017 [arxiv](<https://arxiv.org/abs/1709.01643>) [code](<https://github.com/HazyResearch/tanda>) 
+
 ### Blogs
 
 |                                                         |                                                              |

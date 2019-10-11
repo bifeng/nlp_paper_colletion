@@ -34,7 +34,6 @@ http://www.scholarpedia.org/article/Metalearning
 
 + Hugo Larochelle
 
-  
 
 ### Literature review
 
@@ -124,7 +123,7 @@ http://www.scholarpedia.org/article/Metalearning
   > 同时学习优化规则和初始化权重，以往的工作往往是只能学习二者之一
 
 
-+ MAML: Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks, **Chelsea Finn**, Pieter Abbeel, Sergey Levine, ICML 2017 [arxiv](https://arxiv.org/abs/1703.03400) | [Pytorch](https://github.com/AntreasAntoniou/HowToTrainYourMAMLPytorch) :star::star::star: 
++ MAML: Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks, **Chelsea Finn**, Pieter Abbeel, Sergey Levine, ICML 2017 [arxiv](https://arxiv.org/abs/1703.03400) | [Pytorch](https://github.com/AntreasAntoniou/HowToTrainYourMAMLPytorch) [Tensorflow](<https://github.com/gitlimlab/MAML-tf>) :star::star::star: 
 
   Chelsea Finn and Sergey Levine. [Meta-learning and universality: Deep representations and gradient descent can approximate any learning algorithm.](https://arxiv.org/abs/1710.11622) arXiv preprint arXiv:1710.11622, 2017.
 
@@ -157,8 +156,6 @@ http://www.scholarpedia.org/article/Metalearning
 + Hybrid Attention-Based Prototypical Networks for Noisy Few-Shot Relation Classification,  Tianyu Gao*, Xu Han*, Zhiyuan Liu, Maosong Sun, AAAI2019 [paper](https://gaotianyu1350.github.io/assets/aaai2019_hatt_paper.pdf) | [code](https://github.com/thunlp/HATT-Proto) 
 
   corrupt the support set: each instance in the support set has a probability of rate to be corrupted with a sentence whose relation is not the same as the original one.
-
-  
 
 + Han, Xu, et al. "FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation."  (EMNLP 2018) [arxiv](https://arxiv.org/abs/1810.10147). 
 
