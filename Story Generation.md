@@ -22,6 +22,8 @@ ACL EMNLP 2017 | 故事的最后你还是说了……RocStories 数据集上的�
 
 + [Texygen](https://github.com/geek-ai/Texygen) 
 
++ <https://github.com/harvardnlp/neural-template-gen>
+
   
 
 + [fairseq](https://github.com/pytorch/fairseq) - pytorch

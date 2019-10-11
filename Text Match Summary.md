@@ -1,39 +1,108 @@
-Textual Entailment Recognize
+reference:<br>文本/语义 相似度计算 [site](https://zhuanlan.zhihu.com/p/43241696)
 
-https://aclweb.org/aclwiki/Textual_Entailment_Portal
+### Question
+
+#### Short Text/Long Text
+
+Short Text is sparse, noisy and ambiguous!
+
+Example: 
+
+short query in search
+
+short answer in QA
+
+Solution:
+
+- short text
+
+  word level encoding: Stack BiLSTM对token sequence进行encoding，将得到的hidden states做location-based attention，加权累加得到short text encoding
+
+- long text
+
+  sentence level encoding:对于多个句子，可以分层次做encoding。先用BiLSTM+attention做word level encoding、得到每个句子encoding的vector、按序组成sequence、再用BiLSTM+attention（这里的attention有很多花样可以玩）对这个sequence进行encoding、得到long text encoding
+
+#### Symmetric in architecture
+
+We always apply the concatenate operation when creating interactive features and this operation breaks symmetry.
+
+How to grasp both symmetry ?
+
+1) do it the concatenate operation twice. The first time is for [Sent1, Sent2] and the second time is for [Sent2, Sent1]. Finally, aggregate these two results.
+
+2) double the training data, one for sentences pair <A, B> and the other for pair <B, A>. 
+
+3) Alternatively, we can average the prediction of pair <A, B> and pair <B, A> in the testing phase.
+
+refer:  [site](<https://towardsdatascience.com/simtext-2nd-solution-for-cikm-analyticup-2018-b3347e026e67>) | [code](<https://github.com/zake7749/CIKM-AnalytiCup-2018/blob/master/closer/model/sim_zoos.py>)
+
+
+
+### Advantage and Disadvantage
+
+- 实时计算
+
+- 检索效率（召回）
+
+  QA情景-从海量语料库中寻找最相似的Top-Q。
+
+  - LSH（Locality-Sensitive Hashing）是一种不错的方法：
+
+    基本思想：设计hash function对vector分桶、使原先 相邻/距离相近 的两个数据（vector）能够被hash到相同的桶内、具有相同的桶号。
+
+    不同距离度量方式对应的hash function是不同的，比如常用的cosin distance对应的hash function是Random Hyperplanes，用随机的超平面进行编码，大概思路：随机取一个超平面（向量v），来用决定一个hash function：h(x) = 1 if v*x >0 else 0，如此、取三个超平面，就对应3个hash function、得到三个值，这三个值组成Bin index向量，就相当于把原来n维的数据降到三维，分别给它们一个序号如[0,0,0]=0、[0,0,1]=1、[0,1,1]=2...，这个序号就是桶号、就是hash 的值，其实就是个降维的过程。
+
+    其他的：Jaccard距离对应min-hash、欧式距离对应P-stable hash，感兴趣的可以自己survey.
+
+  - faiss
+
+    https://github.com/facebookresearch/faiss
+
+  - annoy
+
+    https://github.com/spotify/annoy
 
 
 
 
 
-### datasets
+### Application
 
-https://nlp.stanford.edu/projects/snli/
-
-
-
-### STOA
-
-https://github.com/sebastianruder/NLP-progress/blob/master/english/semantic_textual_similarity.md
-
-https://aclweb.org/aclwiki/Paraphrase_Identification_(State_of_the_art)
-
-https://paperswithcode.com/task/paraphrase-identification/latest
-
-https://paperswithcode.com/task/text-matching
+搜索、问答
 
 
 
-### paper
+### Architecture
 
-+ Enhanced LSTM for Natural Language Inference, Qian Chen, Xiaodan Zhu, Zhenhua Ling, Si Wei, Hui Jiang, Diana Inkpen, ACL 2017 [arxiv](https://arxiv.org/abs/1609.06038) 
-+ Bilateral Multi-Perspective Matching for Natural Language Sentences, Zhiguo Wang, Wael Hamza, Radu Florian, IJCAI 2017 [arxiv](https://arxiv.org/abs/1702.03814) 
+- 输入一对句子，然后输出一个0/1标签代表相似程度，也就是视为一个二分类问题
+
+- 输入一个三元组“（句子A，跟A相似的句子，跟A不相似的句子）”，然后用triplet loss的做法解决
+
+- 输入一个句子（该句子及其同义句为一个类别），即视为一个多分类问题，采用margin softmax loss训练
+
+  more: <https://spaces.ac.cn/archives/5743/comment-page-1>
 
 
 
-+ Ji, Y. and Eisenstein, J. (2013) [Discriminative Improvements to Distributional Sentence Similarity](http://www.aclweb.org/anthology/D/D13/D13-1090.pdf), *Proceedings of Empirical Methods in Natural Language Processing (EMNLP 2013)*, Seattle, Washington, USA, pp. 891--896
-+ 
+#### compare-aggregate
 
+first exhaustively compares words from one sentence to another, then aggregates the comparison results to make final predictions. 
+
+compare strategies :
+
+multi-scale compare (at multiple levels of granularity)
+
+...
+
+
+
+aggregate strategies :
+
+attentive 
+
+max-pooling 
+
+...
 
 
 
@@ -135,66 +204,5 @@ https://paperswithcode.com/task/text-matching
 
 
 
-### Question
-
-#### Short Text/Long Text
-
-Short Text is sparse, noisy and ambiguous!
-
-Example: 
-
-short query in search
-
-short answer in QA
-
-Solution:
-
-+ short text
-
-  word level encoding: Stack BiLSTM对token sequence进行encoding，将得到的hidden states做location-based attention，加权累加得到short text encoding
-
-+ long text
-
-  sentence level encoding:对于多个句子，可以分层次做encoding。先用BiLSTM+attention做word level encoding、得到每个句子encoding的vector、按序组成sequence、再用BiLSTM+attention（这里的attention有很多花样可以玩）对这个sequence进行encoding、得到long text encoding
 
 
-
-### Advantage and Disadvantage
-
-
-+ 实时计算
-
-
-+ 检索效率（召回）
-
-  QA情景-从海量语料库中寻找最相似的Top-Q。
-
-  + LSH（Locality-Sensitive Hashing）是一种不错的方法：
-
-    基本思想：设计hash function对vector分桶、使原先 相邻/距离相近 的两个数据（vector）能够被hash到相同的桶内、具有相同的桶号。
-
-    不同距离度量方式对应的hash function是不同的，比如常用的cosin distance对应的hash function是Random Hyperplanes，用随机的超平面进行编码，大概思路：随机取一个超平面（向量v），来用决定一个hash function：h(x) = 1 if v*x >0 else 0，如此、取三个超平面，就对应3个hash function、得到三个值，这三个值组成Bin index向量，就相当于把原来n维的数据降到三维，分别给它们一个序号如[0,0,0]=0、[0,0,1]=1、[0,1,1]=2...，这个序号就是桶号、就是hash 的值，其实就是个降维的过程。
-
-    其他的：Jaccard距离对应min-hash、欧式距离对应P-stable hash，感兴趣的可以自己survey.
-
-  + faiss
-
-    https://github.com/facebookresearch/faiss
-
-  + annoy
-
-    https://github.com/spotify/annoy
-
-
-
-
-
-### Application
-
-搜索、问答
-
-
-
-
-
-reference:<br>文本/语义 相似度计算 [site](https://zhuanlan.zhihu.com/p/43241696)

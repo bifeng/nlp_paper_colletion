@@ -71,12 +71,42 @@ Deep Reinforcement Learning for NLP ACL 2018 [ppt](http://www.cs.ucsb.edu/~willi
      融合多种信息的、任务或领域特异的、跨语言、消歧的词汇表示学习
 
   2. 句子表示学习
+  
++ ...
+
++ The most important NLP highlights of 2018 (PDF Report)
+
+  <https://github.com/omarsar/nlp_highlights>
 
 ## Progress
 
-The progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.<br>https://github.com/sebastianruder/NLP-progress<br>https://github.com/Kyubyong/nlp_tasks
+The progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.<br>https://github.com/sebastianruder/NLP-progress
+
+https://github.com/Kyubyong/nlp_tasks
+
+<https://github.com/omarsar/nlp_overview> <https://nlpoverview.com/>
+
+https://github.com/didi/ChineseNLP https://chinesenlp.xyz
+
+<https://github.com/chineseGLUE/chineseGLUE>
 
 https://aclweb.org/aclwiki/State_of_the_art
+
+## Conference
+
++ CCKS 全国知识图谱与语义计算大会
+
+  
+
++ CCF 中国计算机学会
+
+  CNCC 中国计算机大会
+
+  CCFTF (TechFrontier)
+
+  <https://www.ccf.org.cn/tf/ndhdjh/>
+
+  
 
 ## Competition
 
@@ -130,6 +160,8 @@ CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependen
 refer: [Minsky, Chomsky & Deep Nets](https://stu.cs.tsinghua.edu.cn/wiki/images/4/45/2018-10-21_CCL2018_Ken.pdf)
 
 ### Question
+
+A Structural Probe for Finding Syntax in Word Representations, [paper](https://nlp.stanford.edu/pubs/hewitt2019structural.pdf) | [code](<https://github.com/john-hewitt/structural-probes/>) 
 
 **Linguistic Knowledge and Transferability of Contextual Representations**. [Nelson F. Liu](https://homes.cs.washington.edu/~nfliu/), [Matt Gardner](https://allenai.org/team/mattg/), [Yonatan Belinkov](http://people.csail.mit.edu/belinkov/), Matthew E. Peters, and [Noah A. Smith](http://www.cs.cmu.edu/~nasmith). In *Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics* (**NAACL 2019**), June 2019.
 
@@ -189,6 +221,8 @@ MSc project: Inferring Sentence Features from Sentence Embeddings, [code](https:
 
 [定期论文阅读](https://github.com/dantezhao/paper-notes) 
 
+[论文阅读](<https://github.com/52paper/52paper.github.io>) 
+
 [问题讨论](https://github.com/dantezhao/data-group) 
 
 [nlp-reading-group](https://github.com/clulab/nlp-reading-group) 
@@ -236,38 +270,6 @@ EMNLP -
 - Analogical Reasoning on Chinese Morphological and Semantic Relations, ACL 2018. [paper](http://aclweb.org/anthology/P18-2023) | [code](https://github.com/Embedding/Chinese-Word-Vectors) 
 - 
 
-### data programming
-
-+ [Snorkel](https://github.com/HazyResearch/snorkel)
-
-+ Data Programming: Creating Large Training Sets, Quickly. Alexander Ratner, Christopher De Sa, Sen Wu, Daniel Selsam, Christopher Ré, 2016 NIPS, [arxiv](https://arxiv.org/abs/1605.07723) 
-
-  We therefore propose a paradigm for the programmatic creation of training sets called data programming in which users express weak supervision strategies or domain heuristics as labeling functions, which are programs that label subsets of the data, but that are noisy and may conflict.
-
-+ 
-
-### data augmentation
-
-+ EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks, Jason W. Wei, Kai Zou, ICLR 2019, [arxiv](https://arxiv.org/abs/1901.11196) | [code](https://github.com/jasonwei20/eda_nlp) 
-
-  <details>
-      EDA is the following operations: <br>
-  1. Synonym Replacement (SR): Randomly choose n words from the sentence that are not
-     stop words. Replace each of these words with one of its synonyms chosen at random.<br>
-  2. Random Insertion (RI): Find a random synonym of a random word in the sentence that is
-     not a stop word. Insert that synonym into a random position in the sentence. Do this n times.<br>
-  3. Random Swap (RS): Randomly choose two words in the sentence and swap their positions.
-     Do this n times.<br>
-  4. Random Deletion (RD): Randomly remove each word in the sentence with probability p.
-
-+ Conditional BERT Contextual Augmentation, Xing Wu, Shangwen Lv, Liangjun Zang, Jizhong Han, Songlin Hu, 201812, [arxiv](https://arxiv.org/abs/1812.06705) 
-
-+ Contextual Augmentation: Data Augmentation by Words with Paradigmatic Relations. Sosuke Kobayashi, NAACL-HLT, 2018. [arxiv](https://arxiv.org/pdf/1805.06201.pdf) | [code](https://github.com/pfnet-research/contextual_augmentation) 
-
-  Contextual augmentation is a domain-independent data augmentation for text classification tasks. Texts in supervised dataset are augmented by replacing words with other words which are predicted by a label-conditioned bi-directional language model.
-
-+ Data Noising as Smoothing in Neural Network Language Models, Ziang Xie, Sida I. Wang, Jiwei Li, Daniel Lévy, Aiming Nie, Dan Jurafsky, Andrew Y. Ng, ICLR 2017 [arxiv](https://arxiv.org/abs/1703.02573) 
-
 
 ### pre-training word embedding
 
@@ -300,11 +302,10 @@ EMNLP -
 
 ### sentence compression
 
+- Global inference for sentence compression: An integer linear programming approach, J Clarke, M Lapata - Journal of Artificial Intelligence Research, 2008 :star::star::star:
 - Language as a Latent Variable: Discrete Generative Models for Sentence Compression, Yishu Miao, Phil Blunsom, EMNLP 2016 [arxiv](https://arxiv.org/abs/1609.07317) 
 - Sentence Compression as Tree Transduction, Trevor Anthony Cohn, Mirella Lapata, 2009 [arxiv](https://arxiv.org/abs/1401.5693) 
-
 - Global Inference for Sentence Compression: An Integer Linear Programming Approach James Clarke，Mirella Lapata 2008 [code](https://github.com/cnap/sentence-compression) 
-
 - Sentence Reduction for Automatic Text Summarization, Hongyan Jing 2000 [paper](https://www.aclweb.org/anthology/A/A00/A00-1043.pdf) 
 - 
 - A Multi-task Learning Approach for Improving Product Title Compression with User Search Log Data, Jingang Wang, Junfeng Tian, Long Qiu, Sheng Li, Jun Lang, Luo Si, Man Lan, AAAI 2018 [arxiv](https://arxiv.org/abs/1801.01725) 
@@ -312,23 +313,6 @@ EMNLP -
 ### sentence summarization
 
 - A Neural Attention Model for Abstractive Sentence Summarization, Alexander M. Rush, Sumit Chopra, Jason Weston, Facebook, EMNLP 2015 [code](https://github.com/facebookarchive/NAMAS) 
-
-### sentimental analysis
-
-+ Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm, Bjarke Felbo, et al., EMNLP 2017 [arxiv](https://arxiv.org/abs/1708.00524) | [code](https://github.com/bfelbo/DeepMoji) 
-
-  - [x] data scarcity
-  - [x] transfer learning
-
-+ Chen, T.; Xu, R.; He, Y.; Wang, X. Improving sentiment analysis via sentence type classification using BiLSTM-CRF and CNN. Expert Syst. Appl. 2017 :star::star:
-
-  BiLSTM-CRF ?
-
-+ Attention-based LSTM for Aspect-level Sentiment Classification, Yequan Wang and Minlie Huang and Li Zhao* and Xiaoyan Zhu, EMNLP 2016, [paper](https://aclweb.org/anthology/D16-1058) :star::star::star: 
-
-  Aspect-level ? 关注特定词语？可以用于entity linking中候选实体排序 ?
-
-+ VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media, CJ Hutto & [Eric Gilbert's](http://eegilbert.org/) [social media](http://comp.social.gatech.edu/) (ICWSM-14). Ann Arbor, MI, June 2014. <br>supplement: [data set](http://comp.social.gatech.edu/papers/hutto_ICWSM_2014.tar.gz) [code (github)](https://github.com/cjhutto/vaderSentiment) [python package](https://pypi.python.org/pypi/vaderSentiment) 
 
 ### natural language inference
 
@@ -343,13 +327,3 @@ EMNLP -
 
 
 
-### Stance detection
-
-https://github.com/sebastianruder/NLP-progress/blob/master/english/stance_detection.md
-
-- Defending Against Neural Fake News, Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, Yejin Choi, [arxiv](<https://arxiv.org/abs/1905.12616>) | [code](<https://github.com/rowanz/grover>) 
-- Combating Fake News: A Survey on Identification and Mitigation Techniques, Karishma Sharma, Feng Qian, He Jiang, Natali Ruchansky, Ming Zhang, Yan Liu, ACM 2019, [arxiv](https://arxiv.org/abs/1901.06437) 
-- False News On Social Media: A Data-Driven Survey, Francesco Pierri, Stefano Ceri, 2019, [arxiv](https://arxiv.org/abs/1902.07539) 
-- DeClarE: Debunking Fake News and False Claims using Evidence-Aware Deep Learning, Kashyap Popat, Subhabrata Mukherjee, Andrew Yates, Gerhard Weikum, EMNLP 2018 [arxiv](https://arxiv.org/abs/1809.06416) 
-- Hutto, C.J. (2015). Computationally Detecting and Quantifying the Degree of Bias in Sentence-Level Text of News Stories. Second International Conference on Human and Social Analytics (HUSO-15). Barcelona, Spain 2015. [code](https://github.com/cjhutto/bsd) 
-- 

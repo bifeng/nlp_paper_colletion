@@ -20,6 +20,12 @@
 
 
 
+### STOA
+
+<https://paperswithcode.com/task/machine-reading-comprehension>
+
+
+
 ### Dataset
 
 + SQuAD
@@ -28,9 +34,19 @@
 
   Know What You Don't Know: Unanswerable Questions for SQuAD [arxiv](https://arxiv.org/abs/1806.03822) 
 
+### Tools
+
++ jack
+
+  Jack the Reader
+
+  <https://github.com/uclmr/jack>
+
+
+
 ### Literature Review
 
-- Neural Reading Comprehension and Beyond, Danqi Chen, 2018 [code](https://github.com/danqi/thesis)
+- Neural Reading Comprehension and Beyond, Danqi Chen, 2018 [code](https://github.com/danqi/thesis) | [zh](<https://chendq-thesis-zh.readthedocs.io/en/latest/>) 
   - [x] Neural Reading Comprehension 
 
 ### Paper
@@ -40,6 +56,20 @@
   **DAE（DA Enhanced）**，这里的 DA 有两层含义，一个是数据增强（Data Augmentation），另一个是领域自适应（Domain Adaptation）。
 
   **Attention-over-Attention**
+
+- Learning to Ask Unanswerable Questions for Machine Reading Comprehension, Haichao Zhu, Li Dong, Furu Wei, Wenhui Wang, Bing Qin, **Ting Liu**, ACL 2019, [arxiv](<https://arxiv.org/abs/1906.06045>) 
+
+  >We propose a data augmentation technique by automatically generating relevant unanswerable questions according to an answerable question paired with its corresponding paragraph that contains the answer.
+  >
+  >
+  >
+  >We train question answering models with augmentation data in two separate phases. 
+  >
+  >In the first phase, we train the models by combining the augmentation data and all 86, 821 SQuAD 2.0 answerable examples. 
+  >
+  >Subsequently, we use the original SQuAD 2.0 training data alone to further fine-tune model parameters.
+
+  
 
 - Adversarial Examples for Evaluating Reading Comprehension Systems, Robin Jia, Percy Liang, EMNLP 2017 - Outstanding Paper Award. [arxiv](https://arxiv.org/abs/1707.07328) | [code](https://github.com/robinjia/adversarial-squad) | [Robin Jia](http://stanford.edu/~robinjia/) 
 

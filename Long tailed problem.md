@@ -43,3 +43,31 @@ https://liuziwei7.github.io/projects/LongTail.html
 
 
 
+### Summary
+
+1. 先验知识
+
+   带有大量先验知识的预训练模型，如Bert等
+
+2. 外部知识
+
+   知识图谱
+
+   1）直接编码特征
+
+   2）扩充训练数据（伪标签上训练模型，真实标签上fine-tuning模型）
+
+   weakly supervision、distant supervision等
+
+   如 - Matching the Blanks: Distributional Similarity for Relation Learning、Early Discovery of Emerging Entities in Microblogs...
+
+
+
+
+
+
+
+
+
+
+

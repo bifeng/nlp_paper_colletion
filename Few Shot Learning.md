@@ -6,11 +6,17 @@ http://www.scholarpedia.org/article/Metalearning
 
 ### conference
 
++ ICML
+
+  Meta-Learning: from Few-Shot Learning to Rapid  Reinforcement Learning
+
+  <https://sites.google.com/view/icml19metalearning>
+
+  AutoML 2017 @ ICML
+
 + ICLR
 
 + http://metalearning.ml/2018/
-
-+ AutoML 2017 @ ICML
 
 + meta-learning symposium @ NIPS 2018
 
@@ -103,7 +109,7 @@ http://www.scholarpedia.org/article/Metalearning
 
 + Induction Network
 
-  Geng R, Li B, Li Y, et al. Few-Shot Text Classification with Induction Network[J]. arXiv preprint arXiv:1902.10482, 2019. It's important? [arxiv](https://arxiv.org/pdf/1902.10482v1.pdf) 
+  Geng R, Li B, Li Y, et al. Few-Shot Text Classification with Induction Network[J]. arXiv preprint arXiv:1902.10482, 2019. It's important? [arxiv](https://arxiv.org/pdf/1902.10482v1.pdf) [code](<https://github.com/wuzhiye7/Induction-Network-on-FewRel>) 
 
 + Multiple Metrics
 
@@ -158,7 +164,7 @@ http://www.scholarpedia.org/article/Metalearning
 
 + Diverse Few-Shot Text Classification with Multiple Metrics, Mo Yu, Xiaoxiao Guo, Jinfeng Yi, Shiyu Chang, Saloni Potdar, Yu Cheng, Gerald Tesauro, Haoyu Wang, Bowen Zhou, NAACL 2018
 
-+ Geng R, Li B, Li Y, et al. Few-Shot Text Classification with Induction Network[J]. arXiv preprint arXiv:1902.10482, 2019. It's important? [arxiv](https://arxiv.org/pdf/1902.10482v1.pdf) 
++ Geng R, Li B, Li Y, et al. Few-Shot Text Classification with Induction Network[J]. arXiv preprint arXiv:1902.10482, 2019. It's important? [arxiv](https://arxiv.org/pdf/1902.10482v1.pdf) [code](<https://github.com/wuzhiye7/Induction-Network-on-FewRel>) 
 
 + Meta-Learning for Low-Resource Neural Machine Translation, Jiatao Gu, Yong Wang, Yun Chen, Kyunghyun Cho, Victor O.K. Li, EMNLP 2018
 
