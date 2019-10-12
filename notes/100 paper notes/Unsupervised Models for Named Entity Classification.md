@@ -55,6 +55,8 @@ https://github.com/aritter/twitter_nlp/blob/master/hbc/python/DL-Cotrain.py
 
   co-training
   
+  基本思想: 两个非常自信的人之间交流, 他们的背景差异越大, 获得的提升越大
+  
   
   
   

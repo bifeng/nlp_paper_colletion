@@ -64,17 +64,7 @@ step 3 - badcase study
 
 ### Strategies 
 
-
-
-#### distant supervision
-
-
-
-#### snorkel
-
-
-
-#### Adversarial Filtering
+Semi-supervised learning
 
 
 
@@ -97,6 +87,8 @@ step 3 - badcase study
   Annotation tools for building datasets
   
 - <https://github.com/heartexlabs/awesome-data-labeling>
+
+
 
 
 
