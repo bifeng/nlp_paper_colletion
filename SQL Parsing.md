@@ -59,12 +59,12 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 
 
 
-  | Model                                                        | Dev  | Test |
-  | ------------------------------------------------------------ | ---- | ---- |
-  | [X-SQL+ Execution-Guided Decoding (He 2019)](https://www.microsoft.com/en-us/research/publication/x-sql-reinforce-context-into-schema-representation/) | 92.3 | 91.8 |
-  | [SQLova + Execution-Guided Decoding (Hwang 2019)](https://ssl.pstatic.net/static/clova/service/clova_ai/research/publications/SQLova.pdf) | 90.2 | 89.6 |
-  | [IncSQL + Execution-Guided Decoding (Shi 2018)](https://arxiv.org/pdf/1809.05054.pdf) | 87.2 | 87.1 |
-  | baseline [SQLNet](https://arxiv.org/abs/1711.04436) [code](https://github.com/xiaojunxu/SQLNet) |      |      |
+| Model                                                        | Dev  | Test |
+| ------------------------------------------------------------ | ---- | ---- |
+| [X-SQL+ Execution-Guided Decoding (He 2019)](https://www.microsoft.com/en-us/research/publication/x-sql-reinforce-context-into-schema-representation/) | 92.3 | 91.8 |
+| [SQLova + Execution-Guided Decoding (Hwang 2019)](https://ssl.pstatic.net/static/clova/service/clova_ai/research/publications/SQLova.pdf) | 90.2 | 89.6 |
+| [IncSQL + Execution-Guided Decoding (Shi 2018)](https://arxiv.org/pdf/1809.05054.pdf) | 87.2 | 87.1 |
+| baseline [SQLNet](https://arxiv.org/abs/1711.04436) [code](https://github.com/xiaojunxu/SQLNet) |      |      |
 
   SQLNet 
 
@@ -80,7 +80,7 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 
 + [Spider](<https://yale-lily.github.io/spider>)
 
-  耶鲁大学 - 2018
+  Yale Semantic Parsing and Text-to-SQL Challenge - 2018
 
   Spider is a large-scale [*complex and cross-domain*](https://medium.com/@tao.yu/spider-one-more-step-towards-natural-language-interfaces-to-databases-62298dc6df3c) semantic parsing and text-to-SQL dataset.
 
@@ -100,7 +100,7 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 
 + [SParC](<https://github.com/taoyds/sparc>)
 
-  耶鲁大学 - 2019
+  Yale & Salesforce Semantic Parsing and Text-to-SQL in Context Challenge - 2019
 
   **SParC** is a dataset for cross-domain **S**emantic **Par**sing in **C**ontext. It is the context-dependent/multi-turn version of the [**Spider task**](https://yale-lily.github.io/spider). SParC consists of 4,298 coherent question sequences (12k+ unique individual questions annotated with SQL queries), obtained from user interactions with 200 complex databases over 138 domains.
 
