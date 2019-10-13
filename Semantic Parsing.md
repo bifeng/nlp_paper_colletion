@@ -8,6 +8,12 @@ NLP progress<br>https://github.com/sebastianruder/NLP-progress/blob/master/engli
 
 ## Semantic Parsing
 
+
+
++ Shallow Semantic Parsing of Chinese, HLT-NAACL, 2004, Sun, Honglin，Jurafsky, Daniel [paper](http://www.aclweb.org/anthology/N04-1032) 
+
+
+
 ### CCG Semantic Parsing
 
 + Complex discrete learning algorithms

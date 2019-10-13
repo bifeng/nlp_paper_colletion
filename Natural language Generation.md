@@ -8,7 +8,10 @@ https://en.wikipedia.org/wiki/Natural-language_generation
 
 #### text2text
 
++ CTRL: A Conditional Transformer Language Model for Controllable Generation
+  Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong, Richard Socher [arxiv](<https://arxiv.org/abs/1909.05858>) 
 + Generating Sentences by Editing Prototypes, Kelvin Guu, Tatsunori B. Hashimoto, Yonatan Oren, Percy Liang, TACL 2018, [arxiv](https://arxiv.org/abs/1709.08878) 
++ 
 
 #### data2text
 
@@ -51,13 +54,11 @@ https://en.wikipedia.org/wiki/Natural-language_generation
       part2: improved generation models<br>
       Conditioned generation, Reinforcement Learning
   </details>
-  
 
 + How does the computer generate text? (in Swedish) by Hercules Dalianis [HTML](https://people.dsv.su.se/~hercules/textgen/) 
 
 + 
 
-  
 
 
 
@@ -69,13 +70,10 @@ https://en.wikipedia.org/wiki/Natural-language_generation
 
 + Alexander M. Rush [site](http://nlp.seas.harvard.edu/rush.html) data-to-text
 
-  
-
 + [NLG research groups](https://aclweb.org/aclwiki/NLG_research_groups) 
 
 + 
 
-  
 
 ### conference
 

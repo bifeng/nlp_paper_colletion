@@ -55,7 +55,17 @@ semi supervised guided topic model with custom guidedLDA
 
 #### Snorkel
 
-https://github.com/HazyResearch/snorkel
++ [snorkel](https://github.com/HazyResearch/snorkel)
+
++ [metal](<https://github.com/HazyResearch/metal>)
+
+  Snorkel MeTaL: A framework for training models with multi-task weak supervision
+
++ 
+
+
+
+
 
 ##### scholar
 

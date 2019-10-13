@@ -8,7 +8,7 @@ refer: [大众点评信息流基于文本生成的创意优化实践](https://mp
 
 machine translation
 
-semantic parsing
+semantic parsing (AMR parsing/SQL parsing)
 
 code generation
 

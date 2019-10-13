@@ -62,6 +62,14 @@ https://en.wikipedia.org/wiki/Automatic_summarization
 
 + WikiHow: A Large Scale Text Summarization Dataset [site](<https://github.com/mahnazkoupaee/WikiHow-Dataset>) 
 
++ Scientific Document Summarization Corpus and Annotations from the WING NUS group.
+
+  <https://github.com/WING-NUS/scisumm-corpus>
+
++ [Yale SciSumm Dataset](https://cs.stanford.edu/~myasu/projects/scisumm_net/)
+
++ [Multi-News](<https://github.com/Alex-Fabbri/Multi-News>) 
+
 
 
 + 中文
@@ -165,5 +173,4 @@ https://en.wikipedia.org/wiki/Automatic_summarization
 
   [**What is text summarization?**](http://www.dsv.su.se/~hercules/textsammanfattningeng.html) 
 
-  
 
