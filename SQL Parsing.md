@@ -11,9 +11,32 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 + <https://paperswithcode.com/task/text-to-sql>
 + https://paperswithcode.com/task/code-generation
 
+### Company
+
++ Google
+
+  Dhamdhere, Kedar, et al. "Analyza: Exploring data with conversation." Proceedings of the 22nd International Conference on Intelligent User Interfaces. ACM, 2017.
+
++ microsoft
+
++ Salesforce 
+
+  <https://einstein.ai/products>
+
++ 追一科技
+
++ 亿信华辰（BI）
+
+  智能数据问答平台
+
+  <http://www.esensoft.com/products/esenask.html>
+
+
 ### Competition
 
 + [首届中文NL2SQL挑战赛](<https://tianchi.aliyun.com/competition/entrance/231716/information>)
+
+  追一科技 - 2019
 
   4万条有标签数据作为训练集，1万条无标签数据作为测试集。
 
@@ -21,9 +44,9 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 
   | Model                                                        | accuracy  |
   | ------------------------------------------------------------ | --------- |
-  | 1th                                                          | 0.9219    |
+  | [1th](<https://github.com/xyzhang16/tianchi-nl2sql-top1> <https://github.com/nudtnlp/tianchi-nl2sql-top1>) | 0.9219    |
   | 2th                                                          | 0.9143    |
-  | 3th                                                          | 0.9106    |
+  | [3th](<https://github.com/beader/tianchi_nl2sql>)            | 0.9106    |
   | [6th](https://github.com/eguilg/nl2sql)                      | 0.9018    |
   | [15th](https://github.com/yscoder-github/nl2sql-tianchi)     | 0.8338    |
   | [baseline](<https://github.com/ZhuiyiTechnology/nl2sql_baseline>) [baseline](<https://github.com/bojone/bert_in_keras/blob/master/nl2sql_baseline.py>) | 0.51 0.58 |
@@ -129,6 +152,10 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 
 ### Papers
 
+[你已经是个成熟的表格了，该学会自然语言处理了-  微软研究院AI头条](https://mp.weixin.qq.com/s/gZ4N18jvM_0oUvOaKBBxfQ)
+
+
+
 + Improving Text-to-SQL Evaluation Methodology [arxiv](http://arxiv.org/abs/1806.09029) [Data and System](https://github.com/jkkummerfeld/text2sql-data) 
 
   > first propose the evaluation method: question-based split and query-based split.
@@ -157,6 +184,7 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 
 - [Spider: One More Step Towards Natural Language Interfaces to Databases](https://yale-lily.github.io/spider)
 - [How to Talk to Your Database](https://blog.einstein.ai/how-to-talk-to-your-database/)
+- [Natural Language Interfaces to Databases (NLIDB)](http://jonaschapuis.com/2017/12/natural-language-interfaces-to-databases-nlidb/) 
 - [ACL 2018 Tutorial on Neural Semantic Parsing](https://github.com/allenai/acl2018-semantic-parsing-tutorial)
 - [Natural Language Data Management and Interfaces](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1286)
 - [A Syntactic Neural Model for General-Purpose Code Generation](https://vimeo.com/234954608)
