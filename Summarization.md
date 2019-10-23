@@ -6,8 +6,7 @@ https://en.wikipedia.org/wiki/Automatic_summarization
 
 + short text summarization
 + long text summarization
-+ single-doc summarization
-+ multi-doc summarization
++ multi-document summarization
 
 
 
@@ -18,7 +17,7 @@ https://en.wikipedia.org/wiki/Automatic_summarization
 
 
 
-### challenge
+### Competition
 
 - NLPCC 2017 Task 3
 

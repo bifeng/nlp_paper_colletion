@@ -94,13 +94,19 @@ https://github.com/didi/ChineseNLP https://chinesenlp.xyz
 
 https://aclweb.org/aclwiki/State_of_the_art
 
+<https://sotabench.com/>
+
+
+
 [TutorialBank: Learning NLP Made Easier](<http://aan.how/>) [search engine](http://tangra.cs.yale.edu/newaan/) 
 
 [LectureBank: a corpus for NLP Education and Prerequisite Chain Learning](<https://github.com/Yale-LILY/LectureBank>)
 
+## RoadMap & Tutorial
 
-
-
++ <https://github.com/graykode/nlp-roadmap>
++ <https://github.com/graykode/nlp-tutorial>
++ 
 
 ## Conference
 
@@ -170,6 +176,8 @@ refer: [Minsky, Chomsky & Deep Nets](https://stu.cs.tsinghua.edu.cn/wiki/images/
 
 A Structural Probe for Finding Syntax in Word Representations, [paper](https://nlp.stanford.edu/pubs/hewitt2019structural.pdf) | [code](<https://github.com/john-hewitt/structural-probes/>) 
 
+Jumelet, Zuidema & Hupkes (2019): *Analysing Neural Language Models: Contextual Decomposition Reveals Default Reasoning in Number and Gender Assignment* [code](<https://github.com/i-machine-think/diagnnose>) 
+
 **Linguistic Knowledge and Transferability of Contextual Representations**. [Nelson F. Liu](https://homes.cs.washington.edu/~nfliu/), [Matt Gardner](https://allenai.org/team/mattg/), [Yonatan Belinkov](http://people.csail.mit.edu/belinkov/), Matthew E. Peters, and [Noah A. Smith](http://www.cs.cmu.edu/~nasmith). In *Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics* (**NAACL 2019**), June 2019.
 
 Dissecting Contextual Word Embeddings: Architecture and Representation, Matthew E. Peters, Mark Neumann, Luke Zettlemoyer, Wen-tau Yih, EMNLP 2018 [arxiv](https://arxiv.org/abs/1808.08949v1) 
@@ -186,7 +194,7 @@ LSTMs Exploit Linguistic Attributes of Data, ACL 2018, [code](https://github.com
 
 Does sentence embedding learned from RNNs captrue the syntactic information?
 
-MSc project: Inferring Sentence Features from Sentence Embeddings, [code](https://github.com/jonvet/thesis)
+MSc project: Inferring Sentence Features from Sentence Embeddings, [code](https://github.com/jonvet/thesis) 
 
 [哈工大车万翔：自然语言处理中的深度学习模型是否依赖于树结构？-2015-10-15](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=209300177&idx=1&sn=4d24467ee27da15ae05effaa0ded9332&scene=2&srcid=1015LyJAMxAtArMzdyKyIRHh&from=timeline&isappinstalled=0#rd)
 

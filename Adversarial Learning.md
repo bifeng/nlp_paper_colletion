@@ -16,4 +16,6 @@
 #### adversarial learning
 
 - TextBugger: Generating Adversarial Text Against Real-world Applications, Jinfeng Li, Shouling Ji, Tianyu Du, Bo Li, Ting Wang, NDSS 2019 [arxiv](https://arxiv.org/abs/1812.05271) 
+- Probabilistic Modeling of Deep Features for Out-of-Distribution and Adversarial Detection
+  Nilesh A. Ahuja, Ibrahima Ndiour, Trushant Kalyanpur, Omesh Tickoo [arxiv](<https://arxiv.org/abs/1909.11786v1>) 
 - 

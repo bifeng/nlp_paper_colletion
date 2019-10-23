@@ -18,7 +18,13 @@
 
 
 
-### datasets
+### Datasets
+
++ PAWS: Paraphrase Adversaries from Word Scrambling
+
+  This dataset contains 108,463 human-labeled and 656k noisily labeled pairs that feature the importance of modeling structure, context, and word order information for the problem of paraphrase identification.
+
+  <https://github.com/google-research-datasets/paws>
 
 + https://nlp.stanford.edu/projects/snli/
 
@@ -38,9 +44,15 @@ https://paperswithcode.com/task/text-matching
 
 
 
+### Literature Review
+
++ 文本匹配相关方向打卡点总结 - 夕小瑶
+
+  
 
 
-### paper
+
+### Paper
 
 - Simple and Effective Text Matching with Richer Alignment Features, ACL 2019 [code](<https://github.com/alibaba-edu/simple-effective-text-matching>) 
 
