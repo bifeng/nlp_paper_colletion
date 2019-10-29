@@ -17,7 +17,7 @@ https://github.com/sebastianruder/NLP-progress/blob/master/english/multi-task_le
 
 + **Sebastian Ruder**, Joachim Bingel, Isabelle Augenstein, Anders Søgaard (2019). [Latent Multi-task Architecture Learning](https://arxiv.org/abs/1705.08142). In *Proceedings of AAAI 2019*, Honolulu, Hawaii. [Slides](https://drive.google.com/file/d/1To0SNI9PJS0Roqt0vJyHnCLyKqukwnxE/view?usp=sharing), [poster](https://drive.google.com/file/d/1KmgFeKva0roXaBavz2dpUZ6t6wydRVDh/view?usp=sharing), [code](https://github.com/sebastianruder/sluice-networks) 
 + (MT-DNN) Multi-Task Deep Neural Networks for Natural Language Understanding, Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao, 2019 [arxiv](https://arxiv.org/abs/1901.11504) 
-+ A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning, Ronan Collobert, Jason Weston, 2008 ICML
++ A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning, Ronan Collobert, Jason Weston, 2008 ICML :star::star::star::star:
 + 
 
 loss function

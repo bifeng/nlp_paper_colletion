@@ -2,8 +2,6 @@ more refer:
 
 An overview of proxy-label approaches for semi-supervised learning [site](<http://ruder.io/semi-supervised/>) 
 
-Semi-Supervised Learning for Natural Language, Percy Liang [thesis](<https://cs.stanford.edu/~pliang/papers/meng-thesis.pdf>) 
-
 https://aclweb.org/aclwiki/Semi-supervised_Learning_in_NLP
 
 基于分歧的方法  机器学习,周志华
@@ -28,7 +26,11 @@ weak supervision
 
 
 
+#### Books
 
++ Semi-Supervised Learning for Natural Language, Percy Liang [thesis](<https://cs.stanford.edu/~pliang/papers/meng-thesis.pdf>) :star::star::star:
++ Anders Søgaard. Semi-Supervised Learning and Domain Adaptation in Natural Language Processing. Synthesis Lectures on Human Language Technologies. Morgan & Claypool Publishers, 2013. DOI: 10.2200/s00497ed1v01y201304hlt021. 被引用次数：50
++ 
 
 
 
