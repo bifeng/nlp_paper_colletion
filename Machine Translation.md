@@ -19,7 +19,7 @@
 
 ### Paper
 
-+ Bridging the Gap between Training and Inference for Neural Machine Translation, Wen Zhang, Yang Feng, Fandong Meng, Di You, Qun Liu, ACL 2019 **Best Long Paper**, [arxiv](<https://arxiv.org/abs/1906.02448>) 
++ Bridging the Gap between Training and Inference for Neural Machine Translation, Wen Zhang, Yang Feng, Fandong Meng, Di You, Qun Liu, ACL 2019 **Best Long Paper**, [arxiv](<https://arxiv.org/abs/1906.02448>) [video](https://mp.weixin.qq.com/s/AbR87kz_paFq8sw6yzGcvA) 
 
   Inspired from Data as Demonstrator, which is a meta learning algorithm to improve the multi-step predictive capabilities of a learned time series (e.g. dynamical system) model.  [code](<https://github.com/arunvenk/DaD>) 
 
