@@ -22,6 +22,8 @@ https://github.com/nyu-dl/dl4marco-bert
 
 
 
+
+
 #### papers
 
 + Yoav Goldberg. Assessing BERT’s syntactic abilities, 2019. arXiv:1901.05287.
@@ -46,7 +48,17 @@ https://github.com/nyu-dl/dl4marco-bert
 
   BERT + model compression + multi-criterial learing 
 
-  
+
+##### explain
+
++ BERT Rediscovers the Classical NLP Pipeline
+  Ian Tenney, Dipanjan Das, Ellie Pavlick.  ACL 2019 [arxiv](<https://arxiv.org/abs/1905.05950>) 
+
++ What do you learn from context? Probing for sentence structure in contextualized word representations.
+
+  Ian Tenney, Patrick Xia, Berlin Chen, Alex Wang, Adam Poliak, R. Thomas McCoy, Najoung Kim, Benjamin Van Durme, Samuel R. Bowman, Dipanjan Das, and Ellie Pavlick. ICLR 2019. https://openreview.net/forum?id=SJzSgnRcKX
+
+
 
 ### code
 

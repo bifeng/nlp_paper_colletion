@@ -1,4 +1,4 @@
-[Favorite NLP quotes](https://github.com/SimonSuster/SimonSuster.github.io/tree/master/quotes)
+[Favorite NLP quotes](<https://simonsuster.github.io/quotes/quotes.html>)
 
 - There is no use disputing with the translating machine. It will prevail.
   P. P. Troyanskii, 1947, based on his conception of automatic translation from 1933.

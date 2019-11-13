@@ -80,17 +80,13 @@ Deep Reinforcement Learning for NLP ACL 2018 [ppt](http://www.cs.ucsb.edu/~willi
 
 ## Progress
 
-The progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.<br>https://github.com/sebastianruder/NLP-progress
+The progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.<br>https://github.com/sebastianruder/NLP-progress 
 
 https://github.com/Yale-LILY/Awesome-NLP-Research
 
 https://github.com/Kyubyong/nlp_tasks
 
 <https://github.com/omarsar/nlp_overview> <https://nlpoverview.com/>
-
-https://github.com/didi/ChineseNLP https://chinesenlp.xyz
-
-<https://github.com/chineseGLUE/chineseGLUE>
 
 https://aclweb.org/aclwiki/State_of_the_art
 
@@ -101,6 +97,18 @@ https://aclweb.org/aclwiki/State_of_the_art
 [TutorialBank: Learning NLP Made Easier](<http://aan.how/>) [search engine](http://tangra.cs.yale.edu/newaan/) 
 
 [LectureBank: a corpus for NLP Education and Prerequisite Chain Learning](<https://github.com/Yale-LILY/LectureBank>)
+
+
+
++ Chinese
+
+  https://github.com/didi/ChineseNLP https://chinesenlp.xyz
+
+  https://github.com/chineseGLUE/chineseGLUE
+
+  自然语言处理研究报告-AMiner研究报告, 清华-中国工程院知识智能联合实验室
+
+  
 
 ## RoadMap & Tutorial
 

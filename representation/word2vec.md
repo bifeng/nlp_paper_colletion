@@ -36,6 +36,24 @@ According to the authors' note, the recommended value is 10 for skip-gram and 5 
 negative samples: 
 For skip-gram models trained in medium size corpora, with 50 dimensions, a window size of 15 and 10 negative samples seems to be a good parameter setting.
 
+#### Evaluation
+
+影响因素：训练数据大小、领域、来源、词表的选择等
+
+
+
+1. 基于similarity的评价方式
+
+   
+
+2. 
+
+   
+
+##### Datasets
+
++ wordsim353
+
 
 
 #### Summary

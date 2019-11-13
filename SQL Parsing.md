@@ -156,6 +156,17 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 
 
 
++ Model-based Interactive Semantic Parsing: A Unified Framework and A Text-to-SQL Case Study
+  Ziyu Yao, Yu Su, Huan Sun, Wen-tau Yih. Facebook. EMNLP 2019 [arxiv](<https://arxiv.org/abs/1910.05389>) 
+
++ Towards Complex Text-to-SQL in Cross-domain Database, (ACL’19)
+
+  [blog](https://mp.weixin.qq.com/s/bGpTU0fA5bWvSERBokMKSA) 
+
+
+
+
+
 + Improving Text-to-SQL Evaluation Methodology [arxiv](http://arxiv.org/abs/1806.09029) [Data and System](https://github.com/jkkummerfeld/text2sql-data) 
 
   > first propose the evaluation method: question-based split and query-based split.

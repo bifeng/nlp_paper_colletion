@@ -8,6 +8,10 @@ more:
 
 
 
+周志华.半监督学习中的协同训练风范[A].周志华,王珏主编.机器学习及其应用[M].2007,北京:清华大学出版社,2007.259-275.
+
+
+
 [IEpaper_presentation](http://www.cs.cmu.edu/~yimengz/papers/IEpaper_presentation.ppt)
 
 <https://en.wikipedia.org/wiki/Co-training>

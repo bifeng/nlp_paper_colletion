@@ -206,7 +206,44 @@ feature-based的核心问题是选择提取哪些层。
 
 
 
+### Transfer Learning in NLP
 
+
+
+#### scholar
+
++ 墨尔本大学Tim Baldwin教授
+
+#### methods
+
+Tim Baldwin教授从三个方面入手，使用深度学习方法逐步提升自然语言处理模型的鲁棒性，从而缓解模型的领域偏置现象。
+
+- 在领域相关（domain-specific）和领域无关（domain-general）部分的混合数据上联合训练模型，并使用对抗学习（adversarial learning）提高模型鲁棒性；
+
+  对每个实例学习两个表示：共享表示（shared representation）与私有表示（private representation），私有表示与具体领域有关，是领域上的一个条件向量；共享表示则领域无关。
+
+  使用对抗学习对生成的共享表示去判别当前实例归属的领域，从而增强泛化力。这种方法称为COND模型。
+
+  使用生成（GEN）模型去生成领域相关的私有表示，这种方法称为GEN模型。
+
+- 在训练时，模型学习去除数据集中保留的作者特征偏置（author characteristics biases）；
+
+  借鉴对抗学习思想，让模型去鉴别每个示例独有的属性值，相当于将一个数据集按照属性值划分开来，模型需要将这些属性去偏。
+
+- 在推理时，使用隐变量（latent variables）动态地学习领域混合比。
+
+  引入一个隐变量去自动学习对当前实例，每个领域的权重分布，从而实现跨领域的泛化。
+
+  使用了两种模型，一是离散（Discrete）模型，二是连续（Continuous）模型，分别用于隐变量的学习。
+
+  离散模型就是把领域离散化，分别学习各自的表示；连续模型类似VAE，将各领域隐变量当做连续向量，从而学得领域变换规律。
+
+
+
+#### blogs
+
++ Robust, Unbiased Natural Language Processing [site](<https://mp.weixin.qq.com/s/go8qMryRlALsBdtxF0MCiA>) 
++ 
 
 ### Question
 
