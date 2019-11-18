@@ -2,7 +2,6 @@
 
 + how to select proper parameters for transformer ?
 
-  
 
 
 
@@ -15,6 +14,8 @@
 
 ### Paper
 
++ Transformer Details Not Described in The Paper <https://tunz.kr/post/4>
+
 + Augmenting Self-attention with Persistent Memory
 
 + Adaptive Attention Span for Transformers, Sainbayar Sukhbaatar, Edouard Grave, Piotr Bojanowski, Armand Joulin, ACL 2019 [arxiv](<https://arxiv.org/abs/1905.07799>) [code](<https://github.com/facebookresearch/adaptive-span>) 
@@ -24,5 +25,3 @@
   Generating Long Sequences with Sparse Transformers, Rewon Child, Scott Gray, Alec Radford, Ilya Sutskever, [arxiv](<https://arxiv.org/abs/1904.10509>) [code](<https://github.com/openai/sparse_attention>) 
 
 + Training Tips for the Transformer Model, Martin Popel, Ondřej Bojar, PBML [arxiv](<https://arxiv.org/abs/1804.00247>) 
-
-  
