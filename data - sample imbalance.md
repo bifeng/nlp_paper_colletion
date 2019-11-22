@@ -46,7 +46,7 @@ refer:<br>[样本生而不等——聊聊那些对训练数据加权的方法](h
 
 ## loss function design
 
-1.**GHM_Detection**
+### GHM_Detection
 论文：https://arvix.org/pdf/1811.05181.pdf
 github：https://github.com/libuyu/GHM_Detection
 
@@ -54,7 +54,7 @@ github：https://github.com/libuyu/GHM_Detection
 
 **文章设计的思路不仅可以用于分类 loss 改进，对回归 loss 也很容易进行嵌入。****不需要考虑 Focal Loss 的超参设计问题，同时文章提出的方法效果比 Focal Loss 更好。**创新点相当于 FL 的下一步方案，给出了解决 class-imbalance 的另一种思路，开了一条路，估计下一步会有很多这方面的 paper 出现。
 
-2.**Focal Loss for Dense Object Detection**
+### Focal Loss for Dense Object Detection
 
 论文：
 
@@ -65,6 +65,22 @@ RetinaNet：https://github.com/unsky/RetinaNet
 github：https://github.com/unsky/focal-loss
 
 本文通过重塑标准交叉熵损失来解决这一类不平衡问题。他们的想法是降低简单的负面样本所占的权重，所以他们提出的焦点损失（Focal Loss）方法将训练集中在一系列难点上，并且防止了大量的简单负面例子在训练过程中阻碍探测器学习。如上图，参数 γ 的值选择得越大，模型就会对已经得到了很好的分类的样本忽略得越多，越专注于难的样本的学习。这样的机制就让他们的检测器在密集对象检测这样的真实正面样本比例很低的情况下取得了很高的准确率。对于应对样本不平衡问题的关键方法“焦距损失”，作者们在论文中还提出了两种不同的表现形式，都起到了很好的效果.
+
+### Dice Loss for Data-imbalanced NLP Tasks
+
+<https://arxiv.org/pdf/1911.02855.pdf>
+
+### Class-Balanced Loss Based on Effective Number of Samples
+
+Class-Balanced Loss Based on Effective Number of Samples. Yin Cui, Menglin Jia, Tsung-Yi Lin, Yang Song, Serge Belongie CVPR 2019 [arxiv](<https://arxiv.org/abs/1901.05555>) [code](https://github.com/richardaecn/class-balanced-loss) 
+
+### Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss
+
+Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss. Kaidi Cao, Colin Wei, Adrien Gaidon, Nikos Arechiga, Tengyu Ma NeurIPS 2019 [arxiv](<https://arxiv.org/abs/1906.07413>) 
+
+
+
+
 
 ## other
 

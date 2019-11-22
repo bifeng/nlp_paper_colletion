@@ -24,6 +24,11 @@ https://github.com/tambetm/allenAI
 
 在线困难样例挖掘：目标检测的另一个问题是类别不平衡，图像中大部分的区域是不包含目标的，而只有小部分区域包含目标。此外，不同目标的检测难度也有很大差异，绝大部分的目标很容易被检测到，而有一小部分目标却十分困难。OHEM和Boosting的思路类似，其根据损失值将所有候选区域进行排序，并选择损失值最高的一部分候选区域进行优化，使网络更关注于图像中更困难的目标。此外，为了避免选到相互重叠很大的候选区域，OHEM对候选区域根据损失值进行NMS。
 
+#### DSReg: Using Distant Supervision as a Regularizer
+
+DSReg: Using Distant Supervision as a Regularizer
+Yuxian Meng, Muyu Li, Xiaoya Li, Wei Wu, Jiwei Li. [arxiv](<https://arxiv.org/abs/1905.11658>) 
+
 
 
 ### application

@@ -28,11 +28,19 @@
 
 ### Dataset
 
-+ SQuAD
++ SQuAD 1.0
 
   https://rajpurkar.github.io/SQuAD-explorer/
 
   Know What You Don't Know: Unanswerable Questions for SQuAD [arxiv](https://arxiv.org/abs/1806.03822) 
+  
++ SQuAD 2.0
+
+  <https://rajpurkar.github.io/SQuAD-explorer/>
+
+  |       Rank       |                            Model                             |   EM   |   F1   |
+  | :--------------: | :----------------------------------------------------------: | :----: | :----: |
+  | 3 (Sep 16, 2019) | ALBERT (single model)Google Research & TTIC<https://arxiv.org/abs/1909.11942> | 88.107 | 90.902 |
 
 ### Tools
 

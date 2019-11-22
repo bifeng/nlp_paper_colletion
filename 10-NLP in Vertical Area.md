@@ -1,8 +1,8 @@
 ### Clinical
 
-http://simonsuster.github.io/
++ http://simonsuster.github.io/
 
-https://github.com/clips/
++ https://github.com/clips/
 
 ### Financial
 
@@ -16,10 +16,18 @@ https://github.com/clips/
 
 #### code
 
-+ <https://github.com/ICLRandD/Blackstone>
++ A spaCy pipeline and model for NLP on unstructured legal text. 
 
-  ⚫️ A spaCy pipeline and model for NLP on unstructured legal text. [https://research.iclr.co.uk](https://research.iclr.co.uk/)
+  <https://github.com/ICLRandD/Blackstone>
+  
+  [https://research.iclr.co.uk](https://research.iclr.co.uk/) 
 
++ LexPredict develops software and data products, including contract analytics software like ContraxSuite and LexNLP.
 
+  <https://github.com/LexPredict>
+
+  <https://github.com/LexPredict/lexpredict-lexnlp>
+
+  
 
 

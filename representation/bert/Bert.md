@@ -24,7 +24,7 @@ https://github.com/nyu-dl/dl4marco-bert
 
 
 
-#### papers
+### papers
 
 + Yoav Goldberg. Assessing BERT’s syntactic abilities, 2019. arXiv:1901.05287.
 
@@ -49,7 +49,7 @@ https://github.com/nyu-dl/dl4marco-bert
   BERT + model compression + multi-criterial learing 
 
 
-##### explain
+#### explain
 
 + BERT Rediscovers the Classical NLP Pipeline
   Ian Tenney, Dipanjan Das, Ellie Pavlick.  ACL 2019 [arxiv](<https://arxiv.org/abs/1905.05950>) 
@@ -59,6 +59,10 @@ https://github.com/nyu-dl/dl4marco-bert
   Ian Tenney, Patrick Xia, Berlin Chen, Alex Wang, Adam Poliak, R. Thomas McCoy, Najoung Kim, Benjamin Van Durme, Samuel R. Bowman, Dipanjan Das, and Ellie Pavlick. ICLR 2019. https://openreview.net/forum?id=SJzSgnRcKX
 
 
+
+### blogs
+
++ [8篇论文梳理BERT相关模型进展与反思](<https://www.msra.cn/zh-cn/news/features/bert>)
 
 ### code
 

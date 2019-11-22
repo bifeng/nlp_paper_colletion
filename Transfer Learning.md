@@ -23,7 +23,9 @@ https://github.com/sebastianruder/NLP-progress/blob/master/english/domain_adapta
 
 ### Literature review
 
-+ 
++ A Comprehensive Survey on Transfer Learning
+
+  Fuzhen Zhuang, Zhiyuan Qi, Keyu Duan, Dongbo Xi, Yongchun Zhu, Hengshu Zhu, Senior Member, IEEE, Hui Xiong, Senior Member, IEEE, and Qing He [arxiv](https://arxiv.org/abs/1911.02685)
 
 + Literature Survey: Domain Adaptation Algorithms for Natural Language Processing, Qi Li, 2012 [paper](http://nlp.cs.rpi.edu/paper/qisurvey.pdf) 
 

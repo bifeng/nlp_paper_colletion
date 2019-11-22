@@ -1,82 +1,6 @@
-海致星图 - 智能金融知识图谱 <http://www.stargraph.cn/>
+### AllenAI
 
-
-
-腾讯文智 <https://nlp.qq.com/index.cgi>
-
-
-
-森亿智能 https://www.synyi.com/
-
-
-
-幂律智能 <https://powerlaw.ai/> - 法律
-
-
-
-文因互联 <https://memect.cn/> - 金融
-
-
-
-达观数据 <http://www.datagrand.com/demo/nlp/#/>
-
-
-
-深兰科技 <https://www.deepblueai.com/> <https://github.com/DeepBlueAI>
-
-
-
-云孚科技 <https://www.yunfutech.com/demo?tab=3> 哈工大
-
-
-
-<http://ictclas.nlpir.org/nlpir/> 北京理工大学
-
-
-
-捷通华声-灵云 <https://www.aicloud.com/dev/ability/index.html?key=nlu#ability-experience>
-
-
-
-图灵机器人 <http://operation.tuling123.com/experience/exp_virtual_robot.jhtml?nav=exp>
-
-
-
-奇点机智 https://naturali.io/about-us
-
-
-
-https://www.cortexlabs.ai/
-
-
-
-深度好奇 http://deeplycurious.ai/
-
-
-
-火焰科技 http://www.birdbot.cn/
-
-
-
-BosonNLP <https://bosonnlp.com/demo>
-
-
-
-小牛雅智 <http://www.niuparser.com/>
-
-
-
-慧科讯业 <https://www.wisers.ai/zh-cn/browse/single-article-analysis/>
-
-
-
-智言科技 <http://www.webot.ai/about.html?from=index&page=0#0>
-
-
-
-追一科技 https://zhuiyi.ai/
-
-
+<https://allenai.org/index.html>
 
 
 
@@ -99,6 +23,111 @@ BosonNLP <https://bosonnlp.com/demo>
 **智能投研平台**
 
 无穷的新事件，无穷的新研究，无穷的新信息，有限的24小时。香侬科技全新智能投研平台，以结构化图表清晰呈现问题答案。交互简单，理解力强大，只给您最关心的。摆脱繁琐的数据搜集整理流程，重新用一种简单的方式，提供您对世界最深刻的洞察。
+
+
+
+### 云孚科技(哈工大)
+
+<https://www.yunfutech.com/demo?tab=3> 哈工大
+
+
+
+### nlpir(北京理工大学)
+
+<http://ictclas.nlpir.org/nlpir/> 
+
+
+
+### 小牛雅智(东北大学)
+
+<http://www.niuparser.com/>
+
+
+
+### 达观数据
+
+达观数据 <http://www.datagrand.com/demo/nlp/#/
+
+
+
+### 幂律智能
+
+<https://powerlaw.ai/> - 法律
+
+
+
+### 深度好奇 
+
+http://deeplycurious.ai/
+
+
+
+### 奇点机智 
+
+https://naturali.io/about-us
+
+
+
+### 深兰科技
+
+<https://www.deepblueai.com/> <https://github.com/DeepBlueAI>
+
+
+
+
+
+海致星图 - 智能金融知识图谱 <http://www.stargraph.cn/>
+
+微云数聚 - 图数据库 Neo4j 的中国的官方代理和解决方案合作伙伴 <http://we-yun.com/index.php/index.html>
+
+
+
+
+
+腾讯文智 <https://nlp.qq.com/index.cgi>
+
+
+
+森亿智能 https://www.synyi.com/
+
+
+
+文因互联 <https://memect.cn/> - 金融
+
+
+
+捷通华声-灵云 <https://www.aicloud.com/dev/ability/index.html?key=nlu#ability-experience>
+
+
+
+图灵机器人 <http://operation.tuling123.com/experience/exp_virtual_robot.jhtml?nav=exp>
+
+
+
+https://www.cortexlabs.ai/
+
+
+
+火焰科技 http://www.birdbot.cn/
+
+
+
+BosonNLP <https://bosonnlp.com/demo>
+
+SmoothNLP http://www.smoothnlp.com/ <https://github.com/smoothnlp/SmoothNLP>
+
+
+
+慧科讯业 <https://www.wisers.ai/zh-cn/browse/single-article-analysis/>
+
+
+
+智言科技 <http://www.webot.ai/about.html?from=index&page=0#0>
+
+
+
+追一科技 https://zhuiyi.ai/
+
 
 
 
