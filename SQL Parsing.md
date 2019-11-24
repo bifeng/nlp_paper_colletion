@@ -11,7 +11,22 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 + <https://paperswithcode.com/task/text-to-sql>
 + https://paperswithcode.com/task/code-generation
 
+
+
+### Conference
+
++ First IEEE International conference on Conversational Data & Knowledge Engineering
+  (CDKE 2019) 
+
+  <https://www.cdke.org/>
+
+
+
 ### Company
+
+keyword: **askdata**, **conversational data access**, **Human2SQL**
+
+
 
 + Google
 
@@ -22,6 +37,24 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 + Salesforce 
 
   <https://einstein.ai/products>
+
++ askdata
+
+  http://www.askdata.com/
+
+  <https://github.com/AskdataInc>
+
+  > NLP Pipeline
+  >
+  > NLP stands for **Natural Language Processing** pipeline. It’s a sequence of algorithms that will process the natural language query. Different algos are run in parallel to identify the intent of the user and the data query.
+
++ <https://github.com/prijindal/askdata>
+
+  Forked from <https://openforge.gov.in/plugins/git/maa-098-askdata/askdata>
+
++ <https://www.dianaai.com/>
+
+  Conversational BI.
 
 + 追一科技
 

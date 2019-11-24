@@ -74,6 +74,12 @@ https://naturali.io/about-us
 
 
 
+### 艾耕科技
+
+<https://www.eigentech.ai/>
+
+
+
 
 
 海致星图 - 智能金融知识图谱 <http://www.stargraph.cn/>

@@ -4,6 +4,12 @@
 
 + https://github.com/clips/
 
+### Medical
+
++ Medical Text Mining and Information Extraction with spaCy
+
+  <https://github.com/NLPatVCU/medaCy>
+
 ### Financial
 
 
@@ -28,6 +34,5 @@
 
   <https://github.com/LexPredict/lexpredict-lexnlp>
 
-  
 
 
