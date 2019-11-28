@@ -4,6 +4,15 @@
 
 
 
+### MonkeyLearn
+
+Train custom machine learning models to get topic, sentiment, intent, keywords and more.
+Do it in hours —not weeks— right inside the tools you already love.
+
+<https://monkeylearn.com/> <https://github.com/monkeylearn>
+
+
+
 ### 香侬科技
 
 <http://www.shannonai.com/solution>
@@ -80,6 +89,12 @@ https://naturali.io/about-us
 
 
 
+### 慧科讯业(台湾)
+
+<https://www.wisers.ai/zh-cn/browse/single-article-analysis/>
+
+
+
 
 
 海致星图 - 智能金融知识图谱 <http://www.stargraph.cn/>
@@ -121,10 +136,6 @@ https://www.cortexlabs.ai/
 BosonNLP <https://bosonnlp.com/demo>
 
 SmoothNLP http://www.smoothnlp.com/ <https://github.com/smoothnlp/SmoothNLP>
-
-
-
-慧科讯业 <https://www.wisers.ai/zh-cn/browse/single-article-analysis/>
 
 
 

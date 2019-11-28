@@ -4,7 +4,37 @@ https://en.wikipedia.org/wiki/Natural-language_generation
 
 
 
-### NLG
+### Literature review
+
+- Controllable Text Generation: Types, Knowledge, and Logic. 2018, December, JD AI, 黄民烈 [slides](http://coai.cs.tsinghua.edu.cn/hml/media/files/controllable-text-generation.pdf) 
+- [干货 | 文本改写和风格迁移的一些思路](https://mp.weixin.qq.com/s/AxmpnP5RJa7y9ju3RaEgdw)
+- [干货 | 限定和指导 Seq2Seq 模型的生成结果（一）](https://mp.weixin.qq.com/s/6q9txFjgqs1YXn348ylXhQ)
+- [干货 | 限定和指导 Seq2Seq 模型的生成结果（二）](https://mp.weixin.qq.com/s/jvozDRtKb4kaGSJvoP5nkw)
+
+
+
+- **Ni Lao**, [Text Generation Survey ](https://noon99jaki.github.io/publication/2017-text-gen.pdf). 2017.
+
+  <details>
+      part1: unconditional generation models<br>
+      Seq2Seq, Variational Auto-Encoder(VAE), Generative Adversarial Net(GAN)<br>
+      part2: improved generation models<br>
+      Conditioned generation, Reinforcement Learning
+  </details>
+
+- How does the computer generate text? (in Swedish) by Hercules Dalianis [HTML](https://people.dsv.su.se/~hercules/textgen/) 
+
+- 
+
+
+
+### Papers
+
+#### Paperlist
+
++ <https://github.com/THUNLP-MT/TG-Reading-List>
+
+
 
 #### text2text
 
@@ -34,30 +64,6 @@ https://en.wikipedia.org/wiki/Natural-language_generation
   </details>
 
 
-
-
-
-### Literature review
-
-+ Controllable Text Generation: Types, Knowledge, and Logic. 2018, December, JD AI, 黄民烈 [slides](http://coai.cs.tsinghua.edu.cn/hml/media/files/controllable-text-generation.pdf) 
-+ [干货 | 文本改写和风格迁移的一些思路](https://mp.weixin.qq.com/s/AxmpnP5RJa7y9ju3RaEgdw)
-+ [干货 | 限定和指导 Seq2Seq 模型的生成结果（一）](https://mp.weixin.qq.com/s/6q9txFjgqs1YXn348ylXhQ)
-+ [干货 | 限定和指导 Seq2Seq 模型的生成结果（二）](https://mp.weixin.qq.com/s/jvozDRtKb4kaGSJvoP5nkw)
-
-
-
-+ **Ni Lao**, [Text Generation Survey ](https://noon99jaki.github.io/publication/2017-text-gen.pdf). 2017.
-
-  <details>
-      part1: unconditional generation models<br>
-      Seq2Seq, Variational Auto-Encoder(VAE), Generative Adversarial Net(GAN)<br>
-      part2: improved generation models<br>
-      Conditioned generation, Reinforcement Learning
-  </details>
-
-+ How does the computer generate text? (in Swedish) by Hercules Dalianis [HTML](https://people.dsv.su.se/~hercules/textgen/) 
-
-+ 
 
 
 

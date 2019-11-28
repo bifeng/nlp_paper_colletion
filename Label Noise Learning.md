@@ -28,4 +28,12 @@
 
   
 
-  
+
+
+
+## Tools
+
+- Finding label errors in datasets and learning with noisy labels. https://pypi.org/project/cleanlab/
+
+  <https://github.com/cgnorthcutt/cleanlab>
+

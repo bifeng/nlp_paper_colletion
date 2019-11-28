@@ -10,12 +10,27 @@ VAE
 
 
 
+### Datasets
+
++ PAWS (Paraphrase Adversaries from Word Scrambling)
+
+  PAWS: Paraphrase Adversaries from Word Scrambling
+  Yuan Zhang, Jason Baldridge, Luheng He. NAACL 2019
+
+
+
 ### Literature review
 
 + A Survey of Paraphrasing and Textual Entailment Methods, 2010 [arxiv](https://arxiv.org/abs/0912.3747) 
 
 ### paper
 
++ Paraphrasing with Large Language Models
+Sam Witteveen, Martin Andrews EMNLP-IJCNLP 2019 [arxiv](<https://arxiv.org/abs/1911.09661>) 
+  
++ Unsupervised Paraphrasing without Translation
+Aurko Roy, David Grangier ACL 2019 [arxiv](<https://arxiv.org/abs/1905.12752>) 
+  
 + Dictionary-Guided Editing Networks for Paraphrase Generation, AAAI 2019, [arxiv](https://arxiv.org/abs/1806.08077) 
 
   

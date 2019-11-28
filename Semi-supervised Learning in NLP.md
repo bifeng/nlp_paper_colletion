@@ -36,14 +36,24 @@ weak supervision
 
 #### Paper
 
-Semi-Supervised Sequence Modeling with Cross-View Training
-Kevin Clark, Minh-Thang Luong, Christopher D. Manning, Quoc V. Le EMNLP 2018 [arxiv](<https://arxiv.org/abs/1809.08370>) 
++ Semi-Supervised Sequence Modeling with Cross-View Training
+  Kevin Clark, Minh-Thang Luong, Christopher D. Manning, Quoc V. Le EMNLP 2018 [arxiv](<https://arxiv.org/abs/1809.08370>) 
 
-Adversarial Training Methods for Semi-Supervised Text Classification
-Takeru Miyato, Andrew M. Dai, Ian Goodfellow ICLR 2017 [arxiv](<https://arxiv.org/abs/1605.07725>)
+  > We therefore propose Cross-View Training (CVT), a semi-supervised learning algorithm that improves the representations of a Bi-LSTM sentence encoder using a mix of labeled and unlabeled data.
+  >
+  > On labeled examples, standard supervised learning is used. 
+  >
+  > On unlabeled examples, CVT teaches auxiliary prediction modules that see restricted views of the input (e.g., only part of a sentence) to match the predictions of the full model seeing the whole input. 
+  >
+  > Since the auxiliary modules and the full model share intermediate representations, this in turn improves the full model.
 
-Semi-supervised Convolutional Neural Networks for Text Categorization via Region Embedding
-Rie Johnson, Tong Zhang NIPS 2005 [arxiv](<https://arxiv.org/abs/1504.01255>)
++ Adversarial Training Methods for Semi-Supervised Text Classification
+  Takeru Miyato, Andrew M. Dai, Ian Goodfellow ICLR 2017 [arxiv](<https://arxiv.org/abs/1605.07725>)
+
++ Semi-supervised Convolutional Neural Networks for Text Categorization via Region Embedding
+  Rie Johnson, Tong Zhang NIPS 2005 [arxiv](<https://arxiv.org/abs/1504.01255>)
+
+
 
 
 

@@ -24,9 +24,7 @@ Keyword: text-to-sql, nl2sql, nl2code, seq2sql, Sequence2SQL, sequence to SQL, s
 
 ### Company
 
-keyword: **askdata**, **conversational data access**, **Human2SQL**
-
-
+keyword: **askdata**, **conversational data access**, **Human2SQL**, **数据问答**
 
 + Google
 
@@ -56,13 +54,17 @@ keyword: **askdata**, **conversational data access**, **Human2SQL**
 
   Conversational BI.
 
-+ 追一科技
++ Tableau
+Tableau2019.1推出数据问答功能
+  https://www.tableau.com/products/new-features/ask-data
 
 + 亿信华辰（BI）
 
   智能数据问答平台
 
   <http://www.esensoft.com/products/esenask.html>
+  
++ 追一科技
 
 
 ### Competition

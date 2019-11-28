@@ -242,6 +242,12 @@ It's nice to look at readings from a good NLP course:
 
 + 
 
++ An algorithm for suffix stripping, M.F. Porter 1997. Cited by: 9977 [pdf](<https://cl.lingfil.uu.se/~marie/undervisning/textanalys16/porter.pdf>) 
+
++ Snowball: A language for stemming algorithms, M.F. Porter 2001. [site](<http://snowball.tartarus.org/texts/introduction.html>) 
+
+  
+
 ## Scholars
 
 ### Michael Collins
