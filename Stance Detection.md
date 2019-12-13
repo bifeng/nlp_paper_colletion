@@ -25,11 +25,21 @@
 
 
 
+- Detecting Fake News with Weak Social Supervision
+  Kai Shu, Ahmed Hassan Awadallah, Susan Dumais, Huan Liu [arxiv](<https://arxiv.org/abs/1910.11430>) 
+
+  
+
 - Defending Against Neural Fake News, Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, [Yejin Choi](https://homes.cs.washington.edu/~yejin/), [arxiv](<https://arxiv.org/abs/1905.12616>) | [code](<https://github.com/rowanz/grover>) | [*Blog! (with additional experiments & analysis)](https://medium.com/ai2-blog/counteracting-neural-disinformation-with-grover-6cf6690d463b) | [*Grover  Demo!](https://grover.allenai.org/)  | [*Project Page](http://rowanzellers.com/grover/) 
+
 - Combating Fake News: A Survey on Identification and Mitigation Techniques, Karishma Sharma, Feng Qian, He Jiang, Natali Ruchansky, Ming Zhang, Yan Liu, ACM 2019, [arxiv](https://arxiv.org/abs/1901.06437) 
+
 - False News On Social Media: A Data-Driven Survey, Francesco Pierri, Stefano Ceri, 2019, [arxiv](https://arxiv.org/abs/1902.07539) 
+
 - DeClarE: Debunking Fake News and False Claims using Evidence-Aware Deep Learning, Kashyap Popat, Subhabrata Mukherjee, Andrew Yates, Gerhard Weikum, EMNLP 2018 [arxiv](https://arxiv.org/abs/1809.06416) 
+
 - Hutto, C.J. (2015). Computationally Detecting and Quantifying the Degree of Bias in Sentence-Level Text of News Stories. Second International Conference on Human and Social Analytics (HUSO-15). Barcelona, Spain 2015. [code](https://github.com/cjhutto/bsd) 
+
 - 
 
 

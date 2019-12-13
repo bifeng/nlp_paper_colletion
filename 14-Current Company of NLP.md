@@ -39,7 +39,7 @@ Do it in hours —not weeks— right inside the tools you already love.
 
 <https://www.yunfutech.com/demo?tab=3> 哈工大
 
-
+<http://ltp.ai/demo.html>
 
 ### nlpir(北京理工大学)
 
@@ -50,6 +50,18 @@ Do it in hours —not weeks— right inside the tools you already love.
 ### 小牛雅智(东北大学)
 
 <http://www.niuparser.com/>
+
+
+
+### 百度AI开放平台
+
+<http://ai.baidu.com/tech/nlp/lexical>
+
+
+
+### 腾讯文智
+
+<https://nlp.qq.com/semantic.cgi#page2>
 
 
 
@@ -71,7 +83,15 @@ http://deeplycurious.ai/
 
 
 
-### 奇点机智 
+### 暗物智能(朱松纯)
+
+新一代基于强认知的人工智能技术平台
+
+<https://www.dm-ai.cn/aboutus/>
+
+
+
+### 奇点机智(林德康)
 
 https://naturali.io/about-us
 
@@ -105,10 +125,6 @@ https://naturali.io/about-us
 
 
 
-腾讯文智 <https://nlp.qq.com/index.cgi>
-
-
-
 森亿智能 https://www.synyi.com/
 
 
@@ -136,6 +152,12 @@ https://www.cortexlabs.ai/
 BosonNLP <https://bosonnlp.com/demo>
 
 SmoothNLP http://www.smoothnlp.com/ <https://github.com/smoothnlp/SmoothNLP>
+
+
+
+大快搜索(HanLP) <http://www.dksou.com/index.html>
+
+
 
 
 

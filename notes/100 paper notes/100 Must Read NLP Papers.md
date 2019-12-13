@@ -1,7 +1,5 @@
 [100 Must-Read NLP Papers](https://github.com/mhagiwara/100-nlp-papers) 
 
-<https://www.aminer.cn/bestpaper> <https://jeffhuang.com/best_paper_awards.html>
-
 It's nice to look at readings from a good NLP course:
 
 <https://web.stanford.edu/class/cs224n/>
@@ -9,6 +7,34 @@ It's nice to look at readings from a good NLP course:
 <http://www.cs.columbia.edu/~mcollins/cs4705-spring2019/>
 
 ...
+
+
+
+| Short Name | Full Name                                                    | CCF Level |
+| ---------- | ------------------------------------------------------------ | --------- |
+| ICML       | International Conference on Machine Learning                 | A         |
+| NeurIPS    | Annual Conference on Neural Information Processing Systems   | A         |
+| AAAI       | AAAI Conference on Artificial Intelligence                   | A         |
+| IJCAI      | International Joint Conference on Artificial Intelligence    | A         |
+| ACL        | Annual Meeting of the Association for Computational Linguistics | A         |
+| EMNLP      | Conference on Empirical Methods in Natural Language Processing | B         |
+| COLING     | International Conference on Computational Linguistics        | B         |
+|            |                                                              |           |
+| KDD        | ACM Knowledge Discovery and Data Mining                      | A         |
+| SIGIR      | International Conference on Research an Development in Information Retrieval | A         |
+| WSDM       | ACM International Conference on Web Search and Data Mining   | B         |
+| CIKM       | ACM International Conference on Information and Knowledge Management | B         |
+|            |                                                              |           |
+
+
+
+Test of time award is much valuable than best paper award !!!
+
+SIGIR - <http://sigir.org/awards/test-of-time-awards/>
+
+<https://www.aminer.cn/bestpaper> <https://jeffhuang.com/best_paper_awards.html> 
+
+
 
 
 
@@ -108,7 +134,7 @@ It's nice to look at readings from a good NLP course:
 
 - Avrim Blum and Tom Mitchell: Combining Labeled and Unlabeled Data with Co-Training, 1998.
 
-- John Lafferty, Andrew McCallum, Fernando C.N. Pereira: Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data, ICML 2001. **Test-of-time Award in ICML 2011** [paper](http://www.cis.upenn.edu/~pereira/papers/crf.pdf) 
+- John Lafferty, Andrew McCallum, Fernando C.N. Pereira: Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data, ICML 2001. **Test-of-time Award in ICML 2011** [paper](<http://repository.upenn.edu/cgi/viewcontent.cgi?article=1162&context=cis_papers>) 
 
 - Charles Sutton, Andrew McCallum. An Introduction to Conditional Random Fields for Relational Learning.
 
@@ -220,8 +246,6 @@ It's nice to look at readings from a good NLP course:
 
 ## Other
 
-+ [Reducing Multiclass to Binary: A Unifying Approach for Margin Classifiers](http://www.jmlr.org/papers/volume1/allwein00a/allwein00a.pdf). Erin Allwein, Robert Schapire, and Yoram Singer. ICML 2000. *Best 10 year paper award at ICML 2000*
-
 + Thumbs up?: Sentiment Classification using Machine Learning Techniques, Bo Pang, Lillian Lee, Shivakumar Vaithyanathan, EMNLP 2002, [arxiv](<https://arxiv.org/abs/cs/0205070>)  **Test of time award at NAACL 2018**
 
   > **Justification**: Sentiment analysis in one of the earliest NLP tasks that has had direct real-world impact in a number of industries. It now has a widespread and practical application in review mining, customer management, social media analysis, news analysis, healthcare support and decision support in the finance industry. Pang, Lee and Vaithyanathan (2002) ‘s paper is a pioneering work that has enabled NLP to make this impact. It is amongst the first works in sentiment analysis and helped define the subfield of sentiment and opinion analysis and review mining. It has become the go to paper for anyone starting work in this area. This work has had research, application and data impact. The paper introduced a new way to look at document classification, developed the first solutions to it using several machine learning methods and feature combinations, and presented insights into and challenges of sentiment classification. Beyond the task formulation and technical methods, this paper also had significant data impact. The movie review dataset has supported much of the early work in this area and it still is one of the commonly used benchmark evaluation datasets. There are two key reasons for this success: (a) emphasis on making the data widely available; and (b) carefully curating the data, for example to avoid domination of prolific reviewers. The data is extensively used in courses, and is part of NLTK as a core application to start for students interested in NLP. The insights and challenges discussed in this work have provided the basis of many works and is still driving new research today. According to recent statistics it is the highest cited EMNLP paper. With over 6800 Google scholar citations, and over 400 Google scholar citations in 2017 alone, this work has stood the test of time. Given the award time constraints, it is the last opportunity for this paper to be considered.
@@ -229,18 +253,6 @@ It's nice to look at readings from a good NLP course:
 + [BLEU: a Method for Automatic Evaluation of Machine Translation](https://www.aclweb.org/anthology/P02-1040.pdf). Papineni et al. ACL 2002. **Test-of-time award at NAACL 2018**
 
   >**Justification**: It has long-lasting and ongoing impact to the field of machine translation both in research communities and industries. The metric is a standard measure to evaluate translation qualities and it helps advance the state of the art of machine translation systems.
-
-+ [Multiple kernel learning, conic duality, and the SMO algorithm](https://www.di.ens.fr/~fbach/skm_icml.pdf). Michael Jordan’s group. ICML 2004. *10 year paper award at ICML 2014*
-
-+ [Learning to Rank Using Gradient Descent](https://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf). Burges et al. ICML 2005. **Test-of-time award at ICML 2015**
-
-+ [Dynamic topic models](https://icml.cc/2016/awards/dtm.pdf). David Blei and John Lafferty. ICML 2006. **Test-of-time award at ICML 2016**
-
-+ R. Collobert and J. Weston. A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning. In International Conference on Machine Learning, ICML, 2008. [PDF](https://ronan.collobert.com/pub/matos/2008_nlp_icml.pdf) **Test of Time Award at ICML 2018**
-
-+ 
-
-+ 
 
 + An algorithm for suffix stripping, M.F. Porter 1997. Cited by: 9977 [pdf](<https://cl.lingfil.uu.se/~marie/undervisning/textanalys16/porter.pdf>) 
 

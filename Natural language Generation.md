@@ -91,7 +91,14 @@ https://en.wikipedia.org/wiki/Natural-language_generation
 
 ### tools
 
-+  https://github.com/topics/text-generation
++ CTRL
+
+  Conditional Transformer Language Model for Controllable Generation https://arxiv.org/abs/1909.05858
+
+  <https://github.com/salesforce/ctrl>
+
++ https://github.com/topics/text-generation
+
 + 
 
 

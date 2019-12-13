@@ -79,7 +79,7 @@ Tableau2019.1推出数据问答功能
 
   | Model                                                        | accuracy  |
   | ------------------------------------------------------------ | --------- |
-  | [1th](<https://github.com/xyzhang16/tianchi-nl2sql-top1> <https://github.com/nudtnlp/tianchi-nl2sql-top1>) | 0.9219    |
+  | [1th](<https://github.com/xyzhang16/tianchi-nl2sql-top1>) [1th](<https://github.com/nudtnlp/tianchi-nl2sql-top1>) M-SQL(8个子任务) | 0.9219    |
   | 2th                                                          | 0.9143    |
   | [3th](<https://github.com/beader/tianchi_nl2sql>)            | 0.9106    |
   | [6th](https://github.com/eguilg/nl2sql)                      | 0.9018    |
@@ -103,7 +103,7 @@ Tableau2019.1推出数据问答功能
 
   notes: question-based splits allow queries to appear in both train and test, query-based split ensures each query is in only one.
 
-+ [WikiSQL](<https://github.com/salesforce/WikiSQL>)
++ [WikiSQL](<https://github.com/salesforce/WikiSQL>) **单表**
 
   Salesforce - 2017
 
@@ -136,7 +136,7 @@ Tableau2019.1推出数据问答功能
 
   SQLova 是韩国 Naver 提出的一种模型，全名为 Search & QLova，是作者们所在部门的名称。该方案继承了 SQLNet 任务解耦的思路，同样使用 6 个子任务来预测 SQL。但是并没有提出一些创新性的解决方案。相比SQLNet，不同之处在于，SQLova 使用了 BERT 来作为模型的输入表达层，代替了词向量。
 
-+ [Spider](<https://yale-lily.github.io/spider>)
++ [Spider](<https://yale-lily.github.io/spider>) **多表**
 
   Yale Semantic Parsing and Text-to-SQL Challenge - 2018
 
@@ -177,9 +177,17 @@ Tableau2019.1推出数据问答功能
 
 ### Methods
 
-高质量的语法树和词典来构建语义解析器，再将自然语言语句转化为相应的SQL
+1. 高质量的语法树和词典来构建语义解析器，再将自然语言语句转化为相应的SQL
 
-端到端与SQL特征规则相结合
+2. 端到端与SQL特征规则相结合
+
+   将select与where两个子句，拆分为不同原子操作，如select包括agg(count/sum)、column等，where包括条件(and/or)、column 、value等，不同原子由不同子任务预测。
+
+   端到端训练方式 - 1）多个子任务multi-task learning；2）多个子任务parallel training
+
+   其中，子任务主要为序列标注+分类两种。
+
+   
 
 
 
@@ -199,6 +207,10 @@ Tableau2019.1推出数据问答功能
   [blog](https://mp.weixin.qq.com/s/bGpTU0fA5bWvSERBokMKSA) 
 
 
+
++ Semantic Parsing with Syntax- and Table-Aware SQL Generation, Yibo Sun, Duyu Tang, Nan Duan, Jianshu Ji , Guihong Cao , Xiaocheng Feng , Bing Qin, Ting Liu, Ming Zhou, ACL 2018 
+
+  ![nl2sql](https://github.com/bifeng/nlp_paper_notes/raw/master/image/nl2sql_1.png)
 
 
 
@@ -245,12 +257,6 @@ Tableau2019.1推出数据问答功能
   A framework for building semantic parsers (including neural module networks) with AllenNLP, built by the authors of AllenNLP
 
   <https://github.com/allenai/allennlp-semparse>
-
-+ quepy
-
-  A python framework to transform natural language questions to queries in a database query language.
-
-  https://github.com/machinalis/quepy
 
 + [Coarse2fine](https://github.com/donglixp/coarse2fine)
 

@@ -8,11 +8,29 @@
 
 ### Tools
 
++ <https://spacy.io/universe> all related NLP projects !!! :star::star::star::star::star:
+
+
+
++ prodigy
+
+  <https://prodi.gy/>
+
+  [Annotation Flowchart: Named Entity Recognition](<https://prodi.gy/docs/pdfs/prodigy_flowchart_ner.pdf>) 
+
+  https://prodi.gy/docs/workflow-text-classification
+
 + doccano
 
   Open source text annotation tool for machine learning practitioner. [https://doccano.herokuapp.com](https://doccano.herokuapp.com/) 
 
   <https://github.com/chakki-works/doccano>
+
++ AlpacaTag
+
+  AlpacaTag: An Active Learning-based Crowd Annotation Framework for Sequence Tagging http://inklab.usc.edu/AlpacaTag/
+
+  <https://github.com/INK-USC/AlpacaTag>
 
 + chazutsu
 
@@ -72,9 +90,9 @@
 
   
 
-+ spaCy
++ spaCy 
 
-  Library Architecture - <https://spacy.io/api>
+  Library **Architecture** - <https://spacy.io/api> (**pipeline**)
 
   💫 Industrial-strength Natural Language Processing (NLP) with Python and Cython [https://spacy.io](https://spacy.io/) 
 

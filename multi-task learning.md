@@ -66,6 +66,19 @@ we can motivate multi-task learning from a machine learning point of view: We ca
 
 
 
+#### Methods
+
+协同训练：
+
+
+
+逐级训练：收敛一个加载一个
+
+ERNIE 2.0: A Continual Pre-training Framework for Language Understanding
+Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng, Hao Tian, Hua Wu, Haifeng Wang [code](https://github.com/PaddlePaddle/ERNIE) [arxiv](<https://arxiv.org/abs/1907.12412v1>) 
+
+
+
 
 
 ### Application Scenario/Auxiliary tasks

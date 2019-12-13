@@ -1,8 +1,10 @@
+## Paperlists
+
++ <https://github.com/quincyliang/nlp-data-augmentation>
 
 
 
-
-### Paper
+## Paper
 
 - EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks, Jason W. Wei, Kai Zou, ICLR 2019, [arxiv](https://arxiv.org/abs/1901.11196) | [code](https://github.com/jasonwei20/eda_nlp) 
 
@@ -27,7 +29,7 @@
 - Learning to Compose Domain-Specific Transformations for Data Augmentation
   Alexander J. Ratner, Henry R. Ehrenberg, Zeshan Hussain, Jared Dunnmon, Christopher Ré NIPS 2017 [arxiv](<https://arxiv.org/abs/1709.01643>) [code](<https://github.com/HazyResearch/tanda>) 
 
-### Blogs
+## Blogs
 
 + <https://github.com/makcedward/nlp#data-augmentation>
 
@@ -47,7 +49,7 @@
 
 
 
-### Tools
+## Tools
 
 + https://github.com/makcedward/nlpaug
 + 
