@@ -2,6 +2,13 @@ refer: 朱靖波-东北大学 小牛翻译 知识星球
 
 
 
+#### external knowledge
+
+https://ttv.cn/archives/4719
+机器翻译中外部知识的引入：两个实例, 张岳
+
+
+
 #### domain machine translation
 
 method 1
