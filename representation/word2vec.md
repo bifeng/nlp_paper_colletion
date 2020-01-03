@@ -6,6 +6,26 @@ word2vec Explained: Deriving Mikolov et al.’s Negative-Sampling Word-Embedding
 
 reference:<br>动手学深度学习-[第十六课 词向量（word2vec）](https://discuss.gluon.ai/t/topic/4180)<br>http://zh.gluon.ai/chapter_natural-language-processing/word2vec.html<br>https://en.wikipedia.org/wiki/Word2vec
 
+#### Question
+
+1. How to "Generate 2C score vectors, $v^{(i−C)}, . . . , v^{(i−1)}, v^{(i+1)}, . . . , v^{(i+C)}$ using $v = W^{(2)}h$" in Skip-Gram Model ?
+
+   <http://cs224d.stanford.edu/lecture_notes/LectureNotes1.pdf>
+
+   
+
+2. 为什么使用两个矩阵（中心矩阵、背景矩阵）训练模型？
+
+   
+
+3. word2vec目标函数？
+
+4. word2vec举例说明？
+
+   “I love you”
+
+
+
 #### Keyphrases
 
 + objective function, network structure, training steps. 

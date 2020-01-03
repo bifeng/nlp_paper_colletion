@@ -199,6 +199,10 @@ Tableau2019.1推出数据问答功能
 
 
 
++ Google 2017 [Analyza: Exploring Data with Conversation](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/45791.pdf) 
+
+  
+
 + Model-based Interactive Semantic Parsing: A Unified Framework and A Text-to-SQL Case Study
   Ziyu Yao, Yu Su, Huan Sun, Wen-tau Yih. Facebook. EMNLP 2019 [arxiv](<https://arxiv.org/abs/1910.05389>) 
 

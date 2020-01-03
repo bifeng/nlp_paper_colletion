@@ -23,19 +23,29 @@ https://github.com/sebastianruder/NLP-progress/blob/master/english/domain_adapta
 
 ### Literature review
 
++ [A Survey on Transfer Learning ](http://www1.i2r.a-star.edu.sg/~jspan/publications/TLsurvey_0822.pdf)Sinno Jialin Pan and Qiang Yang. 2010 :star::star::star::star::star:
+
++ [A Literature Survey on Domain Adaptation of Statistical Classifiers](http://sifaka.cs.uiuc.edu/jiang4/domain_adaptation/survey/da_survey.pdf) Jing Jiang
+
++ [Transfer Learning for Reinforcement Learning Domains: A Survey](https://www.cse.ust.hk/TL/www.cs.lafayette.edu/~taylorm/Publications/JMLR09-taylor.ps) Matthew E. Taylor and Peter Stone
+
 + A Comprehensive Survey on Transfer Learning
 
   Fuzhen Zhuang, Zhiyuan Qi, Keyu Duan, Dongbo Xi, Yongchun Zhu, Hengshu Zhu, Senior Member, IEEE, Hui Xiong, Senior Member, IEEE, and Qing He [arxiv](https://arxiv.org/abs/1911.02685)
 
 + Literature Survey: Domain Adaptation Algorithms for Natural Language Processing, Qi Li, 2012 [paper](http://nlp.cs.rpi.edu/paper/qisurvey.pdf) 
 
-+ A survey on transfer learning [Pan and Yang, 2010]
-
-  :star::star::star::star::star:
-  
 + 迁移学习研究进展, 庄福振, 罗 平, 何 清, 史忠植 2015 [pdf](<http://www.intsci.ac.cn/users/zhuangfuzhen/TL-Survey.pdf>) 
 
++ 基于实例和特征的迁移学习算法研究 戴文渊-硕士学位论文 2008 
 
+
+
+### Paperlist
+
++ <https://www.cse.ust.hk/TL/index.html>
+
+  
 
 ### paper
 

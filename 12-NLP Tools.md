@@ -1,8 +1,20 @@
 
 
-+ Natural Language Processing Best Practices & Examples
++ Natural Language Processing Best Practices & Examples :star::star::star::star::star:
 
   <https://github.com/microsoft/nlp>
+
+
+
+### Datasets
+
++ Alphabetical list of free/public domain datasets with text data for use in Natural Language Processing (NLP) :star::star::star::star::star:
+
+  <https://github.com/niderhoff/nlp-datasets> 
+
++ Collections of Chinese NLP corpus
+
+  <https://github.com/OYE93/Chinese-NLP-Corpus>
 
 
 
