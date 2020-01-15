@@ -1,3 +1,7 @@
+达观、竹间、一览群智、渊亭
+
+
+
 ### AllenAI
 
 <https://allenai.org/index.html>
@@ -149,9 +153,15 @@ https://www.cortexlabs.ai/
 
 
 
-BosonNLP <https://bosonnlp.com/demo>
+玻森数据-BosonNLP <https://bosonnlp.com/demo> (业务转向企业风控)
+
+
 
 SmoothNLP http://www.smoothnlp.com/ <https://github.com/smoothnlp/SmoothNLP>
+
+
+
+秘塔科技 <https://metasota.ai/index.html>
 
 
 

@@ -21,3 +21,17 @@
 - The problem is not access to annotated data, the problem is access to data [...] We have grad students who are incredibly smart who are working on beer reviews and Twitter and emojis because that's where the data is, not because they are not interested in applying [clinical NLP] techniques"
   Philip Resnik, 2016.
 - ...
+
+
+
+[My favorite Gary Marcus quote ](http://www.cs.toronto.edu/~hinton/marcusquote.html)  
+
++ Hierarchies of features are less suited to challenges such as language, inference, and high-level planning.
+  For example, as Noam Chomsky famously pointed out, language is filled with sentences you haven't seen before.
+  Pure classifier systems don't know what to do with such sentences. The talent of feature detectors -- in
+  identifying which member of some category something belongs to -- doesn't translate into understanding novel
+  sentences, in which each sentence has its own unique meaning.
+
+  Gary Marcus (2015)
+  Chapter in "The Future of the Brain",
+  a book of "essays by the world's leading neuroscientists" (yes, really).

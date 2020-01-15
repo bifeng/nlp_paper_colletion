@@ -176,6 +176,8 @@ CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependen
 
 [问题讨论](https://github.com/dantezhao/data-group) 
 
+[stanford reading group](<https://nlp.stanford.edu/read/>) 
+
 [yale nlp reading group](<https://yale-lily.github.io/internal/>)
 
 [nlp-reading-group](https://github.com/clulab/nlp-reading-group) 
