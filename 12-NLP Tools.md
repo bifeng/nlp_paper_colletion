@@ -16,11 +16,21 @@
 
   <https://github.com/OYE93/Chinese-NLP-Corpus>
 
++ hanzi_char_featurizer
+
+  汉字字符特征提取器 (featurizer)，提取汉字的特征（发音特征、字形特征）用做深度学习的特征
+
+  <https://github.com/howl-anderson/hanzi_char_featurizer>
+
+
+
 
 
 ### Tools
 
 + <https://spacy.io/universe> all related NLP projects !!! :star::star::star::star::star:
+
+  <https://irl.spacy.io/> - conference spacy related !
 
 
 
@@ -123,6 +133,12 @@
   <https://github.com/aboSamoor/polyglot>
   
   
+
+
+
++ This is a list of NLP tools for various purposes.
+
+  <http://www.phontron.com/nlptools.php>
 
 
 

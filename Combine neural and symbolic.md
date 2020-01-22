@@ -10,6 +10,8 @@
 ## Paper
 
 + 《Next-generation architectures bridge gap between neural and symbolic representations with neural symbols | Microsoft Research》 http://t.cn/AiD4sRFc 
++ Harnessing Deep Neural Networks with Logic Rules
+  Zhiting Hu, Xuezhe Ma, Zhengzhong Liu, Eduard Hovy, Eric Xing ACL 2016 **Outstanding Paper Award**! [arxiv](<https://arxiv.org/abs/1603.06318>) 
 
 
 

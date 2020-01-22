@@ -22,9 +22,13 @@ https://github.com/nyu-dl/dl4marco-bert
 
 
 
+### Paperlist
+
++ 8篇论文梳理BERT相关模型进展与反思 [site](<https://www.msra.cn/zh-cn/news/features/bert>) 
 
 
-### papers
+
+### paper
 
 + Yoav Goldberg. Assessing BERT’s syntactic abilities, 2019. arXiv:1901.05287.
 
@@ -51,6 +55,8 @@ https://github.com/nyu-dl/dl4marco-bert
 
 #### explain
 
++ Revealing the Dark Secrets of BERT [paper](<https://www.aclweb.org/anthology/D19-1445.pdf>) [blog](<https://text-machine-lab.github.io/blog/2020/bert-secrets/>) 
+  
 + BERT Rediscovers the Classical NLP Pipeline
   Ian Tenney, Dipanjan Das, Ellie Pavlick.  ACL 2019 [arxiv](<https://arxiv.org/abs/1905.05950>) 
 
@@ -62,6 +68,7 @@ https://github.com/nyu-dl/dl4marco-bert
 
 ### blogs
 
++ <http://jalammar.github.io/illustrated-bert/>
 + [8篇论文梳理BERT相关模型进展与反思](<https://www.msra.cn/zh-cn/news/features/bert>)
 
 ### code

@@ -160,13 +160,11 @@ CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependen
 
 ## Paper notes
 
-[NLP Tasks](https://github.com/Kyubyong/nlp_tasks) 
+<https://github.com/papers-we-love/papers-we-love>
 
-[丕子 paperlist](https://github.com/lipiji/App-DL) 
 
-[papernote](https://github.com/xwzhong/papernote) 
 
-[NLP-Papers](https://github.com/llhthinker/NLP-Papers) 
+[Papers with Code](https://paperswithcode.com/) 
 
 
 
@@ -176,15 +174,33 @@ CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependen
 
 [问题讨论](https://github.com/dantezhao/data-group) 
 
-[stanford reading group](<https://nlp.stanford.edu/read/>) 
-
-[yale nlp reading group](<https://yale-lily.github.io/internal/>)
-
 [nlp-reading-group](https://github.com/clulab/nlp-reading-group) 
 
 
 
-[Papers with Code](https://paperswithcode.com/) 
+机构：
+
+[stanford reading group](<https://nlp.stanford.edu/read/>) 
+
+[yale nlp reading group](<https://yale-lily.github.io/internal/>) 
+
+VLG [papers_we_read](https://github.com/vlgiitr/papers_we_read)
+
+
+
+个人：
+
+[NLP Tasks](https://github.com/Kyubyong/nlp_tasks) 
+
+[papernote](https://github.com/xwzhong/papernote) 
+
+[丕子 paperlist](https://github.com/lipiji/App-DL) 
+
+[NLP-Papers](https://github.com/llhthinker/NLP-Papers) 
+
+zhpmatrix [PaperReading](<https://github.com/zhpmatrix/PaperReading>) 
+
+
 
 
 

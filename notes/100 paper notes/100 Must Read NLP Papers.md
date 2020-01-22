@@ -1,5 +1,9 @@
 [100 Must-Read NLP Papers](https://github.com/mhagiwara/100-nlp-papers) 
 
+<https://github.com/mihail911/nlp-library> - curated collection of papers for the nlp practitioner
+
+
+
 It's nice to look at readings from a good NLP course:
 
 <https://web.stanford.edu/class/cs224n/>

@@ -1,10 +1,20 @@
 达观、竹间、一览群智、渊亭
 
+### Petuum(Eric P. Xing)
+
+<https://petuum.com/about/#team>
+
+I founded Petuum Inc. to pursue standardization and industrialization of general-purpose AI platform and building blocks.
+
 
 
 ### AllenAI
 
 <https://allenai.org/index.html>
+
+### Semantic Machines (Dan Klein)
+
+<http://www.semanticmachines.com/technology>
 
 
 
@@ -145,6 +155,10 @@ https://naturali.io/about-us
 
 
 
+晓多客服机器人 <https://www.xiaoduoai.com/>
+
+
+
 https://www.cortexlabs.ai/
 
 
@@ -176,6 +190,10 @@ SmoothNLP http://www.smoothnlp.com/ <https://github.com/smoothnlp/SmoothNLP>
 
 
 追一科技 https://zhuiyi.ai/
+
+
+
+
 
 
 

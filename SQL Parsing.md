@@ -169,6 +169,11 @@ Tableau2019.1推出数据问答功能
   | EditSQLYale  University & Salesforce Research[(Zhang et al. EMNLP '19)](https://arxiv.org/abs/1909.00786) [code](https://github.com/ryanzhumich/sparc_atis_pytorch) | **47.9**       | **25.3**          |
   | CD-Seq2Seq  Yale University & Salesforce Research[(Yu et al. ACL '19)](https://arxiv.org/abs/1906.02285) [code](https://github.com/ryanzhumich/sparc_atis_pytorch) | 23.2           | 7.5               |
 
++ CSpider 1.0
+  The Chinese Semantic Parsing and Text-to-SQL Challenge
+
+  <https://taolusi.github.io/CSpider-explorer/>
+
 
 
 + [8 traditional single datasets: ATIS, GeoQuery, Academic, Advising, Scholar etc.](https://github.com/jkkummerfeld/text2sql-data)
@@ -191,13 +196,13 @@ Tableau2019.1推出数据问答功能
 
 
 
+### Literature Review
 
++ [一文了解Text-to-SQL](https://mp.weixin.qq.com/s/ucFtWopoErtUCYDTLv2kFg) 
+
++ [你已经是个成熟的表格了，该学会自然语言处理了-  微软研究院AI头条](https://mp.weixin.qq.com/s/gZ4N18jvM_0oUvOaKBBxfQ)
 
 ### Papers
-
-[你已经是个成熟的表格了，该学会自然语言处理了-  微软研究院AI头条](https://mp.weixin.qq.com/s/gZ4N18jvM_0oUvOaKBBxfQ)
-
-
 
 + Google 2017 [Analyza: Exploring Data with Conversation](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/45791.pdf) 
 

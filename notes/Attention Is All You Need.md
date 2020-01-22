@@ -1,3 +1,13 @@
+more refer:
+
+<https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html>
+
+
+
+
+
+
+
 motivation:
 
 RNN - constraint of sequential computation
@@ -52,7 +62,7 @@ Word Embedding<br>In the embedding layers, we multiply those weights by $\sqrt{d
 Positional Encoding<br>It determine the position of each word, or the distance between different words in the sequence. The intuition here is that adding these values to the embeddings provides meaningful distances between the embedding vectors once they’re projected into Q/K/V vectors and during dot-product attention.
 
 There are many choices of positional encodings, learned or fixed (such as use sine and cosine functions of different frequencies). We chose the sinusoidal version because it may allow the model to extrapolate to sequence lengths longer than the ones encountered during training (for any fixed offset $k$, $PE_{pos+k}$ can be represented as a linear function of
-$PE_{pos}​$).
+$PE_{pos}$).
 $$
 PE_{(pos,2i)} = sin(pos/10000^{2i/d_{model}}) \\
 PE_{(pos,2i+1)} = cos(pos/10000^{2i/d_{model}})
@@ -144,7 +154,7 @@ motivation: regularize the classifier layer by estimating the marginalized effec
 $$
 l = - \sum^K_{k=1} log(p(k)) q(k)
 $$
-If the logit corresponding to the ground-truth label is much great than all other logits. This, however, can cause two problems. First, it may result in over-fitting: if the model learns to assign full probability to the ground-truth label for each training example, it is not guaranteed to generalize. Second, it encourages the differences between the largest logit and all others to become large, and this, combined with the bounded gradient $\frac{∂ℓ}{∂z_k}$ ($z_k​$ are the logits or unnormalized log-probabilities), reduces the ability of the model to adapt. Intuitively, this happens because the model becomes too confident about its predictions.
+If the logit corresponding to the ground-truth label is much great than all other logits. This, however, can cause two problems. First, it may result in over-fitting: if the model learns to assign full probability to the ground-truth label for each training example, it is not guaranteed to generalize. Second, it encourages the differences between the largest logit and all others to become large, and this, combined with the bounded gradient $\frac{∂ℓ}{∂z_k}$ ($z_k$ are the logits or unnormalized log-probabilities), reduces the ability of the model to adapt. Intuitively, this happens because the model becomes too confident about its predictions.
 
 We propose a mechanism for encouraging the model to be less confident. While this may not be desired if the goal
 is to maximize the log-likelihood of training labels, it does regularize the model and makes it more adaptable. We replace the label distribution $q(k|x)=\sigma_{k,y}$ with
@@ -157,7 +167,7 @@ $u(k)$ is a distribution over labels, which is independent of the training examp
 
 #### Machine Translation
 
-For the base models, we used a single model obtained by averaging the last 5 checkpoints, which were written at 10-minute intervals. For the big models, we averaged the last 20 checkpoints. We used beam search with a beam size of 4 and length penalty $ \alpha= 0.6​$.
+For the base models, we used a single model obtained by averaging the last 5 checkpoints, which were written at 10-minute intervals. For the big models, we averaged the last 20 checkpoints. We used beam search with a beam size of 4 and length penalty $ \alpha= 0.6$.
 
 
 

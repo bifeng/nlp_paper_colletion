@@ -1,3 +1,9 @@
+<http://jalammar.github.io/illustrated-transformer/>
+
+<https://nlp.seas.harvard.edu/2018/04/03/attention.html>
+
+
+
 ### Question
 
 + how to select proper parameters for transformer ?

@@ -14,8 +14,8 @@ refer:
 
 ### Books
 
-+ 《Natural Language Annotation》
-+ 
++ Natural Language Annotation
++ Human-in-the-Loop Machine Learning
 
 
 
