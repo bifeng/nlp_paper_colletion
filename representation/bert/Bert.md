@@ -24,6 +24,13 @@ https://github.com/nyu-dl/dl4marco-bert
 
 ### Paperlist
 
++ Bert Evolution
+
+<div align="center">
+<img src="https://github.com/bifeng/nlp_paper_notes/raw/master/image/bert_evolution.jpg" width="600" height="400" alt="bert_evolution"></img>
+</div>
+
+
 + 8篇论文梳理BERT相关模型进展与反思 [site](<https://www.msra.cn/zh-cn/news/features/bert>) 
 
 
@@ -69,7 +76,9 @@ https://github.com/nyu-dl/dl4marco-bert
 ### blogs
 
 + <http://jalammar.github.io/illustrated-bert/>
-+ [8篇论文梳理BERT相关模型进展与反思](<https://www.msra.cn/zh-cn/news/features/bert>)
++ [8篇论文梳理BERT相关模型进展与反思](<https://www.msra.cn/zh-cn/news/features/bert>) 
++ 从语言模型看Bert的善变与GPT的坚守 [site](https://mp.weixin.qq.com/s/zqlWx3e4LOJ3_Zy2DEbCjw) 
+  穆文MuWen 数据挖掘机养成记 2019-05-20
 
 ### code
 

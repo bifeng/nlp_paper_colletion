@@ -23,6 +23,14 @@
 
 
 
+QA for everything !
+
+ner/re/srl/...
+
+visual qa/text visual qa
+
+
+
 + Question Answering is a Format; When is it Useful?
   Matt Gardner, Jonathan Berant, Hannaneh Hajishirzi, Alon Talmor, Sewon Min 2019 [arxiv](<https://arxiv.org/abs/1909.11291>) 
 

@@ -48,6 +48,10 @@
 
   <https://github.com/chakki-works/doccano>
 
++ label-studio
+
+  <https://github.com/heartexlabs/label-studio>
+
 + AlpacaTag
 
   AlpacaTag: An Active Learning-based Crowd Annotation Framework for Sequence Tagging http://inklab.usc.edu/AlpacaTag/

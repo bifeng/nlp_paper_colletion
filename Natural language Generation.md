@@ -28,11 +28,23 @@ https://en.wikipedia.org/wiki/Natural-language_generation
 
 
 
+### Paperlist
+
+- <https://github.com/THUNLP-MT/TG-Reading-List>
+
+
+
 ### Papers
 
-#### Paperlist
+refer: [elmanmansimov](<https://twitter.com/elmanmansimov/status/1220704860284256257>)
 
-+ <https://github.com/THUNLP-MT/TG-Reading-List>
+<div align="center">
+<img src="https://github.com/bifeng/nlp_paper_notes/raw/master/image/nlg.jpg" width="600" height="400" alt="nlg"></img>
+</div>
+
+<div align="center">
+<img src="https://github.com/bifeng/nlp_paper_notes/raw/master/image/nlg_papers.jpg" width="600" height="400" alt="nlg_papers"></img>
+</div>
 
 
 

@@ -47,6 +47,8 @@ https://github.com/zihangdai/xlnet
 
 <https://github.com/google-research/ALBERT>
 
+Notes on ALBERT” by Rémi Louf paper:《ALBERT: A Lite BERT for Self-supervised Learning of Language Representations》 
+
 
 
 #### ELECTRA

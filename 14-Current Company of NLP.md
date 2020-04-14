@@ -1,5 +1,21 @@
 达观、竹间、一览群智、渊亭
 
+### 自然语言处理公司巡礼
+
+<http://www.52nlp.cn/natural-language-processing-company-teragram#more-887>
+
+
+
+
+
+### DeepL-翻译器
+
+<https://www.deepl.com/zh/docs-api/>
+
+
+
+
+
 ### Petuum(Eric P. Xing)
 
 <https://petuum.com/about/#team>
@@ -24,6 +40,12 @@ Train custom machine learning models to get topic, sentiment, intent, keywords a
 Do it in hours —not weeks— right inside the tools you already love.
 
 <https://monkeylearn.com/> <https://github.com/monkeylearn>
+
+
+
+### paralleldots
+
+<https://www.paralleldots.com/text-analysis-apis>
 
 
 

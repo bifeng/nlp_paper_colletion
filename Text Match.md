@@ -80,6 +80,15 @@ https://paperswithcode.com/task/text-matching
 
 
 
+#### keyword
+
++ Keyword-Attentive Deep Semantic Matching [github](<https://github.com/DataTerminatorX/Keyword-BERT>) 
+
+  blog: 远离送命题: 问答系统中语义匹配的『杀手锏』[site](https://mp.weixin.qq.com/s/_QY2EhB-TiBcb5q0379McQ) Keyword-BERT
+  (原创 穆文MuWen 数据挖掘机养成记)
+
+
+
 #### based on graph
 
 + Random Walks for Text Semantic Similarity, Daniel Ramage, Anna N. Rafferty, and Christopher D. Manning [paper](<https://nlp.stanford.edu/pubs/wordwalk-textgraphs09.pdf>) 
