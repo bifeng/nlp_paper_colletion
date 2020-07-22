@@ -31,6 +31,10 @@
 
 ## Blogs
 
++ <https://amitness.com/2020/05/data-augmentation-for-nlp/>
+
+
+
 + <https://github.com/makcedward/nlp#data-augmentation>
 
 |                                                         |                                                              |
@@ -52,4 +56,5 @@
 ## Tools
 
 + https://github.com/makcedward/nlpaug
-+ 
++ <https://github.com/QData/TextAttack>
+

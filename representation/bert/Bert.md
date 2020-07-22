@@ -22,6 +22,17 @@ https://github.com/nyu-dl/dl4marco-bert
 
 
 
+#### Visualization
+
+A Multiscale Visualization of Attention in the Transformer Model
+Jesse Vig
+
+<https://github.com/jessevig/bertviz>
+
+
+
+
+
 ### Paperlist
 
 + Bert Evolution

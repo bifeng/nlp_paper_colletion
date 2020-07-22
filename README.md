@@ -62,6 +62,12 @@ Deep Reinforcement Learning for NLP ACL 2018 [ppt](http://www.cs.ucsb.edu/~willi
 
 ## Trends
 
+https://paperswithcode.com/
+
+<https://madewithml.com/topics>
+
+
+
 2017 - ...<br>2018 - 神经网络、注意机制、表示学习、语义和知识...
 
 + 表示学习
@@ -161,10 +167,6 @@ CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependen
 ## Paper notes
 
 <https://github.com/papers-we-love/papers-we-love>
-
-
-
-[Papers with Code](https://paperswithcode.com/) 
 
 
 

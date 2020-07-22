@@ -124,6 +124,14 @@ https://en.wikipedia.org/wiki/Automatic_summarization
 
 
 
+#### transformer 
+
++ PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization. Google Research. Jingqing Zhang, Yao Zhao, Mohammad Saleh, Peter J. Liu. ICML 2020 [code](https://github.com/google-research/pegasus) 
+
+  
+
+
+
 #### Integer linear programming 
 
 <http://l2r.cs.illinois.edu/tutorials.html>

@@ -1,3 +1,9 @@
+### Blog
+
++ 分类机器学习中，某一标签占比太大（标签稀疏），如何学习？[zhihu](<https://www.zhihu.com/question/372186043>) 
+
+
+
 ### Question
 
 + 如何统一建模常见样本、长尾样本？
@@ -41,6 +47,12 @@ https://liuziwei7.github.io/projects/LongTail.html
 </div>
 
 
+### Paper
+
++ Long-tail learning via logit adjustment. Google. 
+
+  [blog](https://kexue.fm/archives/7615#%E5%B8%B8%E8%A7%81%E6%80%9D%E8%B7%AF) 
+
 
 
 ### Summary
@@ -60,6 +72,16 @@ https://liuziwei7.github.io/projects/LongTail.html
    weakly supervision、distant supervision等
 
    如 - Matching the Blanks: Distributional Similarity for Relation Learning、Early Discovery of Emerging Entities in Microblogs...
+   
+3. label weight
+
+   
+
+4. loss function
+
+    
+
+5. ensemble
 
 
 

@@ -13,7 +13,7 @@
 
 ### Paper
 
-+ 
++ Thermometer Encoding: One Hot Way To Resist Adversarial Examples. 
 
 
 

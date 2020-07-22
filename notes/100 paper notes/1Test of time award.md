@@ -1,3 +1,13 @@
+
+
+## ACL
+
+the 1995 papers [*Centering: A Framework for Modeling the Local Coherence of Discourse*](https://www.aclweb.org/anthology/J95-2003.pdf) by Barbara J. Grosz, Aravind K. Joshi, and Scott Weinstein; and [*Unsupervised Word Sense Disambiguation Rivaling Supervised Methods*](https://www.aclweb.org/anthology/P95-1026.pdf)by David Yarowsky; 
+
+the 2010 papers [*Distributional Memory: A General Framework for Corpus-based Semantics*](https://www.aclweb.org/anthology/J10-4006.pdf) by Marco Baroni and Alessandro Lenci; and [*Word Representations: A Simple and General Method for Semi-supervised Learning*](https://www.aclweb.org/anthology/P10-1040.pdf) by Joseph Turian, Lev-Arie Ratinov, and Yoshua Bengio.
+
+
+
 ## ICML
 
 <https://icml.cc/Conferences/>
@@ -61,7 +71,16 @@ David Blei
 
 
 
+## NIPS 
 
+### Test of time award
+
+- 2019
+- “Dual Averaging Method for Regularized Stochastic Learning and Online Optimization” by Lin Xiao.
+- 2018
+- [The Trade-Offs of Large Scale Learning](https://leon.bottou.org/publications/pdf/nips-2007.pdf)” by Léon Bottou (then at [NEC Labs](http://www.nec-labs.com/), now at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/)) and Olivier Bousquet ([Google AI, Zürich)](https://ai.google/research/join-us/zurich) NIPS 2007.
+- 2017
+- Ali Rahimi, Benjamen Recht. Random Features for Large-Scale Kernel Machines. NIPS 2007.
 
 
 

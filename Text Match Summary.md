@@ -1,3 +1,15 @@
+more refer:
+
+<https://en.wikipedia.org/wiki/Semantic_matching>
+
+> The output of S-Match is a set of semantic correspondences called mappings attached with one of the following semantic relations: [disjointness](https://en.wikipedia.org/wiki/Disjointness) (⊥), [equivalence](https://en.wikipedia.org/wiki/Logical_equivalence) (≡), more specific (⊑) and less specific (⊒).
+
+semantic equivalence identification
+
+
+
+
+
 reference:<br>文本/语义 相似度计算 [site](https://zhuanlan.zhihu.com/p/43241696)
 
 ### Question

@@ -2,6 +2,17 @@ refer:<br>[样本生而不等——聊聊那些对训练数据加权的方法](h
 
 [深度学习中有什么方法可以找出训练集中脏数据(比如标记错误的数据)？](https://www.zhihu.com/question/298719271)
 
+
+
+### Paper
+
++ Sampling Matters in Deep Embedding Learning
+  Chao-Yuan Wu, R. Manmatha, Alexander J. Smola, Philipp Krähenbühl
+
+
+
+
+
 如何找出那些对于降低验证集loss没有帮助的样本，把他们从训练集中排除，从而提升model的性能？
 
 ### Data Dropout

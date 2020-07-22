@@ -1,5 +1,9 @@
 [100 Must-Read NLP Papers](https://github.com/mhagiwara/100-nlp-papers) 
 
+<https://github.com/papers-we-love/papers-we-love/tree/master/artificial_intelligence>
+
+<https://github.com/papers-we-love/papers-we-love/tree/master/machine_learning>
+
 <https://github.com/mihail911/nlp-library> - curated collection of papers for the nlp practitioner
 
 

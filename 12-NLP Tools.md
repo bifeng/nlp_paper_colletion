@@ -69,6 +69,12 @@
   Beautiful visualizations of how language differs among document types.
 
   <https://github.com/JasonKessler/scattertext>
+  
++ texthero
+
+  Text preprocessing, representation and visualization from zero to hero.
+
+  <https://github.com/jbesomi/texthero>
 
 
 
@@ -85,6 +91,16 @@
   Web mining module for Python, with tools for scraping, natural language processing, machine learning, network analysis and visualization. <http://www.clips.ua.ac.be/pages/pattern>
 
   <https://github.com/clips/pattern>
+  
+  
+  
++ flashtext
+
+  Extract Keywords from sentence or Replace keywords in sentences.
+
+  <https://github.com/vi3k6i5/flashtext>
+  
+  
   
   
   

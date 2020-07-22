@@ -6,6 +6,22 @@ refer:<br>[样本生而不等——聊聊那些对训练数据加权的方法](h
 
 # methods
 
+## resample
+
+### down-sampling
+
+Covington, Paul, Jay Adams, and Emre Sargin. "Deep neural networks for youtube recommendations." *Proceedings of the 10th ACM conference on recommender systems*. ACM, 2016.
+
+> Another key insight that improved live metrics was to generate a fixed number of training examples per user, effectively weighting our users equally in the loss function. This prevented a small cohort of highly active users from dominating the loss.
+
+### up-sampling
+
+
+
+
+
+
+
 ## reweight
 
 ### reweight by training loss
