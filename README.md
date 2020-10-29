@@ -182,7 +182,13 @@ CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependen
 
 机构：
 
+[huggingface paper discussions](<https://github.com/huggingface/awesome-papers>)
+
 [stanford reading group](<https://nlp.stanford.edu/read/>) 
+
+[dair-ai nlp paper summaries](<https://github.com/dair-ai/nlp_paper_summaries>) 
+
+[dair-ai ml nlp paper discussions](<https://github.com/dair-ai/ml-nlp-paper-discussions>) 
 
 [yale nlp reading group](<https://yale-lily.github.io/internal/>) 
 

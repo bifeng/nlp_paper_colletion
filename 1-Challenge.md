@@ -15,6 +15,7 @@
 1. Do corpus-based lexicography methods scale up?
 2. Are they too manually intensive?
 3. If so, could we use machine learning methods
+   
    - to speed up manual methods?
 4. Just as statistical parsers learn syntactic rules: S -> NP VP
    - Can we learn valency?
@@ -23,6 +24,13 @@
 5. 
 
 refer: [Minsky, Chomsky & Deep Nets](https://stu.cs.tsinghua.edu.cn/wiki/images/4/45/2018-10-21_CCL2018_Ken.pdf)
+
+
+
+### Literature Review
+
++ Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data [pdf](https://www.aclweb.org/anthology/2020.acl-main.463.pdf) 
++ 
 
 
 

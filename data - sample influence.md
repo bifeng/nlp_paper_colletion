@@ -6,8 +6,8 @@ refer:<br>[样本生而不等——聊聊那些对训练数据加权的方法](h
 
 ### Paper
 
-+ Sampling Matters in Deep Embedding Learning
-  Chao-Yuan Wu, R. Manmatha, Alexander J. Smola, Philipp Krähenbühl
++ Sampling Matters in Deep Embedding Learning 
+  Chao-Yuan Wu, R. Manmatha, Alexander J. Smola, Philipp Krähenbühl [arxiv](https://arxiv.org/abs/1706.07567) 
 
 
 

@@ -1,6 +1,7 @@
 ### Blog
 
 + 分类机器学习中，某一标签占比太大（标签稀疏），如何学习？[zhihu](<https://www.zhihu.com/question/372186043>) 
++ 
 
 
 
@@ -26,7 +27,9 @@ https://github.com/zhmiao/OpenLongTailRecognition-OLTR
 https://liuziwei7.github.io/projects/LongTail.html
 
 
+
 ### Problem Definition
+
 一个有用的系统应该能够区分很少几类常见的物体、同时也能区分很多类不常见的实例，从很少量的已知样本归纳出某一类的通用概念，从未见过的分类中识别出实例的新颖性。
 
 为了反映真实世界的状况，研究人员提出了开放长尾识别问题（Open Long-Tailed Recognition，OLTR）,从长尾和开放分布的数据中学习，并在包含头部、尾部和开发分类的平衡测试集中评测分类精度。
@@ -45,6 +48,14 @@ https://liuziwei7.github.io/projects/LongTail.html
 <div align="center">
 <img src="https://github.com/bifeng/nlp_paper_notes/raw/master/image/OLTR.jpg" width="800" height="300" alt="OLTR"></img>
 </div>
+
+
+### Literature Review
+
++ Long-Tailed Classification (1) 长尾(不均衡)分布下的分类问题简介 [site](https://zhuanlan.zhihu.com/p/153483585) 
+
++ Long-Tailed Classification (2) 长尾分布下分类问题的最新研究 [site](https://zhuanlan.zhihu.com/p/158638078) 
+
 
 
 ### Paper

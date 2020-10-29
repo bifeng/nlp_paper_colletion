@@ -103,7 +103,7 @@ Do it in hours —not weeks— right inside the tools you already love.
 
 ### 达观数据
 
-达观数据 <http://www.datagrand.com/demo/nlp/#/
+达观数据 http://www.datagrand.com/demo/nlp/
 
 
 

@@ -11,6 +11,8 @@ refer: Contextual Word Representations: A Contextual Introduction, Noah A. Smith
    Paper:
 
    Neural word embedding as implicit matrix factorization. O Levy, Y Goldberg
+   
+   https://papers.nips.cc/paper/5477-neural-word-embedding-as-implicit-matrix-factorization.pdf
 
 
 
@@ -39,31 +41,6 @@ refer:
    （label是用户对应的label）
 
 
-
-
-
-## Challenges
-
-It is an open and exciting question how much of the work of understanding can be done at the level of words.
-
-
-
-
-
-### Polysemy (一词多义)
-
-solution:
-
-1. training a contextual word vectors, such as ELMo. Solved totally?
-2. each word token’s type vector is passed into a function that transforms it based on the words in its nearby context, giving a new version of the word vector, now specific to the token in its particular context.
-
-
-
-### Word vectors are biased
-
-corpus-derived word vectors will reflect what's in the data, such as cultural biases.
-
-Methods for detecting and correcting unwanted associations is an active area of research (Bolukbasi et al., 2016; Caliskan et al., 2017). The advent of contextual word vectors offers some possibility of new ways to avoid unwanted generalization from distributional patterns.
 
 ## Literature Review
 
@@ -123,6 +100,17 @@ paperlist:
 
 
 + word2vec Explained: deriving Mikolov et al.'s negative-sampling word-embedding method. Y Goldberg, O Levy
+
+
+
+
+
+### cluster
+
++ Improved Deep Embedded Clustering with Local Structure Preservation. IJCAI 2017
++ Unsupervised Deep Embedding for Clustering Analysis. ICML 2016
+
+
 
 
 

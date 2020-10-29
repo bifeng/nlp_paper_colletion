@@ -8,6 +8,10 @@
 
 ### Datasets
 
++ nlp – Datasets and evaluation metrics for Natural Language Processing in NumPy, Pandas, PyTorch and TensorFlow
+
+  <https://github.com/huggingface/nlp>
+
 + Alphabetical list of free/public domain datasets with text data for use in Natural Language Processing (NLP) :star::star::star::star::star:
 
   <https://github.com/niderhoff/nlp-datasets> 

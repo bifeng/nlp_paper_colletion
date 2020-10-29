@@ -43,17 +43,30 @@ Attention in Deep learning, ICML2019, Alex Smola and Aston Zhang [site](https://
 
 
 
-### Survey
+### Tutorial
 
-An Attentive Survey of Attention Models, Sneha Chaudhari, Gungor Polatkan, Rohan Ramanath, Varun Mithal,  IJCAI 2019 [arxiv](<https://arxiv.org/abs/1904.02874>) 
++ **Attention in Deep Learning** Alex Smola and Aston Zhang [[Keynote](http://alex.smola.org/talks/ICML19-attention.key)] [[PDF](http://alex.smola.org/talks/ICML19-attention.pdf)] [[Video](https://www.youtube.com/watch?v=nS1Lse2B48w)]
+  In *The 36th International Conference on Machine Learning* (**ICML**), 2019
+
+  
+
+### Literature review
+
++ An Attentive Survey of Attention Models, Sneha Chaudhari, Gungor Polatkan, Rohan Ramanath, Varun Mithal,  IJCAI 2019 [arxiv](<https://arxiv.org/abs/1904.02874>) 
+
+
 
 ### Paper
 
-Attention Is All You Need, Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, [arxiv](<https://arxiv.org/abs/1706.03762>) :star::star::star::star:
++ Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?
 
-Attention is not Explanation, Sarthak Jain, Byron C. Wallace, NAACL 2019, [arxiv](<https://arxiv.org/abs/1902.10186>) 
++ Attention Is All You Need, Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, [arxiv](<https://arxiv.org/abs/1706.03762>) :star::star::star::star:
 
-Is Attention Interpretable?, Sofia Serrano, Noah A. Smith, ACL 2019 [arxiv](<https://arxiv.org/abs/1906.03731>) 
++ Attention is not Explanation, Sarthak Jain, Byron C. Wallace, NAACL 2019, [arxiv](<https://arxiv.org/abs/1902.10186>) 
+
++ Is Attention Interpretable?, Sofia Serrano, Noah A. Smith, ACL 2019 [arxiv](<https://arxiv.org/abs/1906.03731>) 
+
+
 
 
 

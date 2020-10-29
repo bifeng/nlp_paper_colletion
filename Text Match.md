@@ -18,6 +18,28 @@
 
 
 
+### Competition
+
++ Kaggle - Quora Question Pairs
+
++ ### [LCQMC:A Large-scale Chinese Question Matching Corpus](https://www.aclweb.org/anthology/C18-1166/) 
+
++ ### [ATEC学习赛：NLP之问题相似度计算](https://dc.cloud.alipay.com/index#/topic/intro?id=8) 
+
++ ### [CCKS 2018 微众银行智能客服问句匹配大赛](https://biendata.com/competition/CCKS2018_3/leaderboard/) 
+
++ CIKM AnalytiCup 2018 - a task for determining short text similarities
+
+  https://tianchi.aliyun.com/competition/entrance/231661/information
+
+  [2th](https://github.com/zake7749/CIKM-AnalytiCup-2018) 
+
++ CHIP2019任务二 平安医疗科技疾病问答迁移学习比赛
+
+  
+
+  
+
 ### Datasets
 
 + PAWS: Paraphrase Adversaries from Word Scrambling
@@ -29,6 +51,10 @@
 + https://nlp.stanford.edu/projects/snli/
 
 + <https://github.com/pkucoli/PKU-Paraphrase-Bank>
+
++ 
+
+
 
 
 
