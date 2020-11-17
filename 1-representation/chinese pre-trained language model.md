@@ -58,6 +58,10 @@ Use [udpipe](http://ufal.mff.cuni.cz/udpipe) for **tokenization**!
 
 + <https://github.com/Morizeyao/GPT2-Chinese>
 
+#### CPM
+
++ https://github.com/TsinghuaAI/CPM-Generate
+
 #### RoBERTa
 
 + Chinese [site](<https://github.com/brightmart/roberta_zh>) 

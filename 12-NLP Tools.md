@@ -8,6 +8,32 @@
 
 ### Datasets
 
+https://github.com/CLUEbenchmark/CLUE
+
+https://www.cluebenchmarks.com/dataSet_search.html
+
+https://github.com/chineseGLUE/chineseGLUE
+
+https://github.com/didi/ChineseNLP
+
+https://github.com/Embedding/Chinese-Word-Vectors
+
+https://github.com/duoergun0729/nlp/blob/master/常用数据集简介.md
+
+
+
+**C**hinese **M**achine **R**eading **C**omprehension dataset 
+
+**CMRC 2018**
+
+https://ymcui.github.io/cmrc2018/
+
+**CMRC 2019**
+
+https://ymcui.github.io/cmrc2019/
+
+
+
 + nlp – Datasets and evaluation metrics for Natural Language Processing in NumPy, Pandas, PyTorch and TensorFlow
 
   <https://github.com/huggingface/nlp>

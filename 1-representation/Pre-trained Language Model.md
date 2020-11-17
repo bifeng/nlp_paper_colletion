@@ -4,6 +4,12 @@
 
 
 
+## Literature Review
+
+邱锡鹏：自然语言处理中的预训练模型 [[▶\]](https://hub.baai.ac.cn/view/3868)
+
+
+
 ## Word embedding
 
 #### FastText
